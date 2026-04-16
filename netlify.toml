@@ -1,0 +1,72 @@
+[build]
+command = "cd netlify/functions && npm install"
+publish = "."
+functions = "netlify/functions"
+
+[[redirects]]
+  from = "/whychooseus"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/whychooseus/*"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/process"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/process/*"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/relationships"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/relationships/*"
+  to = "/"
+  status = 301
+
+# ── Compression ──────────────────────────────────
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Vary = "Accept-Encoding"
+
+# ── Cache: immutable assets (images, fonts, js, css) ─
+[[headers]]
+  for = "/img/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/process/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/feedback/icons/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+
+# ── Cache: HTML (short TTL so updates propagate) ─
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"

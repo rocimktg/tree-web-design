@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/Favicon/favicon-tree/favicon.svg">
+  <link rel="icon" type="image/png" sizes="96x96" href="/Favicon/favicon-tree/favicon-96x96.png">
+  <link rel="shortcut icon" href="/Favicon/favicon-tree/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/Favicon/favicon-tree/apple-touch-icon.png">
+  <link rel="manifest" href="/Favicon/favicon-tree/site.webmanifest">
+  <meta name="theme-color" content="#111111">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-J856LQMZ13"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-J856LQMZ13');
+  </script>
+  <title>Blog | Tree Web Design</title>
+  <meta name="description" content="">
+  <!-- Preload fonts -->
+  <link rel="preload" href="/fonts/barlow-condensed-v13-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/barlow-condensed-v13-latin-900.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/barlow-v13-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/barlow-v13-latin-600.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/space-mono-v17-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/space-mono-v17-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preload" href="/fonts/barlow-condensed-v13-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/barlow-condensed-v13-latin-900.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/barlow-v13-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/barlow-v13-latin-600.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/space-mono-v17-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/space-mono-v17-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="nav.css">
+  <link rel="preload" href="/fonts/barlow-condensed-v13-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/barlow-condensed-v13-latin-900.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/barlow-v13-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/barlow-v13-latin-600.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/space-mono-v17-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/space-mono-v17-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="blog.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script defer src="includes.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div data-include="nav"></div>
+
+  <main id="main">
+    <section class="post-header" id="post-header" aria-labelledby="post-title">
+      <div class="container post-header__inner">
+        <p class="post-header__meta" id="post-meta"></p>
+        <h1 id="post-title">Loading&hellip;</h1>
+      </div>
+    </section>
+
+    <section class="post-body">
+      <div class="container">
+        <a class="post-back" href="blog.html">← All Articles</a>
+        <div class="post-content" id="post-content">
+          <p class="post-loading">Loading article&hellip;</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div data-include="footer"></div>
+
+  <script>
+    (() => {
+      const params = new URLSearchParams(window.location.search);
+      const slug = params.get('post');
+      const contentEl = document.getElementById('post-content');
+      const titleEl = document.getElementById('post-title');
+      const metaEl = document.getElementById('post-meta');
+
+      if (!slug) {
+        contentEl.innerHTML = '<p class="post-error">No article specified.</p>';
+        titleEl.textContent = 'Article Not Found';
+        return;
+      }
+
+      fetch(`/blog/${slug}.md`)
+        .then(res => {
+          if (!res.ok) throw new Error('Not found');
+          return res.text();
+        })
+        .then(md => {
+          const lines = md.split('\n');
+          let title = '';
+          let metaLine = '';
+          let bodyStart = 0;
+
+          for (let i = 0; i < lines.length; i++) {
+            if (lines[i].startsWith('# ') && !title) {
+              title = lines[i].replace(/^# /, '').trim();
+              bodyStart = i + 1;
+            } else if (lines[i].startsWith('**By ') && !metaLine) {
+              metaLine = lines[i].replace(/\*\*/g, '').trim();
+              bodyStart = i + 1;
+            } else if (title && metaLine) {
+              bodyStart = i;
+              break;
+            }
+          }
+
+          const body = lines.slice(bodyStart).join('\n');
+
+          document.title = `${title} | Tree Web Design`;
+          titleEl.textContent = title || 'Article';
+          metaEl.textContent = metaLine || '';
+          contentEl.innerHTML = marked.parse(body);
+        })
+        .catch(() => {
+          contentEl.innerHTML = '<p class="post-error">Article not found. <a href="blog.html">Back to all articles.</a></p>';
+          titleEl.textContent = 'Article Not Found';
+        });
+    })();
+  </script>
+</body>
+</html>

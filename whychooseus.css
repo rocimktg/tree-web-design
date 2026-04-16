@@ -1,0 +1,130 @@
+:root {
+  --wcus-bg: #ffffff;
+  --wcus-ink: #0f172a;
+  --wcus-muted: #475569;
+  --wcus-line: #e2e8f0;
+  --wcus-accent: #2563eb;
+  --wcus-shadow: 0 14px 32px rgba(15, 23, 42, 0.12);
+}
+
+.wcus {
+  background: var(--wcus-bg);
+  padding: var(--space-9) 0;
+  color: var(--wcus-ink);
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.wcus__inner {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 var(--space-5);
+  display: grid;
+  gap: var(--space-7);
+  grid-template-areas:
+    "content"
+    "media";
+}
+
+.wcus__media {
+  grid-area: media;
+  display: grid;
+  gap: var(--space-5);
+  grid-template-columns: 1fr;
+}
+
+.wcus__img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--photo-radius, 20px);
+  border: 1px solid var(--wcus-line);
+  box-shadow: var(--wcus-shadow);
+  object-fit: cover;
+  aspect-ratio: 4 / 5;
+}
+
+.wcus__content {
+  grid-area: content;
+  display: grid;
+  gap: var(--space-4);
+  align-content: center;
+}
+
+.wcus__eyebrow {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 800;
+  font-size: 0.9rem;
+  color: var(--wcus-accent);
+}
+
+.wcus h2 {
+  margin: 0;
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  line-height: 1.2;
+}
+
+.wcus__intro {
+  margin: 0;
+  color: var(--wcus-muted);
+  line-height: 1.6;
+}
+
+.wcus__features {
+  border-top: 1px solid var(--wcus-line);
+  display: grid;
+  gap: var(--space-4);
+  padding-top: var(--space-4);
+}
+
+.wcus__feature {
+  display: grid;
+  gap: var(--space-2);
+  padding-bottom: var(--space-4);
+  border-bottom: 1px solid var(--wcus-line);
+}
+
+.wcus__feature:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.wcus__feature h3 {
+  margin: 0;
+  font-size: 1.05rem;
+  color: var(--wcus-ink);
+}
+
+.wcus__feature p {
+  margin: 0;
+  color: var(--wcus-muted);
+  line-height: 1.6;
+}
+
+@media (min-width: 768px) {
+  .wcus__inner {
+    grid-template-columns: 1.05fr 1fr;
+    align-items: center;
+    gap: var(--space-8);
+    grid-template-areas: "media content";
+  }
+
+  .wcus__media {
+    grid-template-columns: 1fr;
+    gap: var(--space-5);
+  }
+
+  .wcus__content {
+    gap: var(--space-5);
+  }
+}
+
+@media (min-width: 1024px) {
+  .wcus {
+    padding: var(--space-10, 64px) 0;
+  }
+
+  .wcus__inner {
+    gap: var(--space-9);
+  }
+}

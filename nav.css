@@ -1,0 +1,242 @@
+/* =============================================
+   ROCINANTE MARKETING — NAV
+   Dark bar. Heavy type. No decoration.
+   ============================================= */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--black);
+  border-bottom: 1px solid var(--acid);
+}
+
+/* ─── PRIMARY NAV BAR ────────────────────────── */
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+  height: 68px;
+}
+
+/* ─── BRAND LOCKUP ───────────────────────────── */
+
+.nav__brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.nav__logo {
+  width: 38px;
+  height: 38px;
+}
+
+/* Thin vertical rule between mark and wordmark */
+.nav__divider {
+  display: block;
+  width: 1px;
+  height: 34px;
+  background: rgba(255,255,255,0.25);
+  flex-shrink: 0;
+}
+
+.nav__brandStack {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  gap: 2px;
+}
+
+.nav__brandName {
+  font-family: var(--font-condensed);
+  font-weight: 900;
+  font-size: 1.2rem;
+  color: var(--white);
+  letter-spacing: 0.06em;
+}
+
+/* Only place "MARKETING" appears at reduced weight */
+.nav__brandSub {
+  font-family: var(--font-condensed);
+  font-weight: 700;
+  font-size: 0.7rem;
+  color: var(--acid);
+  letter-spacing: 0.12em;
+}
+
+/* ─── DESKTOP NAV LINKS ──────────────────────── */
+
+.nav__links {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  list-style: none;
+  margin-left: auto;
+}
+
+.nav__links a {
+  font-family: var(--font-condensed);
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: rgba(255,255,255,0.7);
+  text-decoration: none;
+  padding: 4px 0;
+  border-bottom: 2px solid transparent;
+  transition: none;
+}
+
+.nav__links a:hover,
+.nav__links a:focus-visible {
+  color: var(--acid);
+  border-bottom-color: var(--acid);
+}
+
+/* ─── NAV CTA BUTTON ─────────────────────────── */
+
+.nav__actions {
+  flex-shrink: 0;
+}
+
+.nav__cta {
+  display: inline-block;
+  font-family: var(--font-condensed);
+  font-weight: 900;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  background: var(--acid);
+  color: var(--black);
+  padding: 10px 20px;
+  border: 2px solid var(--acid);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: none;
+}
+
+.nav__cta:hover,
+.nav__cta:focus-visible {
+  background: var(--white);
+  border-color: var(--white);
+  color: var(--black);
+}
+
+/* ─── HAMBURGER TOGGLE ───────────────────────── */
+
+.nav__toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+.nav__toggleBars {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 22px;
+}
+
+.nav__toggleBars span {
+  display: block;
+  height: 2px;
+  width: 100%;
+  background: var(--white);
+}
+
+/* ─── MOBILE PANEL ───────────────────────────── */
+
+.navPanel {
+  background: var(--black);
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.navPanel__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--space-6) var(--gutter) var(--space-8);
+}
+
+.navPanel__phone {
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  color: var(--acid);
+  text-decoration: none;
+  padding: var(--space-5) 0;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  display: block;
+  margin-bottom: var(--space-4);
+}
+
+.navLinks {
+  list-style: none;
+  margin-bottom: var(--space-7);
+}
+
+.navLinks li {
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.navLinks__link {
+  display: block;
+  padding: 14px 0;
+  font-family: var(--font-condensed);
+  font-weight: 900;
+  font-size: 1.15rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.navLinks__link:hover {
+  color: var(--acid);
+}
+
+.navPanel__cta {
+  display: block;
+  background: var(--acid);
+  color: var(--black);
+  font-family: var(--font-condensed);
+  font-weight: 900;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  border: 3px solid var(--acid);
+  transition: none;
+}
+
+.navPanel__cta:hover {
+  background: var(--white);
+  border-color: var(--white);
+}
+
+/* ─── BREAKPOINT ─────────────────────────────── */
+
+@media (max-width: 860px) {
+  .nav__links,
+  .nav__actions {
+    display: none;
+  }
+
+  .nav__toggle {
+    display: flex;
+  }
+}

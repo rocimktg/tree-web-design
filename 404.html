@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/Favicon/favicon-tree/favicon.svg">
+  <link rel="icon" type="image/png" sizes="96x96" href="/Favicon/favicon-tree/favicon-96x96.png">
+  <link rel="shortcut icon" href="/Favicon/favicon-tree/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/Favicon/favicon-tree/apple-touch-icon.png">
+  <link rel="manifest" href="/Favicon/favicon-tree/site.webmanifest">
+  <meta name="theme-color" content="#111111">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page Not Found | Rocinante Marketing</title>
+  <meta name="description" content="The page you were looking for could not be found.">
+
+
+  <!-- Preload fonts -->
+  <link rel="preload" href="/fonts/barlow-condensed-v13-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/barlow-condensed-v13-latin-900.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/barlow-v13-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/barlow-v13-latin-600.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/space-mono-v17-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/space-mono-v17-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Preload fonts -->
+  <link rel="preload" href="/fonts/barlow-condensed-v13-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/barlow-condensed-v13-latin-900.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/barlow-v13-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/barlow-v13-latin-600.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/space-mono-v17-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/space-mono-v17-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="nav.css">
+
+  <style>
+    .not-found {
+      min-height: calc(100vh - 68px);
+      display: flex;
+      align-items: center;
+      background: var(--white);
+      border-bottom: var(--border);
+      padding: var(--space-11) 0;
+    }
+
+    .not-found__inner {
+      display: grid;
+      gap: var(--space-8);
+      align-items: start;
+    }
+
+    .not-found__code {
+      font-family: var(--font-mono);
+      font-size: 0.8rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: rgba(0,0,0,0.4);
+    }
+
+    .not-found h1 {
+      font-size: clamp(4rem, 10vw, 8rem);
+      line-height: 0.9;
+      letter-spacing: -0.03em;
+      margin-top: var(--space-3);
+      max-width: 10ch;
+    }
+
+    .not-found__body {
+      max-width: 42rem;
+      font-size: 1.05rem;
+      line-height: 1.65;
+      color: #444;
+    }
+
+    .not-found__actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-3);
+    }
+
+    .not-found__links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-3) var(--space-6);
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: rgba(0,0,0,0.5);
+    }
+
+    .not-found__links a:hover,
+    .not-found__links a:focus-visible {
+      color: var(--black);
+    }
+
+    @media (max-width: 640px) {
+      .not-found {
+        min-height: auto;
+        padding-bottom: 110px;
+      }
+    }
+  </style>
+
+  <script defer src="includes.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div data-include="nav"></div>
+
+  <main id="main">
+    <section class="not-found" aria-labelledby="not-found-heading">
+      <div class="container not-found__inner">
+        <div>
+          <span class="not-found__code">Error 404</span>
+          <h1 id="not-found-heading">Page Not Found</h1>
+        </div>
+
+        <p class="not-found__body">The page you were trying to reach does not exist or has moved. Use the links below to get back to the main site.</p>
+
+        <div class="not-found__actions">
+          <a class="btn acid" href="index.html">Back Home</a>
+          <a class="btn secondary" href="contact.html">Contact</a>
+        </div>
+
+        <div class="not-found__links" aria-label="Helpful links">
+          <a href="about.html">About</a>
+          <a href="webdesign.html">Web Design</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="faq.html">FAQ</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div data-include="footer"></div>
+
+  <div class="mobile-cta-bar">
+    <a class="btn acid" href="index.html">Back Home</a>
+    <a class="btn secondary" href="tel:+18175184222">Call Now</a>
+  </div>
+</body>
+</html>

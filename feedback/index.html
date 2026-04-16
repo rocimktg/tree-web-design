@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>Leave a Review | Tree Web Design</title>
+  <meta name="description" content="Leave a review for Tree Web Design.">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #f2f2f7;
+      --card: #ffffff;
+      --border: #e5e5ea;
+      --text-primary: #1c1c1e;
+      --text-secondary: #6c6c70;
+      --text-tertiary: #aeaeb2;
+      --divider: #e5e5ea;
+      --pressed: #f2f2f7;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html {
+      font-size: 16px;
+      -webkit-text-size-adjust: 100%;
+      background: var(--bg);
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text-primary);
+      min-height: 100vh;
+      min-height: 100dvh;
+      display: flex;
+      flex-direction: column;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { text-decoration: none; color: inherit; -webkit-tap-highlight-color: transparent; }
+
+    /* ── HEADER ── */
+    .page-header {
+      padding: 14px 20px;
+      padding-top: calc(14px + env(safe-area-inset-top));
+      background: #111111;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      position: relative;
+    }
+
+    .back-link {
+      position: absolute;
+      left: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      margin-top: calc(env(safe-area-inset-top) / 2);
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 0.82rem;
+      font-weight: 500;
+      color: rgba(255,255,255,0.55);
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .back-link svg {
+      width: 14px;
+      height: 14px;
+    }
+
+    .back-link:active {
+      color: rgba(255,255,255,0.3);
+    }
+
+    .business-logo {
+      height: 36px;
+      width: auto;
+      display: block;
+      margin: 0 auto 4px;
+      object-fit: contain;
+    }
+
+    .business-location {
+      font-size: 0.7rem;
+      font-weight: 500;
+      color: rgba(255,255,255,0.45);
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    /* ── MAIN ── */
+    main {
+      flex: 1;
+      padding: 24px 16px 40px;
+      padding-bottom: calc(40px + env(safe-area-inset-bottom));
+      max-width: 480px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    /* ── HERO ── */
+    .hero {
+      text-align: center;
+      margin-bottom: 24px;
+    }
+
+    .stars {
+      display: flex;
+      justify-content: center;
+      gap: 4px;
+      margin-bottom: 14px;
+    }
+
+    .stars svg {
+      width: 20px;
+      height: 20px;
+      fill: #FF9500;
+    }
+
+    .hero h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: var(--text-primary);
+      margin-bottom: 6px;
+      line-height: 1.2;
+    }
+
+    .hero p {
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      line-height: 1.5;
+      max-width: 28rem;
+      margin: 0 auto;
+    }
+
+    /* ── SECTION LABEL ── */
+    .section-label {
+      font-size: 0.7rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--text-secondary);
+      padding: 0 4px;
+      margin-bottom: 8px;
+    }
+
+    /* ── PLATFORM LIST ── */
+    .platforms {
+      background: var(--card);
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+    }
+
+    .platform-card {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 14px 16px;
+      background: var(--card);
+      border-bottom: 1px solid var(--divider);
+      position: relative;
+      cursor: pointer;
+      min-height: 68px;
+      transition: background 0.1s;
+    }
+
+    .platform-card:last-child { border-bottom: none; }
+
+    .platform-card:active {
+      background: var(--pressed);
+    }
+
+    /* Logo container */
+    .platform-logo {
+      width: 44px;
+      height: 44px;
+      min-width: 44px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      flex-shrink: 0;
+      background: #ffffff;
+      border: 1px solid var(--border);
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    }
+
+    .platform-logo img {
+      width: 36px;
+      height: 36px;
+      object-fit: contain;
+      display: block;
+    }
+
+    .platform-info {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .platform-name {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      letter-spacing: -0.01em;
+      line-height: 1.2;
+      margin-bottom: 2px;
+    }
+
+    .platform-sub {
+      font-size: 0.78rem;
+      color: var(--text-secondary);
+      line-height: 1.3;
+    }
+
+    .platform-chevron {
+      color: var(--text-tertiary);
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+    }
+
+    .platform-chevron svg {
+      width: 16px;
+      height: 16px;
+    }
+
+    /* ── DIRECT CONTACT ── */
+    .direct-contact {
+      margin-top: 16px;
+      background: var(--card);
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      overflow: hidden;
+    }
+
+    .direct-contact a {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 16px 16px;
+      min-height: 72px;
+      -webkit-tap-highlight-color: transparent;
+      transition: background 0.1s;
+    }
+
+    .direct-contact a:active {
+      background: var(--pressed);
+    }
+
+    .direct-contact__icon {
+      width: 44px;
+      height: 44px;
+      min-width: 44px;
+      border-radius: 10px;
+      background: #34C759;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+    }
+
+    .direct-contact__icon svg {
+      width: 22px;
+      height: 22px;
+      fill: #ffffff;
+    }
+
+    .direct-contact__body {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .direct-contact__title {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      letter-spacing: -0.01em;
+      line-height: 1.2;
+      margin-bottom: 3px;
+    }
+
+    .direct-contact__sub {
+      font-size: 0.78rem;
+      color: var(--text-secondary);
+      line-height: 1.4;
+    }
+
+    .direct-contact__chevron {
+      color: var(--text-tertiary);
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+    }
+
+    .direct-contact__chevron svg {
+      width: 16px;
+      height: 16px;
+    }
+
+    /* ── NOTE ── */
+    .note {
+      margin-top: 20px;
+      font-size: 0.75rem;
+      color: var(--text-tertiary);
+      text-align: center;
+      line-height: 1.6;
+      padding: 0 8px;
+    }
+
+    /* ── FOOTER ── */
+    .page-footer {
+      text-align: center;
+      padding: 16px 20px;
+      padding-bottom: calc(16px + env(safe-area-inset-bottom));
+    }
+
+    .page-footer p {
+      font-size: 0.7rem;
+      color: var(--text-tertiary);
+    }
+
+    .page-footer a {
+      color: var(--text-tertiary);
+      text-decoration: underline;
+    }
+
+    @media (min-width: 480px) {
+      .platforms { border-radius: 14px; }
+      .platform-card { padding: 16px 20px; min-height: 72px; }
+    }
+  </style>
+</head>
+<body>
+
+<header class="page-header">
+  <a class="back-link" href="/">
+    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 3L5 8l5 5"/></svg>
+    Site
+  </a>
+  <img class="business-logo" src="icons/logo.png" alt="Tree Web Design" width="947" height="502">
+</header>
+
+<main>
+
+  <div class="hero">
+    <div class="stars" aria-hidden="true">
+      <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+      <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+      <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+      <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+      <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+    </div>
+    <h1>How'd we do?</h1>
+    <p>Every review supports our local business. It takes just 60 seconds to help us grow!</p>
+  </div>
+
+  <p class="section-label">Choose a platform</p>
+
+  <div class="platforms">
+
+    <!-- Google -->
+    <a href="[YOUR-GOOGLE-REVIEW-LINK]" target="_blank" rel="noopener noreferrer"
+       class="platform-card" aria-label="Leave a review on Google">
+      <div class="platform-logo">
+        <img src="icons/google.webp" alt="Google" width="96" height="96" loading="lazy" decoding="async">
+      </div>
+      <div class="platform-info">
+        <div class="platform-name">Google</div>
+        <div class="platform-sub">Most trusted · helps local search ranking</div>
+      </div>
+      <div class="platform-chevron">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3l5 5-5 5"/></svg>
+      </div>
+    </a>
+
+    <!-- Nextdoor -->
+    <a href="[YOUR-NEXTDOOR-LINK]" target="_blank" rel="noopener noreferrer"
+       class="platform-card" aria-label="Recommend us on Nextdoor">
+      <div class="platform-logo">
+        <img src="icons/logo_nextdoor.webp" alt="Nextdoor" width="300" height="300" loading="lazy" decoding="async">
+      </div>
+      <div class="platform-info">
+        <div class="platform-name">Nextdoor</div>
+        <div class="platform-sub">Recommend us to your neighbors</div>
+      </div>
+      <div class="platform-chevron">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3l5 5-5 5"/></svg>
+      </div>
+    </a>
+
+    <!-- HomeAdvisor -->
+    <a href="[YOUR-HOMEADVISOR-LINK]" target="_blank" rel="noopener noreferrer"
+       class="platform-card" aria-label="Review us on HomeAdvisor">
+      <div class="platform-logo">
+        <img src="icons/homeadvisor.png" alt="HomeAdvisor" width="512" height="512" loading="lazy" decoding="async">
+      </div>
+      <div class="platform-info">
+        <div class="platform-name">HomeAdvisor</div>
+        <div class="platform-sub">Top platform for home service pros</div>
+      </div>
+      <div class="platform-chevron">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3l5 5-5 5"/></svg>
+      </div>
+    </a>
+
+    <!-- Thumbtack -->
+    <a href="[YOUR-THUMBTACK-LINK]" target="_blank" rel="noopener noreferrer"
+       class="platform-card" aria-label="Review us on Thumbtack">
+      <div class="platform-logo">
+        <img src="icons/Thumbtack_Logo.png" alt="Thumbtack" width="5000" height="5000" loading="lazy" decoding="async">
+      </div>
+      <div class="platform-info">
+        <div class="platform-name">Thumbtack</div>
+        <div class="platform-sub">Help others find quality pros</div>
+      </div>
+      <div class="platform-chevron">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3l5 5-5 5"/></svg>
+      </div>
+    </a>
+
+    <!-- Yelp -->
+    <a href="[YOUR-YELP-LINK]" target="_blank" rel="noopener noreferrer"
+       class="platform-card" aria-label="Review us on Yelp">
+      <div class="platform-logo">
+        <img src="icons/icons8-yelp-240.png" alt="Yelp" width="240" height="240" loading="lazy" decoding="async">
+      </div>
+      <div class="platform-info">
+        <div class="platform-name">Yelp</div>
+        <div class="platform-sub">Trusted local business reviews</div>
+      </div>
+      <div class="platform-chevron">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3l5 5-5 5"/></svg>
+      </div>
+    </a>
+
+  </div>
+
+  <div class="direct-contact">
+    <a href="sms:[YOUR-PHONE-NUMBER]" aria-label="Text the owner directly">
+      <div class="direct-contact__icon">
+        <!-- Message bubble icon -->
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20 2H4C2.9 2 2 2.9 2 4v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 12H6l-2 2V4h16v10z"/>
+        </svg>
+      </div>
+      <div class="direct-contact__body">
+        <div class="direct-contact__title">Not 100% satisfied?</div>
+        <div class="direct-contact__sub">Text the owner directly so we can make it right.</div>
+      </div>
+      <div class="direct-contact__chevron">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3l5 5-5 5"/></svg>
+      </div>
+    </a>
+  </div>
+
+  <p class="note">Every review supports a small, family-owned DFW business.<br>We read each one and truly appreciate your time.</p>
+
+</main>
+
+<footer class="page-footer">
+  <p>© 2026 Rocinante Marketing, LLC · <a href="https://treewebdesign.com/">treewebdesign.com</a></p>
+</footer>
+
+</body>
+</html>

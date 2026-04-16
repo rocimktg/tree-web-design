@@ -1,0 +1,174 @@
+/* =============================================
+   FAQ PAGE
+   ============================================= */
+
+/* ─── PAGE HEADER ────────────────────────────── */
+
+.page-header {
+  background: var(--black);
+  border-bottom: var(--border);
+  padding: var(--space-10) 0 var(--space-9);
+}
+
+.page-header__inner {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.page-header h1 {
+  font-size: clamp(4rem, 8vw, 8rem);
+  color: var(--white);
+  line-height: 0.9;
+  letter-spacing: -0.02em;
+}
+
+/* ─── FAQ SECTION ────────────────────────────── */
+
+.faq-page {
+  background: #ffffff;
+  padding: var(--space-11) 0 var(--space-10);
+  border-bottom: var(--border);
+}
+
+.faq-page h2 {
+  font-size: clamp(2.5rem, 4vw, 4.5rem);
+  line-height: 0.95;
+  margin-bottom: var(--space-5);
+}
+
+.faq-intro {
+  font-size: 1rem;
+  line-height: 1.55;
+  color: #666;
+  margin-bottom: var(--space-9);
+}
+
+/* ─── FAQ LIST ───────────────────────────────── */
+
+.faq-list {
+  max-width: 860px;
+  border: 5px solid var(--black);
+}
+
+.faq-item {
+  background: var(--white);
+  border-bottom: 2px solid var(--black);
+}
+
+.faq-item:last-child {
+  border-bottom: none;
+}
+
+/* ─── SUMMARY ────────────────────────────────── */
+
+.faq-item summary {
+  list-style: none;
+  position: relative;
+  padding: 20px 64px 20px 28px;
+  cursor: pointer;
+  font-family: var(--font-condensed);
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  color: var(--black);
+  user-select: none;
+}
+
+.faq-item summary::-webkit-details-marker { display: none; }
+
+/* +/− indicator */
+.faq-item summary::after {
+  content: '+';
+  position: absolute;
+  top: 50%;
+  right: 24px;
+  transform: translateY(-50%);
+  font-family: var(--font-mono);
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--black);
+}
+
+.faq-item[open] > summary::after {
+  content: '−';
+  color: var(--black);
+}
+
+/* Left accent bar on open */
+.faq-item[open] > summary {
+  border-left: 5px solid var(--acid);
+  padding-left: 23px;
+}
+
+/* ─── ANSWER ─────────────────────────────────── */
+
+.faq-answer {
+  padding: 4px 28px 24px 28px;
+  border-left: 5px solid var(--acid);
+}
+
+.faq-answer p {
+  margin: 0 0 10px;
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: #444;
+}
+
+.faq-answer p:last-child {
+  margin-bottom: 0;
+}
+
+.faq-answer strong {
+  font-family: var(--font-condensed);
+  font-size: 1.05em;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: var(--black);
+}
+
+.faq-answer .faq-answer__emphasis {
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.faq-answer a {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--black);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.18em;
+}
+
+.faq-answer a:hover {
+  color: #4a4a4a;
+}
+
+/* ─── MOBILE ─────────────────────────────────── */
+
+@media (max-width: 700px) {
+  .faq-item summary {
+    padding: 16px 52px 16px 20px;
+    font-size: 1.05rem;
+  }
+
+  .faq-item summary::after {
+    right: 18px;
+  }
+
+  .faq-item[open] > summary {
+    padding-left: 15px;
+  }
+
+  .faq-answer {
+    padding: 4px 20px 20px 20px;
+    border-left: none;
+  }
+}

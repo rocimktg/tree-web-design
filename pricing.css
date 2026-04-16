@@ -1,0 +1,543 @@
+/* =============================================
+   PRICING PAGE
+   ============================================= */
+
+/* ─── PAGE HEADER ────────────────────────────── */
+
+.page-header {
+  background: var(--black);
+  border-bottom: var(--border);
+  padding: var(--space-10) 0 var(--space-9);
+}
+
+.page-header__inner {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.page-header h1 {
+  font-size: clamp(4rem, 8vw, 8rem);
+  color: var(--white);
+  line-height: 0.9;
+  letter-spacing: -0.02em;
+}
+
+/* ─── PRICING SECTION ────────────────────────── */
+
+.pricing-plans {
+  background: #ffffff;
+  padding: var(--space-11) 0 var(--space-10);
+  border-bottom: var(--border);
+}
+
+.pricing-eyebrow {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  color: rgba(0,0,0,0.6);
+  margin-bottom: var(--space-4);
+}
+
+.pricing-plans h2 {
+  font-size: clamp(2.5rem, 4vw, 4.5rem);
+  line-height: 0.95;
+  margin-bottom: var(--space-4);
+}
+
+.pricing-plans__note {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: rgba(0,0,0,0.6);
+  letter-spacing: 0.04em;
+  margin-bottom: var(--space-9);
+}
+
+/* ─── COMPARISON TABLE GRID ──────────────────── */
+
+.pricing-table {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1200px;
+  margin: 0;
+  border: 5px solid var(--black);
+  background: var(--white);
+}
+
+/* ─── CELLS ──────────────────────────────────── */
+
+.pt__cell {
+  padding: 10px 28px;
+  border-bottom: 1px solid rgba(0,0,0,0.12);
+  display: flex;
+  align-items: center;
+}
+
+
+/* ─── COLUMN STYLES ──────────────────────────── */
+
+/* Left label column */
+.pt__label {
+  font-family: var(--font-condensed);
+  font-weight: 700;
+  font-size: 1.05rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--black);
+  line-height: 0.9;
+  border-right: 1px solid rgba(0,0,0,0.12);
+  justify-content: flex-end;
+  text-align: right;
+}
+
+/* Lite plan column */
+.pt__lite {
+  border-right: 1px solid rgba(0,0,0,0.12);
+  justify-content: center;
+}
+
+/* Growth plan column (featured — light mint tint) */
+.pt__growth {
+  justify-content: center;
+  background: #f5fdf5;
+  border-bottom-color: rgba(0,0,0,0.12);
+  border-right: 1px solid rgba(0,0,0,0.12);
+}
+
+/* Pro plan column */
+.pt__pro {
+  justify-content: center;
+}
+
+/* ─── HEADER CELLS ───────────────────────────── */
+
+.pt__head {
+  align-items: flex-start;
+  padding: 28px 28px 24px;
+}
+
+.pt__col-label {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: #666;
+}
+
+.pt__lite.pt__head,
+.pt__pro.pt__head {
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Growth header — lime accent bar at top, light mint background */
+.pt__growth.pt__head {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background: #f5fdf5;
+  position: relative;
+  border-top: 4px solid var(--acid);
+}
+
+.pt__badge {
+  display: inline-block;
+  position: absolute;
+  top: 4px;
+  right: 0;
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  background: var(--acid);
+  color: var(--black);
+  padding: 4px 10px;
+}
+
+/* ─── PLAN HEADER TYPOGRAPHY ─────────────────── */
+
+.pt__name {
+  font-family: var(--font-condensed);
+  font-weight: 900;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  line-height: 1;
+  color: var(--black);
+  margin-bottom: 6px;
+}
+
+.pt__price {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 3.25rem;
+  color: var(--black);
+  line-height: 1;
+  margin-bottom: 4px;
+}
+
+.pt__price span {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(0,0,0,0.6);
+}
+
+.pt__term {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: rgba(0,0,0,0.6);
+  line-height: 1.3;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.pt__subline {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: rgba(0,0,0,0.58);
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+.pt__pitch {
+  font-size: 0.9rem;
+  line-height: 1.25;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* ─── CHECKMARKS & INDICATORS ────────────────── */
+
+/* Consistent slate grey checks across all columns */
+.pt__check {
+  font-size: 1.3rem;
+  font-weight: 900;
+  color: #64748b;
+  line-height: 1;
+}
+
+.pt__check::after {
+  content: '✔';
+}
+
+.pt__dash {
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  color: rgba(0,0,0,0.6);
+}
+
+.pt__text {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #555;
+  text-align: center;
+  line-height: 1.05;
+}
+
+/* ─── CTA ROW ────────────────────────────────── */
+
+.pt__cta-row {
+  border-bottom: none;
+  padding: 24px 28px;
+  background: var(--white) !important; /* reset zebra on CTA row */
+}
+
+.pt__growth.pt__cta-row {
+  background: #f5fdf5 !important;
+}
+
+.pt__label.pt__cta-row {
+  border-right: 1px solid rgba(0,0,0,0.12);
+}
+
+.pt__lite.pt__cta-row,
+.pt__growth.pt__cta-row,
+.pt__pro.pt__cta-row {
+  justify-content: center;
+}
+
+.pt__cta {
+  display: block;
+  width: 100%;
+  font-family: var(--font-condensed);
+  font-weight: 900;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  text-align: center;
+  padding: 16px 24px;
+  text-decoration: none;
+  border: 3px solid var(--black);
+  transition: none;
+}
+
+.pt__cta--outline {
+  background: var(--white);
+  color: var(--black);
+}
+
+.pt__cta--outline:hover {
+  background: var(--black);
+  color: var(--white);
+}
+
+.pt__cta--acid {
+  background: var(--acid);
+  color: var(--black);
+  border-color: var(--acid);
+}
+
+.pt__cta--acid:hover {
+  background: var(--black);
+  color: var(--white);
+  border-color: var(--black);
+}
+
+/* ─── TIER BADGE (Month-to-Month, 6-Month Agreement, etc.) ── */
+
+.pt__badge--tier {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  background: rgba(0,0,0,0.07);
+  color: rgba(0,0,0,0.5);
+  padding: 4px 10px;
+  margin-bottom: 6px;
+}
+
+.pt__growth .pt__badge--tier {
+  background: rgba(0,0,0,0.06);
+}
+
+/* ─── PLAN TAGLINE ────────────────────────────── */
+
+.pt__tagline {
+  font-size: 0.82rem;
+  font-style: italic;
+  font-weight: 400;
+  color: rgba(0,0,0,0.6);
+  line-height: 1.3;
+  margin-bottom: 4px;
+}
+
+/* ─── FEATURE SUB-CAPTION ─────────────────────── */
+
+.pt__sublabel {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 400;
+  color: rgba(0,0,0,0.6);
+  letter-spacing: 0.03em;
+  text-transform: none;
+  line-height: 1.3;
+  margin-top: 3px;
+}
+
+/* ─── EXCLUSIVE ROW LABELS ────────────────────── */
+
+/* Bolder weight on rows where Lite has no feature */
+.pt__label--exclusive {
+  font-weight: 900;
+}
+
+/* Stack feature name + sub-caption vertically, right-aligned */
+.pt__label--sub {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+/* ─── RISK REVERSAL ───────────────────────────── */
+
+.pricing-risk {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-style: italic;
+  color: rgba(0,0,0,0.6);
+  letter-spacing: 0.06em;
+  text-align: center;
+  margin-top: var(--space-6);
+  margin-bottom: var(--space-4);
+}
+
+/* ─── DISCLAIMER ─────────────────────────────── */
+
+.pricing-disclaimer {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: #666;
+  letter-spacing: 0.08em;
+  margin-top: var(--space-6);
+  max-width: 72ch;
+}
+
+.pricing-addons {
+  margin-top: var(--space-9);
+  padding-top: var(--space-7);
+  border-top: 1px solid rgba(0,0,0,0.18);
+}
+
+.pricing-addons h3 {
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  line-height: 1;
+  margin-bottom: var(--space-6);
+}
+
+/* ─── ADD-ON CARD GRID ────────────────────────── */
+
+.addons-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-5);
+}
+
+.addon-card {
+  border: 5px solid var(--black);
+  padding: var(--space-7) var(--space-6);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.addon-card__name {
+  font-family: var(--font-condensed);
+  font-weight: 900;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  line-height: 1;
+  color: var(--black);
+}
+
+.addon-card__price {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--black);
+  line-height: 1;
+}
+
+.addon-card__price span {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: rgba(0,0,0,0.45);
+}
+
+.addon-card__desc {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+/* ─── MOBILE LABEL (hidden on desktop) ──────── */
+
+.pt__ml {
+  display: none;
+}
+
+/* ─── RESPONSIVE ─────────────────────────────── */
+
+@media (max-width: 700px) {
+
+  /* Switch to flex column, drop outer border */
+  .pricing-table {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    background: transparent;
+  }
+
+  /* Hide the shared label column entirely */
+  .pt__cell.pt__label {
+    display: none;
+  }
+
+  /* Growth first, Pro second, Lite third */
+  .pt__growth { order: 1; }
+  .pt__pro     { order: 2; }
+  .pt__lite    { order: 3; }
+
+  /* Left/right card borders */
+  .pt__growth,
+  .pt__pro,
+  .pt__lite {
+    border-left: 5px solid var(--black);
+    border-right: 5px solid var(--black);
+    border-bottom: none;
+    justify-content: space-between;
+  }
+
+  /* Top border on each card header */
+  .pt__growth.pt__head {
+    border-top: 5px solid var(--acid);
+    border-bottom: 3px solid var(--black);
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 24px 20px 20px;
+  }
+
+  .pt__pro.pt__head,
+  .pt__lite.pt__head {
+    border-top: 5px solid var(--black);
+    border-bottom: 3px solid var(--black);
+    margin-top: 28px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 24px 20px 20px;
+  }
+
+  /* Bottom border on CTA rows */
+  .pt__growth.pt__cta-row,
+  .pt__pro.pt__cta-row,
+  .pt__lite.pt__cta-row {
+    border-bottom: 5px solid var(--black);
+    padding: 20px;
+    justify-content: stretch;
+  }
+
+  /* Feature row dividers */
+  .pt__growth:not(.pt__head):not(.pt__cta-row),
+  .pt__pro:not(.pt__head):not(.pt__cta-row),
+  .pt__lite:not(.pt__head):not(.pt__cta-row) {
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,0.1);
+    padding: 12px 20px;
+    background: transparent;
+  }
+
+  /* Sub-captions inside mobile labels */
+  .pt__ml .pt__sublabel {
+    font-size: 0.68rem;
+    margin-top: 2px;
+  }
+
+  /* Show inline labels */
+  .pt__ml {
+    display: block;
+    font-family: var(--font-condensed);
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--black);
+    line-height: 1.2;
+    flex: 1;
+  }
+
+  /* Stack add-on cards to single column on mobile */
+  .addons-grid {
+    grid-template-columns: 1fr;
+  }
+}

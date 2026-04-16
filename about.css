@@ -1,0 +1,365 @@
+/* =============================================
+   ABOUT PAGE
+   ============================================= */
+
+/* ─── PAGE HEADER ────────────────────────────── */
+
+.page-header {
+  background: var(--black);
+  border-bottom: var(--border);
+  padding: var(--space-10) 0 var(--space-9);
+}
+
+.page-header__inner {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.page-header h1 {
+  font-size: clamp(4rem, 8vw, 8rem);
+  color: var(--white);
+  line-height: 0.9;
+  letter-spacing: -0.02em;
+}
+
+/* ─── INTRO ──────────────────────────────────── */
+
+.about-intro {
+  border-bottom: var(--border);
+}
+
+.about-intro__grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: var(--space-12);
+  align-items: start;
+}
+
+.about-figure {
+  margin: 0;
+}
+
+.about-figure img {
+  width: 100%;
+  height: 540px;
+  object-fit: cover;
+  border: var(--border);
+  display: block;
+}
+
+.about-figure figcaption {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: rgba(0,0,0,0.6);
+  margin-top: var(--space-3);
+}
+
+.about-intro__content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
+/* Cancel the utility margins that double up with flex gap */
+.about-intro__content .eyebrow {
+  margin-bottom: 0;
+}
+
+.about-intro__content .section-divider {
+  margin: 0;
+}
+
+.about-intro__content h2 {
+  font-size: clamp(2.25rem, 3.5vw, 3.5rem);
+}
+
+.about-intro__content p {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #333;
+}
+
+/* ─── TEAM ───────────────────────────────────── */
+
+.about-team {
+  background: var(--black);
+  border-bottom: var(--border);
+  position: relative;
+  overflow: hidden;
+}
+
+.about-team .container {
+  position: relative;
+  z-index: 1;
+}
+
+
+.about-team h2 {
+  font-size: clamp(2.25rem, 3.5vw, 3.5rem);
+  color: var(--white);
+}
+
+.about-team .section-divider {
+  background: rgba(255,255,255,0.2);
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-6);
+  margin-top: var(--space-9);
+}
+
+.team-card {
+  border: 5px solid rgba(255,255,255,0.15);
+  background: rgba(255,255,255,0.04);
+  padding: var(--space-8) var(--space-7);
+  display: flex;
+  gap: var(--space-6);
+  align-items: flex-start;
+  transition: none;
+}
+
+.team-card:hover {
+  transform: translate(-4px, -4px);
+  box-shadow: 4px 4px 0 var(--acid);
+}
+
+.team-photo {
+  width: 88px;
+  height: 88px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.team-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.team-card__content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.team-card h3 {
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--white);
+}
+
+.team-role {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: rgba(255,255,255,0.58);
+  display: block;
+}
+
+.team-card p:last-child,
+.about-team .team-card p {
+  font-size: 0.98rem;
+  line-height: 1.65;
+  color: rgba(255,255,255,0.82);
+}
+
+/* ─── PROCESS ────────────────────────────────── */
+
+.about-process {
+  background: var(--white);
+  border-bottom: var(--border);
+  position: relative;
+  overflow: hidden;
+}
+
+.about-process .services__bg-deco {
+  position: absolute;
+  top: -0.15em;
+  right: -0.05em;
+  font-family: var(--font-condensed);
+  font-weight: 900;
+  font-size: clamp(16rem, 30vw, 28rem);
+  line-height: 1;
+  color: transparent;
+  -webkit-text-stroke: 2px rgba(0,0,0,0.06);
+  pointer-events: none;
+  user-select: none;
+  z-index: 0;
+}
+
+.about-process .container {
+  position: relative;
+  z-index: 1;
+}
+
+.about-process h2 {
+  font-size: clamp(2.5rem, 4vw, 4rem);
+  line-height: 0.95;
+  margin-bottom: var(--space-8);
+}
+
+.process-steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  border: 5px solid var(--black);
+  margin-top: var(--space-8);
+}
+
+.process-step {
+  padding: var(--space-8) var(--space-7);
+  border-right: 5px solid var(--black);
+}
+
+.process-step:last-child {
+  border-right: none;
+}
+
+.process-step__num {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  color: var(--acid);
+  background: var(--black);
+  padding: 4px 10px;
+  margin-bottom: var(--space-6);
+  width: fit-content;
+}
+
+.process-step h3 {
+  font-family: var(--font-condensed);
+  font-weight: 900;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  line-height: 1;
+  color: var(--black);
+  margin-bottom: var(--space-5);
+  width: fit-content;
+  background: linear-gradient(var(--acid) 0%, var(--acid) 100%) no-repeat;
+  background-size: 0% 50%;
+  background-position: left 80%;
+  transition: background-size 0.42s cubic-bezier(0.16, 1, 0.3, 1);
+  padding-bottom: 2px;
+}
+
+.process-step:hover h3 {
+  background-size: 100% 50%;
+}
+
+.process-step p {
+  font-size: 1rem;
+  line-height: 1.65;
+  color: #444;
+}
+
+@media (max-width: 760px) {
+  .process-steps {
+    grid-template-columns: 1fr;
+  }
+
+  .process-step {
+    border-right: none;
+    border-bottom: 5px solid var(--black);
+  }
+
+  .process-step:last-child {
+    border-bottom: none;
+  }
+}
+
+/* ─── ROCINANTE STORY ────────────────────────── */
+
+.rocinante-story {
+  background: var(--black);
+  border-bottom: var(--border);
+  position: relative;
+  overflow: hidden;
+}
+
+.rocinante-story__art {
+  position: absolute;
+  inset: 0;
+  background-image: url("/img/rocinante_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  filter: grayscale(1);
+  opacity: 0.18;
+  pointer-events: none;
+}
+
+.rocinante-story__inner {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+  max-width: 680px;
+}
+
+.rocinante-story h2 {
+  font-size: clamp(3rem, 5vw, 5.5rem);
+  color: var(--white);
+  line-height: 0.93;
+}
+
+.rocinante-story__content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
+.rocinante-story__content .eyebrow {
+  color: var(--acid);
+}
+
+.rocinante-story__content p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: rgba(255,255,255,0.65);
+  max-width: 580px;
+}
+
+.rocinante-story__content em {
+  font-style: italic;
+  color: rgba(255,255,255,0.85);
+}
+
+/* ─── RESPONSIVE ─────────────────────────────── */
+
+@media (max-width: 860px) {
+  .about-intro__grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-9);
+  }
+
+  .about-intro__content {
+    order: -1;
+  }
+
+  .about-figure img {
+    height: 360px;
+  }
+
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+@media (max-width: 560px) {
+  .team-card {
+    flex-direction: column;
+    gap: var(--space-5);
+  }
+}
