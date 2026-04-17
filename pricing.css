@@ -100,7 +100,7 @@
 /* Growth plan column (featured — light mint tint) */
 .pt__growth {
   justify-content: center;
-  background: #f5fdf5;
+  background: #fff3ee;
   border-bottom-color: rgba(0,0,0,0.12);
   border-right: 1px solid rgba(0,0,0,0.12);
 }
@@ -137,7 +137,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  background: #f5fdf5;
+  background: #fff3ee;
   position: relative;
   border-top: 4px solid var(--acid);
 }
@@ -250,7 +250,7 @@
 }
 
 .pt__growth.pt__cta-row {
-  background: #f5fdf5 !important;
+  background: #fff3ee !important;
 }
 
 .pt__label.pt__cta-row {
