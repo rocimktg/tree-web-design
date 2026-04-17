@@ -289,7 +289,7 @@
 .rocinante-story__art {
   position: absolute;
   inset: 0;
-  background-image: url("/img/rocinante_bg.png");
+  background-image: image-set(url('/img/rocinante_bg.avif') type('image/avif'), url('/img/rocinante_bg.png') type('image/png'));
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;

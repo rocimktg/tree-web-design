@@ -341,7 +341,7 @@ p.body,
   position: relative;
   color: var(--white);
   border-top: var(--border);
-  background-image: url('/img/gear.jpg');
+  background-image: image-set(url('/img/gear.avif') type('image/avif'), url('/img/gear.jpg') type('image/jpeg'));
   background-size: cover;
   background-position: center 30%;
 }
