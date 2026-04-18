@@ -39,16 +39,20 @@ function initAutocomplete() {
   container.appendChild(placeAutocomplete);
 
   placeAutocomplete.addEventListener('gmp-placeselect', async ({ place }) => {
-    await place.fetchFields({ fields: ['id', 'displayName'] });
-
     selectedPlace = place;
-    state.gbpLink = `https://search.google.com/local/writereview?placeid=${place.id}`;
-    document.getElementById('gbp-link').value = state.gbpLink;
-
-    confirm.textContent = `✓ ${place.displayName}`;
+    document.getElementById('btn-to-step3').disabled = false;
+    confirm.textContent = '✓ Business selected';
     confirm.classList.remove('hidden');
     clearError(container);
-    document.getElementById('btn-to-step3').disabled = false;
+
+    try {
+      await place.fetchFields({ fields: ['id', 'displayName'] });
+      state.gbpLink = `https://search.google.com/local/writereview?placeid=${place.id}`;
+      document.getElementById('gbp-link').value = state.gbpLink;
+      confirm.textContent = `✓ ${place.displayName}`;
+    } catch (_) {
+      // place already selected; review link will be empty if fetchFields failed
+    }
   });
 }
 
@@ -112,6 +116,21 @@ form1.addEventListener('submit', (e) => {
 document.getElementById('btn-to-step3').addEventListener('click', async () => {
   const containerEl = document.getElementById('business-search-container');
   clearError(containerEl);
+
+  if (!state.gbpLink) {
+    try {
+      await selectedPlace.fetchFields({ fields: ['id', 'displayName'] });
+      state.gbpLink = `https://search.google.com/local/writereview?placeid=${selectedPlace.id}`;
+      document.getElementById('gbp-link').value = state.gbpLink;
+      document.getElementById('business-confirm').textContent = `✓ ${selectedPlace.displayName}`;
+    } catch (_) {
+      showError(containerEl, 'Could not load business details — please search and select again');
+      selectedPlace = null;
+      document.getElementById('btn-to-step3').disabled = true;
+      document.getElementById('business-confirm').classList.add('hidden');
+      return;
+    }
+  }
 
   // Submit contractor info to Netlify Forms now that we have the GBP link
   try {
