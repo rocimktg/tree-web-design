@@ -76,12 +76,12 @@ body {
   overflow: visible;
 }
 
-/* Progress bar */
+/* Progress bar — sits at the bottom of each card */
 .progress-track {
-  margin: -32px -28px 8px;
+  margin: 0 -28px -36px;
   height: 4px;
   background: var(--border);
-  border-radius: var(--radius) var(--radius) 0 0;
+  border-radius: 0 0 var(--radius) var(--radius);
   overflow: hidden;
 }
 
@@ -89,7 +89,6 @@ body {
   height: 100%;
   background: var(--brand);
   opacity: 0.5;
-  border-radius: var(--radius) 0 0 0;
 }
 
 /* Step indicator */
@@ -130,6 +129,13 @@ body {
   color: var(--brand);
   letter-spacing: -0.01em;
   margin-top: -4px;
+}
+
+/* Step subtitle */
+.subtitle {
+  font-size: 0.875rem;
+  color: var(--muted);
+  margin-top: -8px;
 }
 
 /* Step sub-heading */
@@ -334,11 +340,18 @@ input.error {
   padding: 8px 12px;
 }
 
+/* Step 2 card — autocomplete flush at top, no top padding */
+.card--search {
+  padding-top: 0;
+}
+
 /* Google Places PlaceAutocompleteElement */
 #business-search-container {
   position: relative;
   height: 50px;
   z-index: 10;
+  margin: 0 -28px;
+  width: calc(100% + 56px);
 }
 
 #business-search-container gmp-place-autocomplete {
@@ -346,10 +359,5 @@ input.error {
   top: 0;
   left: 0;
   width: 100%;
-  --gmp-filled-input-border-radius: 10px;
-}
-
-.field:has(#business-search-container) {
-  position: relative;
-  z-index: 10;
+  --gmp-filled-input-border-radius: var(--radius) var(--radius) 0 0;
 }
