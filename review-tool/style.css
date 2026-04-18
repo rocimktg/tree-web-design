@@ -329,19 +329,19 @@ input.error {
 
 /* Google Places PlaceAutocompleteElement */
 #business-search-container {
-  width: 100%;
   position: relative;
-  height: 48px;      /* lock height to input only */
-  overflow: visible; /* suggestions float over content below */
+  height: 48px;
   z-index: 10;
 }
 
 #business-search-container gmp-place-autocomplete {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   --gmp-filled-input-border-radius: 10px;
 }
 
-/* ensure suggestions overlay subsequent fields instead of pushing them */
 .field:has(#business-search-container) {
   position: relative;
   z-index: 10;

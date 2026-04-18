@@ -43,14 +43,15 @@ function initAutocomplete() {
     }, 300);
   }, true);
 
-  let ignoreNextInput = false;
+  let ignoreInputUntil = 0;
 
   placeAutocomplete.addEventListener('gmp-placeselect', async ({ place }) => {
-    ignoreNextInput = true;
+    ignoreInputUntil = Date.now() + 600;
+    state.businessSelected = true;
+
     await place.fetchFields({ fields: ['id', 'displayName'] });
 
     state.gbpLink = `https://search.google.com/local/writereview?placeid=${place.id}`;
-    state.businessSelected = true;
     document.getElementById('gbp-link').value = state.gbpLink;
 
     confirm.textContent = `✓ ${place.displayName}`;
@@ -59,7 +60,7 @@ function initAutocomplete() {
   });
 
   placeAutocomplete.addEventListener('input', () => {
-    if (ignoreNextInput) { ignoreNextInput = false; return; }
+    if (Date.now() < ignoreInputUntil) return;
     state.businessSelected = false;
     state.gbpLink = '';
     document.getElementById('gbp-link').value = '';
