@@ -37,12 +37,6 @@ function initAutocomplete() {
 
   container.appendChild(placeAutocomplete);
 
-  container.addEventListener('focusin', () => {
-    setTimeout(() => {
-      container.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    }, 300);
-  }, true);
-
   placeAutocomplete.addEventListener('gmp-placeselect', async ({ place }) => {
     state.businessSelected = true;
 
@@ -80,23 +74,21 @@ function attachPhoneFormatter(inputEl) {
     const prev = inputEl.value;
     const formatted = formatPhone(inputEl.value);
     inputEl.value = formatted;
-    // keep cursor roughly in place when typing forward
     if (formatted.length > prev.length) {
       inputEl.setSelectionRange(cursor + 1, cursor + 1);
     }
   });
 }
 
-// ── Step 1 ─────────────────────────────────────────────────────────────────
+// ── Step 1: Registration ───────────────────────────────────────────────────
 
 const form1 = document.getElementById('form-step1');
 
-form1.addEventListener('submit', async (e) => {
+form1.addEventListener('submit', (e) => {
   e.preventDefault();
 
   const firstName = document.getElementById('first-name').value.trim();
   const companyName = document.getElementById('company-name').value.trim();
-  const containerEl = document.getElementById('business-search-container');
 
   let valid = true;
 
@@ -106,19 +98,7 @@ form1.addEventListener('submit', async (e) => {
   if (!companyName) { showError(document.getElementById('company-name'), 'Required'); valid = false; }
   else clearError(document.getElementById('company-name'));
 
-  if (!state.businessSelected) {
-    showError(containerEl, 'Please select your business from the suggestions'); valid = false;
-  } else clearError(containerEl);
-
   if (!valid) return;
-
-  // Submit to Netlify Forms
-  try {
-    const formData = new FormData(form1);
-    await fetch('/', { method: 'POST', body: new URLSearchParams(formData) });
-  } catch (_) {
-    // Non-blocking — proceed even if submission fails
-  }
 
   state.firstName = firstName;
   state.companyName = companyName;
@@ -126,11 +106,33 @@ form1.addEventListener('submit', async (e) => {
   goTo(2);
 });
 
-// ── Step 2 ─────────────────────────────────────────────────────────────────
+// ── Step 2: Business Search ────────────────────────────────────────────────
+
+document.getElementById('btn-to-step3').addEventListener('click', async () => {
+  const containerEl = document.getElementById('business-search-container');
+
+  if (!state.businessSelected) {
+    showError(containerEl, 'Please select your business from the suggestions');
+    return;
+  }
+  clearError(containerEl);
+
+  // Submit contractor info to Netlify Forms now that we have the GBP link
+  try {
+    const formData = new FormData(form1);
+    await fetch('/', { method: 'POST', body: new URLSearchParams(formData) });
+  } catch (_) {
+    // Non-blocking
+  }
+
+  goTo(3);
+});
+
+// ── Step 3: Customer Info ──────────────────────────────────────────────────
 
 attachPhoneFormatter(document.getElementById('customer-phone'));
 
-document.getElementById('btn-to-step3').addEventListener('click', () => {
+document.getElementById('btn-to-step4').addEventListener('click', () => {
   const nameEl = document.getElementById('customer-name');
   const phoneEl = document.getElementById('customer-phone');
   const name = nameEl.value.trim();
@@ -151,10 +153,10 @@ document.getElementById('btn-to-step3').addEventListener('click', () => {
   state.customerPhone = phone.replace(/\D/g,'');
 
   buildPreview();
-  goTo(3);
+  goTo(4);
 });
 
-// ── Step 3 ─────────────────────────────────────────────────────────────────
+// ── Step 4: Preview & Send ─────────────────────────────────────────────────
 
 function buildPreview() {
   const msg = buildMessage();
@@ -172,9 +174,8 @@ function buildMessage() {
   );
 }
 
-// Reset customer fields when going back to step 2 for "Send another"
 document.getElementById('btn-send-another').addEventListener('click', () => {
   document.getElementById('customer-name').value = '';
   document.getElementById('customer-phone').value = '';
-  goTo(2);
+  goTo(3);
 });

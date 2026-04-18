@@ -11,14 +11,15 @@
   <!-- Step 1: Contractor Registration -->
   <div id="step-1" class="step active">
     <div class="card">
-      <div class="progress-track"><div class="progress-fill" style="width:33%"></div></div>
-      <div class="step-indicator">Step 1 of 3</div>
+      <div class="progress-track"><div class="progress-fill" style="width:25%"></div></div>
+      <div class="step-indicator">Step 1 of 4</div>
       <h1 class="logo">Tree Web Design - Review Tool</h1>
       <p class="eyebrow">Send Google Review Requests Fast</p>
-      <p class="setup-hint">3 quick steps — takes about 60 seconds.</p>
+      <p class="setup-hint">4 quick steps — takes about 60 seconds.</p>
 
       <form id="form-step1" name="contractor-registration" method="POST" data-netlify="true" netlify-honeypot="bot-field">
         <input type="hidden" name="form-name" value="contractor-registration" />
+        <input type="hidden" id="gbp-link" name="gbp-link" />
         <p class="hidden"><label>Don't fill this out: <input name="bot-field" /></label></p>
 
         <div class="field">
@@ -41,26 +42,37 @@
           <span>I'd like to receive occasional tips and resources from Tree Web Design</span>
         </label>
 
-        <div class="field">
-          <label for="business-search">Find your business on Google</label>
-          <div id="business-search-container"></div>
-          <div id="business-confirm" class="business-confirm hidden"></div>
-          <input type="hidden" id="gbp-link" name="gbp-link" />
-        </div>
-
-        <p class="next-hint">Next: enter your customer's info</p>
+        <p class="next-hint">Next: find your business on Google</p>
         <button type="submit" class="btn-primary">Save & Continue →</button>
       </form>
     </div>
   </div>
 
-  <!-- Step 2: Recipient Entry -->
+  <!-- Step 2: Find Business -->
   <div id="step-2" class="step">
     <div class="card">
-      <div class="progress-track"><div class="progress-fill" style="width:66%"></div></div>
-      <div class="step-indicator">Step 2 of 3</div>
-      <h1 class="logo">Tree Web Design - Review Tool</h1>
-      <p class="eyebrow">Send Google Review Requests Fast</p>
+      <div class="progress-track"><div class="progress-fill" style="width:50%"></div></div>
+      <div class="step-indicator">Step 2 of 4</div>
+      <p class="step-heading">Find your business on Google</p>
+      <p class="subtitle">Search and select your business so we can build your review link.</p>
+
+      <div class="field">
+        <label for="business-search">Business name</label>
+        <div id="business-search-container"></div>
+        <div id="business-confirm" class="business-confirm hidden"></div>
+      </div>
+
+      <p class="next-hint">Next: enter your customer's info</p>
+      <button id="btn-to-step3" class="btn-primary">Continue →</button>
+      <button class="btn-back" onclick="goTo(1)">← Back</button>
+    </div>
+  </div>
+
+  <!-- Step 3: Recipient Entry -->
+  <div id="step-3" class="step">
+    <div class="card">
+      <div class="progress-track"><div class="progress-fill" style="width:75%"></div></div>
+      <div class="step-indicator">Step 3 of 4</div>
       <p class="step-heading">Who's the message for?</p>
       <p class="subtitle">Enter your customer's info.</p>
 
@@ -75,26 +87,24 @@
       </div>
 
       <p class="next-hint">Next: preview your message</p>
-      <button id="btn-to-step3" class="btn-primary">Continue →</button>
-      <button class="btn-back" onclick="goTo(1)">← Back</button>
+      <button id="btn-to-step4" class="btn-primary">Continue →</button>
+      <button class="btn-back" onclick="goTo(2)">← Back</button>
     </div>
   </div>
 
-  <!-- Step 3: Preview & Send -->
-  <div id="step-3" class="step">
+  <!-- Step 4: Preview & Send -->
+  <div id="step-4" class="step">
     <div class="card">
       <div class="progress-track"><div class="progress-fill" style="width:100%"></div></div>
-      <div class="step-indicator">Step 3 of 3</div>
-      <h1 class="logo">Tree Web Design - Review Tool</h1>
-      <p class="eyebrow">Send Google Review Requests Fast</p>
+      <div class="step-indicator">Step 4 of 4</div>
       <p class="step-heading">Preview & send</p>
       <p class="subtitle">Tap Send SMS — the message opens pre-filled.</p>
 
       <div class="preview-box" id="message-preview"></div>
 
       <a id="sms-link" class="btn-primary btn-send" href="#">Send SMS 📨</a>
-      <button class="btn-back" onclick="goTo(2)">← Back</button>
-      <button class="btn-secondary" id="btn-send-another" onclick="goTo(2)">Send another</button>
+      <button class="btn-back" onclick="goTo(3)">← Back</button>
+      <button class="btn-secondary" id="btn-send-another">Send another</button>
     </div>
   </div>
 
