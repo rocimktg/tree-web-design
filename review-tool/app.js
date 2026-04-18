@@ -4,10 +4,11 @@ const state = {
   firstName: '',
   companyName: '',
   gbpLink: '',
-  businessSelected: false,
   customerName: '',
   customerPhone: '',
 };
+
+let selectedPlace = null;
 
 // ── Utilities ──────────────────────────────────────────────────────────────
 
@@ -38,16 +39,16 @@ function initAutocomplete() {
   container.appendChild(placeAutocomplete);
 
   placeAutocomplete.addEventListener('gmp-placeselect', async ({ place }) => {
-    state.businessSelected = true;
-
     await place.fetchFields({ fields: ['id', 'displayName'] });
 
+    selectedPlace = place;
     state.gbpLink = `https://search.google.com/local/writereview?placeid=${place.id}`;
     document.getElementById('gbp-link').value = state.gbpLink;
 
     confirm.textContent = `✓ ${place.displayName}`;
     confirm.classList.remove('hidden');
     clearError(container);
+    document.getElementById('btn-to-step3').disabled = false;
   });
 }
 
@@ -110,11 +111,6 @@ form1.addEventListener('submit', (e) => {
 
 document.getElementById('btn-to-step3').addEventListener('click', async () => {
   const containerEl = document.getElementById('business-search-container');
-
-  if (!state.businessSelected) {
-    showError(containerEl, 'Please select your business from the suggestions');
-    return;
-  }
   clearError(containerEl);
 
   // Submit contractor info to Netlify Forms now that we have the GBP link
