@@ -283,32 +283,12 @@ input.error {
   padding: 8px 12px;
 }
 
-/* Google Places autocomplete dropdown */
-.pac-container {
-  border-radius: 10px;
-  border: 1.5px solid var(--border);
-  box-shadow: var(--shadow);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  margin-top: 4px;
-  overflow: hidden;
+/* Google Places PlaceAutocompleteElement */
+#business-search-container {
+  width: 100%;
 }
 
-.pac-item {
-  padding: 10px 14px;
-  font-size: 0.9rem;
-  cursor: pointer;
-}
-
-.pac-item:hover,
-.pac-item-selected {
-  background: var(--brand-light);
-}
-
-.pac-item-query {
-  font-size: 0.9rem;
-  color: var(--text);
-}
-
-.pac-icon {
-  display: none;
+#business-search-container gmp-place-autocomplete {
+  width: 100%;
+  --gmp-filled-input-border-radius: 10px;
 }

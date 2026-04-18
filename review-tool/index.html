@@ -46,7 +46,7 @@
 
         <div class="field">
           <label for="business-search">Find your business on Google</label>
-          <input type="text" id="business-search" name="business-search" placeholder="Start typing your business name…" autocomplete="off" />
+          <div id="business-search-container"></div>
           <div id="business-confirm" class="business-confirm hidden"></div>
           <input type="hidden" id="gbp-link" name="gbp-link" />
         </div>
@@ -100,7 +100,7 @@
 
   <script src="app.js"></script>
   <script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDLYBQPrA9arHZtizo_kjiaVEHPzyKqSc&libraries=places&callback=initAutocomplete"
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDLYBQPrA9arHZtizo_kjiaVEHPzyKqSc&v=beta&libraries=places&callback=initAutocomplete"
     async
     defer
   ></script>

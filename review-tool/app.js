@@ -27,29 +27,29 @@ function formatPhone(value) {
 // ── Google Places Autocomplete ─────────────────────────────────────────────
 
 function initAutocomplete() {
-  const input = document.getElementById('business-search');
+  const container = document.getElementById('business-search-container');
   const confirm = document.getElementById('business-confirm');
 
-  const autocomplete = new google.maps.places.Autocomplete(input, {
+  const placeAutocomplete = new google.maps.places.PlaceAutocompleteElement({
     types: ['establishment'],
     componentRestrictions: { country: 'us' },
-    fields: ['place_id', 'name'],
   });
 
-  autocomplete.addListener('place_changed', () => {
-    const place = autocomplete.getPlace();
-    if (!place.place_id) return;
+  container.appendChild(placeAutocomplete);
 
-    state.gbpLink = `https://search.google.com/local/writereview?placeid=${place.place_id}`;
+  placeAutocomplete.addEventListener('gmp-placeselect', async ({ place }) => {
+    await place.fetchFields({ fields: ['id', 'displayName'] });
+
+    state.gbpLink = `https://search.google.com/local/writereview?placeid=${place.id}`;
     state.businessSelected = true;
     document.getElementById('gbp-link').value = state.gbpLink;
 
-    confirm.textContent = `✓ ${place.name}`;
+    confirm.textContent = `✓ ${place.displayName}`;
     confirm.classList.remove('hidden');
-    clearError(input);
+    clearError(container);
   });
 
-  input.addEventListener('input', () => {
+  placeAutocomplete.addEventListener('input', () => {
     state.businessSelected = false;
     state.gbpLink = '';
     document.getElementById('gbp-link').value = '';
@@ -99,7 +99,7 @@ form1.addEventListener('submit', async (e) => {
   const firstName = document.getElementById('first-name').value.trim();
   const companyName = document.getElementById('company-name').value.trim();
   const phone = document.getElementById('phone').value.trim();
-  const searchEl = document.getElementById('business-search');
+  const containerEl = document.getElementById('business-search-container');
 
   let valid = true;
 
@@ -114,8 +114,8 @@ form1.addEventListener('submit', async (e) => {
   } else clearError(document.getElementById('phone'));
 
   if (!state.businessSelected) {
-    showError(searchEl, 'Please select your business from the suggestions'); valid = false;
-  } else clearError(searchEl);
+    showError(containerEl, 'Please select your business from the suggestions'); valid = false;
+  } else clearError(containerEl);
 
   if (!valid) return;
 
