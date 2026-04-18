@@ -105,13 +105,9 @@ function clearError(inputEl) {
 
 function attachPhoneFormatter(inputEl) {
   inputEl.addEventListener('input', () => {
-    const cursor = inputEl.selectionStart;
-    const prev = inputEl.value;
     const formatted = formatPhone(inputEl.value);
     inputEl.value = formatted;
-    if (formatted.length > prev.length) {
-      inputEl.setSelectionRange(cursor + 1, cursor + 1);
-    }
+    inputEl.setSelectionRange(formatted.length, formatted.length);
   });
 }
 
