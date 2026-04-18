@@ -30,6 +30,9 @@ function formatPhone(value) {
 function initAutocomplete() {
   const container = document.getElementById('business-search-container');
   const confirm = document.getElementById('business-confirm');
+  const continueBtn = document.getElementById('btn-to-step3');
+
+  container.innerHTML = '';
 
   const placeAutocomplete = new google.maps.places.PlaceAutocompleteElement({
     types: ['establishment'],
@@ -38,12 +41,32 @@ function initAutocomplete() {
 
   container.appendChild(placeAutocomplete);
 
-  placeAutocomplete.addEventListener('gmp-placeselect', async ({ place }) => {
+  const resetBusinessSelection = () => {
+    selectedPlace = null;
+    state.gbpLink = '';
+    document.getElementById('gbp-link').value = '';
+    continueBtn.disabled = true;
+    confirm.textContent = '';
+    confirm.classList.add('hidden');
+  };
+
+  resetBusinessSelection();
+
+  placeAutocomplete.addEventListener('gmp-select', async ({ placePrediction }) => {
+    const place = placePrediction?.toPlace ? placePrediction.toPlace() : null;
+
+    if (!place) {
+      resetBusinessSelection();
+      showError(container, 'Please select a valid business from the list');
+      return;
+    }
+
     selectedPlace = place;
-    document.getElementById('btn-to-step3').disabled = false;
+    continueBtn.disabled = false;
+    clearError(container);
+
     confirm.textContent = '✓ Business selected';
     confirm.classList.remove('hidden');
-    clearError(container);
 
     try {
       await place.fetchFields({ fields: ['id', 'displayName'] });
@@ -51,8 +74,15 @@ function initAutocomplete() {
       document.getElementById('gbp-link').value = state.gbpLink;
       confirm.textContent = `✓ ${place.displayName}`;
     } catch (_) {
-      // place already selected; review link will be empty if fetchFields failed
+      state.gbpLink = '';
+      document.getElementById('gbp-link').value = '';
+      confirm.textContent = '✓ Business selected';
     }
+  });
+
+  placeAutocomplete.addEventListener('input', () => {
+    resetBusinessSelection();
+    clearError(container);
   });
 }
 
@@ -116,6 +146,12 @@ form1.addEventListener('submit', (e) => {
 document.getElementById('btn-to-step3').addEventListener('click', async () => {
   const containerEl = document.getElementById('business-search-container');
   clearError(containerEl);
+
+  if (!selectedPlace) {
+    showError(containerEl, 'Please search and select your business');
+    document.getElementById('btn-to-step3').disabled = true;
+    return;
+  }
 
   if (!state.gbpLink) {
     try {
