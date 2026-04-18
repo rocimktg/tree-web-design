@@ -32,7 +32,7 @@ function initAutocomplete() {
 
   const placeAutocomplete = new google.maps.places.PlaceAutocompleteElement({
     types: ['establishment'],
-    componentRestrictions: { country: 'us' },
+    includedRegionCodes: ['us'],
   });
 
   container.appendChild(placeAutocomplete);
@@ -91,14 +91,11 @@ function attachPhoneFormatter(inputEl) {
 
 const form1 = document.getElementById('form-step1');
 
-attachPhoneFormatter(document.getElementById('phone'));
-
 form1.addEventListener('submit', async (e) => {
   e.preventDefault();
 
   const firstName = document.getElementById('first-name').value.trim();
   const companyName = document.getElementById('company-name').value.trim();
-  const phone = document.getElementById('phone').value.trim();
   const containerEl = document.getElementById('business-search-container');
 
   let valid = true;
@@ -108,10 +105,6 @@ form1.addEventListener('submit', async (e) => {
 
   if (!companyName) { showError(document.getElementById('company-name'), 'Required'); valid = false; }
   else clearError(document.getElementById('company-name'));
-
-  if (!phone || phone.replace(/\D/g,'').length < 10) {
-    showError(document.getElementById('phone'), 'Enter a valid 10-digit number'); valid = false;
-  } else clearError(document.getElementById('phone'));
 
   if (!state.businessSelected) {
     showError(containerEl, 'Please select your business from the suggestions'); valid = false;

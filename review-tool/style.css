@@ -75,12 +75,35 @@ body {
   gap: 20px;
 }
 
+/* Step indicator */
+.step-indicator {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
 /* Logo */
 .logo {
   font-size: 1.1rem;
   font-weight: 700;
   color: var(--brand);
   letter-spacing: -0.01em;
+}
+
+/* Setup hint */
+.setup-hint {
+  font-size: 0.875rem;
+  color: var(--muted);
+  margin-top: -8px;
+}
+
+/* Next step hint */
+.next-hint {
+  font-size: 0.8rem;
+  color: var(--muted);
+  text-align: center;
 }
 
 /* Headings */
@@ -96,6 +119,16 @@ h1 {
   font-size: 0.95rem;
   line-height: 1.5;
   margin-top: -10px;
+}
+
+.subtitle a {
+  color: var(--muted);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.subtitle a:hover {
+  color: var(--text);
 }
 
 /* Form */
@@ -119,6 +152,7 @@ label {
 
 input[type="text"],
 input[type="tel"],
+input[type="email"],
 input[type="url"] {
   width: 100%;
   padding: 12px 14px;

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FastReview.link</title>
+  <title>Send Google Review Requests Fast | TreeWebDesign.com</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -11,9 +11,10 @@
   <!-- Step 1: Contractor Registration -->
   <div id="step-1" class="step active">
     <div class="card">
-      <div class="logo">⚡ FastReview.link</div>
-      <h1>Get set up in seconds</h1>
-      <p class="subtitle">Enter your info once — send reviews in a tap.</p>
+      <div class="step-indicator">Step 1 of 3</div>
+      <div class="logo">Send Google Review Requests Fast</div>
+      <p class="subtitle">Brought to you by <a href="https://treewebdesign.com" target="_blank" rel="noopener">treewebdesign.com</a></p>
+      <p class="setup-hint">3 quick steps — takes about 60 seconds.</p>
 
       <form id="form-step1" name="contractor-registration" method="POST" data-netlify="true" netlify-honeypot="bot-field">
         <input type="hidden" name="form-name" value="contractor-registration" />
@@ -21,22 +22,17 @@
 
         <div class="field">
           <label for="first-name">First name</label>
-          <input type="text" id="first-name" name="first-name" placeholder="e.g. Mike" autocomplete="given-name" required />
+          <input type="text" id="first-name" name="first-name" placeholder="e.g. Mike Branch" autocomplete="given-name" required />
         </div>
 
         <div class="field">
           <label for="company-name">Company name</label>
-          <input type="text" id="company-name" name="company-name" placeholder="e.g. Atlas Roofing" autocomplete="organization" required />
-        </div>
-
-        <div class="field">
-          <label for="phone">Your phone number</label>
-          <input type="tel" id="phone" name="phone" placeholder="(555) 000-0000" autocomplete="tel" required />
+          <input type="text" id="company-name" name="company-name" placeholder="e.g. Branch Tree Removal" autocomplete="organization" required />
         </div>
 
         <div class="field">
           <label for="email">Your email address</label>
-          <input type="email" id="email" name="email" placeholder="e.g. mike@atlasroofing.com" autocomplete="email" required />
+          <input type="email" id="email" name="email" placeholder="e.g. mike@branchtreeremoval.com" autocomplete="email" required />
         </div>
 
         <label class="checkbox-label">
@@ -51,7 +47,8 @@
           <input type="hidden" id="gbp-link" name="gbp-link" />
         </div>
 
-        <button type="submit" class="btn-primary">Continue →</button>
+        <p class="next-hint">Next: enter your customer's info</p>
+        <button type="submit" class="btn-primary">Save & Continue →</button>
       </form>
     </div>
   </div>
@@ -59,7 +56,8 @@
   <!-- Step 2: Recipient Entry -->
   <div id="step-2" class="step">
     <div class="card">
-      <div class="logo">⚡ FastReview.link</div>
+      <div class="step-indicator">Step 2 of 3</div>
+      <div class="logo">Send Google Review Requests Fast</div>
       <h1>Who's the message for?</h1>
       <p class="subtitle">Enter your customer's info.</p>
 
@@ -73,6 +71,7 @@
         <input type="tel" id="customer-phone" placeholder="(555) 000-0000" autocomplete="off" />
       </div>
 
+      <p class="next-hint">Next: preview your message</p>
       <button id="btn-to-step3" class="btn-primary">Continue →</button>
       <button class="btn-back" onclick="goTo(1)">← Back</button>
     </div>
@@ -81,7 +80,8 @@
   <!-- Step 3: Preview & Send -->
   <div id="step-3" class="step">
     <div class="card">
-      <div class="logo">⚡ FastReview.link</div>
+      <div class="step-indicator">Step 3 of 3</div>
+      <div class="logo">Send Google Review Requests Fast</div>
       <h1>Preview & send</h1>
       <p class="subtitle">Tap Send SMS — the message opens pre-filled.</p>
 
