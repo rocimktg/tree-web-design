@@ -331,10 +331,18 @@ input.error {
 #business-search-container {
   width: 100%;
   position: relative;
-  min-height: 48px;
+  height: 48px;      /* lock height to input only */
+  overflow: visible; /* suggestions float over content below */
+  z-index: 10;
 }
 
 #business-search-container gmp-place-autocomplete {
   width: 100%;
   --gmp-filled-input-border-radius: 10px;
+}
+
+/* ensure suggestions overlay subsequent fields instead of pushing them */
+.field:has(#business-search-container) {
+  position: relative;
+  z-index: 10;
 }

@@ -37,6 +37,12 @@ function initAutocomplete() {
 
   container.appendChild(placeAutocomplete);
 
+  container.addEventListener('focusin', () => {
+    setTimeout(() => {
+      container.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }, 300);
+  }, true);
+
   let ignoreNextInput = false;
 
   placeAutocomplete.addEventListener('gmp-placeselect', async ({ place }) => {
