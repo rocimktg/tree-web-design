@@ -37,7 +37,10 @@ function initAutocomplete() {
 
   container.appendChild(placeAutocomplete);
 
+  let ignoreNextInput = false;
+
   placeAutocomplete.addEventListener('gmp-placeselect', async ({ place }) => {
+    ignoreNextInput = true;
     await place.fetchFields({ fields: ['id', 'displayName'] });
 
     state.gbpLink = `https://search.google.com/local/writereview?placeid=${place.id}`;
@@ -50,6 +53,7 @@ function initAutocomplete() {
   });
 
   placeAutocomplete.addEventListener('input', () => {
+    if (ignoreNextInput) { ignoreNextInput = false; return; }
     state.businessSelected = false;
     state.gbpLink = '';
     document.getElementById('gbp-link').value = '';

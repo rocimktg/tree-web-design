@@ -73,6 +73,23 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  overflow: visible;
+}
+
+/* Progress bar */
+.progress-track {
+  margin: -32px -28px 8px;
+  height: 4px;
+  background: var(--border);
+  border-radius: var(--radius) var(--radius) 0 0;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: var(--brand);
+  opacity: 0.5;
+  border-radius: var(--radius) 0 0 0;
 }
 
 /* Step indicator */
@@ -84,12 +101,12 @@ body {
   letter-spacing: 0.06em;
 }
 
-/* Logo */
+/* Logo / h1 — SEO title, visually muted */
 .logo {
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: var(--brand);
-  letter-spacing: -0.01em;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--muted);
+  margin: 0;
 }
 
 /* Setup hint */
@@ -106,28 +123,21 @@ body {
   text-align: center;
 }
 
-/* Headings */
-h1 {
-  font-size: 1.5rem;
+/* Eyebrow — visually prominent */
+.eyebrow {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--brand);
+  letter-spacing: -0.01em;
+  margin-top: -4px;
+}
+
+/* Step sub-heading */
+.step-heading {
+  font-size: 1.25rem;
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: -0.02em;
-}
-
-.subtitle {
-  color: var(--muted);
-  font-size: 0.95rem;
-  line-height: 1.5;
-  margin-top: -10px;
-}
-
-.subtitle a {
-  color: var(--muted);
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.subtitle a:hover {
   color: var(--text);
 }
 
@@ -320,6 +330,8 @@ input.error {
 /* Google Places PlaceAutocompleteElement */
 #business-search-container {
   width: 100%;
+  position: relative;
+  min-height: 48px;
 }
 
 #business-search-container gmp-place-autocomplete {
