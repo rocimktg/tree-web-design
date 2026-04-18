@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FastReview.link</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Step 1: Contractor Registration -->
+  <div id="step-1" class="step active">
+    <div class="card">
+      <div class="logo">⚡ FastReview.link</div>
+      <h1>Get set up in seconds</h1>
+      <p class="subtitle">Enter your info once — send reviews in a tap.</p>
+
+      <form id="form-step1" name="contractor-registration" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="contractor-registration" />
+        <p class="hidden"><label>Don't fill this out: <input name="bot-field" /></label></p>
+
+        <div class="field">
+          <label for="first-name">First name</label>
+          <input type="text" id="first-name" name="first-name" placeholder="e.g. Mike" autocomplete="given-name" required />
+        </div>
+
+        <div class="field">
+          <label for="company-name">Company name</label>
+          <input type="text" id="company-name" name="company-name" placeholder="e.g. Atlas Roofing" autocomplete="organization" required />
+        </div>
+
+        <div class="field">
+          <label for="phone">Your phone number</label>
+          <input type="tel" id="phone" name="phone" placeholder="(555) 000-0000" autocomplete="tel" required />
+        </div>
+
+        <div class="field">
+          <label for="email">Your email address</label>
+          <input type="email" id="email" name="email" placeholder="e.g. mike@atlasroofing.com" autocomplete="email" required />
+        </div>
+
+        <label class="checkbox-label">
+          <input type="checkbox" name="marketing-opt-in" value="yes" />
+          <span>I'd like to receive occasional tips and resources from Tree Web Design</span>
+        </label>
+
+        <div class="field">
+          <label for="business-search">Find your business on Google</label>
+          <input type="text" id="business-search" name="business-search" placeholder="Start typing your business name…" autocomplete="off" />
+          <div id="business-confirm" class="business-confirm hidden"></div>
+          <input type="hidden" id="gbp-link" name="gbp-link" />
+        </div>
+
+        <button type="submit" class="btn-primary">Continue →</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Step 2: Recipient Entry -->
+  <div id="step-2" class="step">
+    <div class="card">
+      <div class="logo">⚡ FastReview.link</div>
+      <h1>Who's the message for?</h1>
+      <p class="subtitle">Enter your customer's info.</p>
+
+      <div class="field">
+        <label for="customer-name">Customer first name</label>
+        <input type="text" id="customer-name" placeholder="e.g. Sarah" autocomplete="off" />
+      </div>
+
+      <div class="field">
+        <label for="customer-phone">Customer phone number</label>
+        <input type="tel" id="customer-phone" placeholder="(555) 000-0000" autocomplete="off" />
+      </div>
+
+      <button id="btn-to-step3" class="btn-primary">Continue →</button>
+      <button class="btn-back" onclick="goTo(1)">← Back</button>
+    </div>
+  </div>
+
+  <!-- Step 3: Preview & Send -->
+  <div id="step-3" class="step">
+    <div class="card">
+      <div class="logo">⚡ FastReview.link</div>
+      <h1>Preview & send</h1>
+      <p class="subtitle">Tap Send SMS — the message opens pre-filled.</p>
+
+      <div class="preview-box" id="message-preview"></div>
+
+      <a id="sms-link" class="btn-primary btn-send" href="#">Send SMS 📨</a>
+      <button class="btn-back" onclick="goTo(2)">← Back</button>
+      <button class="btn-secondary" id="btn-send-another" onclick="goTo(2)">Send another</button>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p>Brought to you by <a href="https://treewebdesign.com" target="_blank" rel="noopener">TREEWEBDESIGN.COM</a></p>
+    <p>A Rocinante Marketing Company</p>
+  </footer>
+
+  <script src="app.js"></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDLYBQPrA9arHZtizo_kjiaVEHPzyKqSc&libraries=places&callback=initAutocomplete"
+    async
+    defer
+  ></script>
+</body>
+</html>

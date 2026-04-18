@@ -33,6 +33,13 @@ functions = "netlify/functions"
   to = "/"
   status = 301
 
+# ── Security: review-tool ────────────────────────
+[[headers]]
+  for = "/review-tool/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    Content-Security-Policy = "frame-ancestors 'none'"
+
 # ── Compression ──────────────────────────────────
 [[headers]]
   for = "/*"
