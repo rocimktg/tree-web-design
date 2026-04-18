@@ -330,7 +330,7 @@ input.error {
 /* Google Places PlaceAutocompleteElement */
 #business-search-container {
   position: relative;
-  height: 48px;
+  height: 50px;
   z-index: 10;
 }
 

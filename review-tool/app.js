@@ -43,10 +43,7 @@ function initAutocomplete() {
     }, 300);
   }, true);
 
-  let ignoreInputUntil = 0;
-
   placeAutocomplete.addEventListener('gmp-placeselect', async ({ place }) => {
-    ignoreInputUntil = Date.now() + 600;
     state.businessSelected = true;
 
     await place.fetchFields({ fields: ['id', 'displayName'] });
@@ -57,14 +54,6 @@ function initAutocomplete() {
     confirm.textContent = `✓ ${place.displayName}`;
     confirm.classList.remove('hidden');
     clearError(container);
-  });
-
-  placeAutocomplete.addEventListener('input', () => {
-    if (Date.now() < ignoreInputUntil) return;
-    state.businessSelected = false;
-    state.gbpLink = '';
-    document.getElementById('gbp-link').value = '';
-    confirm.classList.add('hidden');
   });
 }
 
