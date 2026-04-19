@@ -8,12 +8,29 @@
 </head>
 <body>
 
-  <!-- Step 1: Contractor Registration -->
-  <div id="step-1" class="step active">
+  <!-- Step 0: Intro -->
+  <div id="step-0" class="step active">
     <div class="card">
-      <h1 class="logo">Tree Web Design - Review Tool</h1>
-      <p class="eyebrow">Send Google Review Requests Fast</p>
-      <p class="setup-hint">4 quick steps — takes about 60 seconds.</p>
+      <p class="logo">Tree Web Design</p>
+      <h1 class="intro-headline">Get more Google reviews from every job</h1>
+      <p class="intro-body">Send a review request the moment you finish — pre-written, opens straight in Messages, takes 30 seconds.</p>
+
+      <ul class="intro-checklist">
+        <li>No app to download</li>
+        <li>Works from any phone</li>
+        <li>Free to use</li>
+      </ul>
+
+      <button class="btn-primary" onclick="goTo(1)">Set it up free →</button>
+      <p class="next-hint">Takes about 60 seconds</p>
+    </div>
+  </div>
+
+  <!-- Step 1: Contractor Registration -->
+  <div id="step-1" class="step">
+    <div class="card">
+      <h2 class="step-heading">Let's get you set up</h2>
+      <p class="subtitle">This only happens once.</p>
 
       <form id="form-step1" name="contractor-registration" method="POST" data-netlify="true" netlify-honeypot="bot-field">
         <input type="hidden" name="form-name" value="contractor-registration" />
@@ -22,7 +39,7 @@
 
         <div class="field">
           <label for="first-name">First name</label>
-          <input type="text" id="first-name" name="first-name" placeholder="e.g. Mike Branch" autocomplete="given-name" required />
+          <input type="text" id="first-name" name="first-name" placeholder="e.g. Mike" autocomplete="given-name" required />
         </div>
 
         <div class="field">
@@ -101,6 +118,8 @@
       <div class="preview-box" id="message-preview"></div>
 
       <a id="sms-link" class="btn-primary btn-send" href="#">Send SMS 📨</a>
+      <p class="cta-nudge">Like this tool? We build websites for tree service companies. <a href="https://treewebdesign.com" target="_blank" rel="noopener">treewebdesign.com</a></p>
+      <p class="homescreen-hint">Add this page to your home screen for quick access after every job.</p>
       <button class="btn-back" onclick="goTo(3)">← Back</button>
       <button class="btn-secondary" id="btn-send-another">Send another</button>
 

@@ -25,11 +25,44 @@ function formatPhone(value) {
   return `(${digits.slice(0,3)}) ${digits.slice(3,6)}-${digits.slice(6)}`;
 }
 
+// ── localStorage persistence ───────────────────────────────────────────────
+
+function saveRegistration() {
+  localStorage.setItem('twdr_firstName', state.firstName);
+  localStorage.setItem('twdr_companyName', state.companyName);
+  localStorage.setItem('twdr_email', document.getElementById('email').value.trim());
+}
+
+function saveBusiness(gbpLink, displayName) {
+  localStorage.setItem('twdr_gbpLink', gbpLink);
+  localStorage.setItem('twdr_displayName', displayName);
+}
+
+function restoreFromStorage() {
+  const firstName   = localStorage.getItem('twdr_firstName');
+  const companyName = localStorage.getItem('twdr_companyName');
+  const email       = localStorage.getItem('twdr_email');
+  const gbpLink     = localStorage.getItem('twdr_gbpLink');
+  const displayName = localStorage.getItem('twdr_displayName');
+
+  if (firstName)   { document.getElementById('first-name').value   = firstName;   state.firstName   = firstName; }
+  if (companyName) { document.getElementById('company-name').value = companyName; state.companyName = companyName; }
+  if (email)         document.getElementById('email').value        = email;
+
+  if (gbpLink) {
+    state.gbpLink = gbpLink;
+    document.getElementById('gbp-link').value = gbpLink;
+    document.getElementById('business-confirm').textContent = `✓ ${displayName || 'Business selected'}`;
+    document.getElementById('business-confirm').classList.remove('hidden');
+    document.getElementById('btn-to-step3').disabled = false;
+  }
+}
+
 // ── Google Places Autocomplete ─────────────────────────────────────────────
 
 function initAutocomplete() {
-  const container = document.getElementById('business-search-container');
-  const confirm = document.getElementById('business-confirm');
+  const container   = document.getElementById('business-search-container');
+  const confirm     = document.getElementById('business-confirm');
   const continueBtn = document.getElementById('btn-to-step3');
 
   container.innerHTML = '';
@@ -51,6 +84,7 @@ function initAutocomplete() {
   };
 
   resetBusinessSelection();
+  restoreFromStorage();
 
   placeAutocomplete.addEventListener('gmp-select', async ({ placePrediction }) => {
     const place = placePrediction?.toPlace ? placePrediction.toPlace() : null;
@@ -73,6 +107,7 @@ function initAutocomplete() {
       state.gbpLink = `https://search.google.com/local/writereview?placeid=${place.id}`;
       document.getElementById('gbp-link').value = state.gbpLink;
       confirm.textContent = `✓ ${place.displayName}`;
+      saveBusiness(state.gbpLink, place.displayName);
     } catch (_) {
       state.gbpLink = '';
       document.getElementById('gbp-link').value = '';
@@ -118,21 +153,22 @@ const form1 = document.getElementById('form-step1');
 form1.addEventListener('submit', (e) => {
   e.preventDefault();
 
-  const firstName = document.getElementById('first-name').value.trim();
+  const firstName   = document.getElementById('first-name').value.trim();
   const companyName = document.getElementById('company-name').value.trim();
 
   let valid = true;
 
-  if (!firstName) { showError(document.getElementById('first-name'), 'Required'); valid = false; }
-  else clearError(document.getElementById('first-name'));
+  if (!firstName)   { showError(document.getElementById('first-name'),   'Required'); valid = false; }
+  else                clearError(document.getElementById('first-name'));
 
   if (!companyName) { showError(document.getElementById('company-name'), 'Required'); valid = false; }
-  else clearError(document.getElementById('company-name'));
+  else                clearError(document.getElementById('company-name'));
 
   if (!valid) return;
 
-  state.firstName = firstName;
+  state.firstName   = firstName;
   state.companyName = companyName;
+  saveRegistration();
 
   goTo(2);
 });
@@ -143,7 +179,7 @@ document.getElementById('btn-to-step3').addEventListener('click', async () => {
   const containerEl = document.getElementById('business-search-container');
   clearError(containerEl);
 
-  if (!selectedPlace) {
+  if (!selectedPlace && !state.gbpLink) {
     showError(containerEl, 'Please search and select your business');
     document.getElementById('btn-to-step3').disabled = true;
     return;
@@ -155,6 +191,7 @@ document.getElementById('btn-to-step3').addEventListener('click', async () => {
       state.gbpLink = `https://search.google.com/local/writereview?placeid=${selectedPlace.id}`;
       document.getElementById('gbp-link').value = state.gbpLink;
       document.getElementById('business-confirm').textContent = `✓ ${selectedPlace.displayName}`;
+      saveBusiness(state.gbpLink, selectedPlace.displayName);
     } catch (_) {
       showError(containerEl, 'Could not load business details — please search and select again');
       selectedPlace = null;
@@ -180,15 +217,15 @@ document.getElementById('btn-to-step3').addEventListener('click', async () => {
 attachPhoneFormatter(document.getElementById('customer-phone'));
 
 document.getElementById('btn-to-step4').addEventListener('click', () => {
-  const nameEl = document.getElementById('customer-name');
+  const nameEl  = document.getElementById('customer-name');
   const phoneEl = document.getElementById('customer-phone');
-  const name = nameEl.value.trim();
-  const phone = phoneEl.value.trim();
+  const name    = nameEl.value.trim();
+  const phone   = phoneEl.value.trim();
 
   let valid = true;
 
   if (!name) { showError(nameEl, 'Required'); valid = false; }
-  else clearError(nameEl);
+  else          clearError(nameEl);
 
   if (!phone || phone.replace(/\D/g,'').length < 10) {
     showError(phoneEl, 'Enter a valid 10-digit number'); valid = false;
@@ -196,7 +233,7 @@ document.getElementById('btn-to-step4').addEventListener('click', () => {
 
   if (!valid) return;
 
-  state.customerName = name;
+  state.customerName  = name;
   state.customerPhone = phone.replace(/\D/g,'');
 
   buildPreview();
@@ -222,7 +259,13 @@ function buildMessage() {
 }
 
 document.getElementById('btn-send-another').addEventListener('click', () => {
-  document.getElementById('customer-name').value = '';
+  document.getElementById('customer-name').value  = '';
   document.getElementById('customer-phone').value = '';
   goTo(3);
 });
+
+// ── Returning user: skip intro ─────────────────────────────────────────────
+
+if (localStorage.getItem('twdr_firstName')) {
+  goTo(1);
+}

@@ -5,9 +5,9 @@
 }
 
 :root {
-  --brand: #2563eb;
-  --brand-dark: #1d4ed8;
-  --brand-light: #eff6ff;
+  --brand: #1e293b;
+  --brand-dark: #0f172a;
+  --brand-light: #f1f5f9;
   --text: #111827;
   --muted: #6b7280;
   --border: #d1d5db;
@@ -54,6 +54,44 @@ body {
   color: var(--text);
 }
 
+/* Intro screen */
+.intro-headline {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: var(--text);
+}
+
+.intro-body {
+  font-size: 1rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.intro-checklist {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.intro-checklist li {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text);
+  padding-left: 1.5em;
+  position: relative;
+}
+
+.intro-checklist li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #ff5f1f;
+  font-weight: 700;
+}
+
 /* Step visibility */
 .step {
   display: none;
@@ -87,7 +125,7 @@ body {
 
 .progress-fill {
   height: 100%;
-  background: var(--brand);
+  background: #ff5f1f;
   opacity: 0.5;
 }
 
@@ -126,7 +164,7 @@ body {
 .eyebrow {
   font-size: 1.25rem;
   font-weight: 700;
-  color: var(--brand);
+  color: var(--text);
   letter-spacing: -0.01em;
   margin-top: -4px;
 }
@@ -184,7 +222,7 @@ input[type="url"] {
 
 input:focus {
   border-color: var(--brand);
-  box-shadow: 0 0 0 3px rgba(37,99,235,0.12);
+  box-shadow: 0 0 0 3px rgba(30,41,59,0.12);
 }
 
 input.error {
@@ -271,7 +309,7 @@ input.error {
   padding: 12px;
   background: var(--brand-light);
   color: var(--brand);
-  border: 1.5px solid #bfdbfe;
+  border: 1.5px solid #cbd5e1;
   border-radius: 10px;
   font-size: 0.95rem;
   font-weight: 600;
@@ -281,13 +319,40 @@ input.error {
 }
 
 .btn-secondary:hover {
-  background: #dbeafe;
+  background: #e2e8f0;
+}
+
+/* Step 4 CTA + home screen hint */
+.cta-nudge {
+  font-size: 0.8rem;
+  color: var(--muted);
+  text-align: center;
+  line-height: 1.5;
+}
+
+.cta-nudge a {
+  color: var(--muted);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.cta-nudge a:hover {
+  color: var(--text);
+}
+
+.homescreen-hint {
+  font-size: 0.78rem;
+  color: var(--muted);
+  text-align: center;
+  border-top: 1px solid var(--border);
+  padding-top: 16px;
+  margin-top: -4px;
 }
 
 /* Preview box */
 .preview-box {
   background: var(--brand-light);
-  border: 1.5px solid #bfdbfe;
+  border: 1.5px solid #cbd5e1;
   border-radius: 10px;
   padding: 16px;
   font-size: 0.95rem;
