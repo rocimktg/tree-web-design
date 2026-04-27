@@ -1,6 +1,6 @@
 # How Much Does a Tree Service Website Cost? (And What You Actually Get)
 
-**By JJ Jaggers** · Rocinante Marketing · April 16, 2026
+**By JJ Jaggers** · Tree Web Design · April 16, 2026
 
 You've probably already Googled it. Maybe you got quotes from three different people and have no idea why one guy wants $500 and another wants $5,000. The range is real, and it matters — because tree service website cost isn't just about the build. It's about what happens after you go live.
 
@@ -33,7 +33,7 @@ Template sites have three problems that will cost you jobs:
 
 ### WordPress + Freelancer: The Maintenance Nightmare
 
-WordPress runs roughly 43% of the internet. It's also the source of more headaches for small contractors than almost anything else.
+WordPress runs roughly 43% of the internet. It's also the source of more headaches for small tree service pros than almost anything else.
 
 The pitch sounds good: pay once, own it forever. The reality is different.
 
@@ -66,7 +66,6 @@ On a managed tree service web design plan, you're not just paying for a website.
 * A hand-coded site built specifically for tree company conversion — no templates, no plugins, nothing to break
 * Hosting and SSL handled, always on, never your problem
 * Unlimited edits so your site stays current as your business grows
-* Instant Lead Texts that send a photo of the job straight to your phone the moment someone fills out a form
 * A Review Request Page that routes happy customers to Google automatically
 * Google Business Profile management (Pro plan) so your Maps ranking keeps climbing
 
@@ -82,7 +81,7 @@ Two tree service operators in the same metro area. Both started with similar Goo
 
 **Operator A** paid $4,500 to a local agency for a one-time WordPress build. The site looked solid at launch. Eight months later, a plugin update broke his contact form. He didn't know for six weeks. During a major wind event that season, his site went down for four hours at peak traffic. No backup. No support contact.
 
-**Operator B** launched on a managed Growth plan at $175/month. When a storm rolled through the same metro, his site stayed up, loaded in under a second, and his phone started ringing at 11pm. Instant Lead Texts fired every time someone submitted a photo. He booked 12 jobs before sunrise.
+**Operator B** launched on a managed Growth plan at $175/month. When a storm rolled through the same metro, his site stayed up, loaded in under a second, and his phone started ringing at 11pm. He booked 12 jobs before sunrise.
 
 Same market. Same storm. Different infrastructure.
 
@@ -109,13 +108,13 @@ Depending on the approach, anywhere from $16/month on a DIY builder to $8,000+ f
 Yes — if the plan includes hosting, maintenance, edits, and lead tools. A managed plan eliminates the hidden costs of one-time builds: maintenance, downtime, and developer fees when something breaks.
 
 **What's wrong with using Wix or Squarespace for a tree service website?**
-Template builders load slowly on mobile, look generic, and aren't built to convert service calls. They're designed for visual businesses, not contractors who need a phone ringing.
+Template builders load slowly on mobile, look generic, and aren't built to convert service calls. They're designed for visual businesses, not tree service pros who need a phone ringing.
 
 **What's the difference between a general agency and a tree service web design specialist?**
 A general agency builds websites. A specialist builds lead systems for your specific industry — knowing how tree customers search, when they convert, and what makes them call.
 
 **Do I own my website on a monthly plan?**
-Depends on the provider. At Rocinante Marketing, your domain, logo, photos, and written copy are yours permanently. The site infrastructure runs on our hosting — if you cancel, we help you transition your content.
+Depends on the provider. At Tree Web Design, your domain, logo, photos, and written copy are yours permanently. The site infrastructure runs on our hosting — if you cancel, we help you transition your content.
 
 **How fast should a tree service website load?**
 Under 1 second on mobile is the target. During storm events when most emergency tree leads happen, slower sites lose those calls to competitors whose sites load first.

@@ -37,21 +37,26 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2px;
+  background: url('trees_footer.jpg') center bottom / cover no-repeat;
+  border-radius: var(--radius);
+  margin-bottom: 24px;
 }
 
 .site-footer p {
   font-size: 0.75rem;
-  color: var(--muted);
+  color: #fff;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.5);
 }
 
 .site-footer a {
-  color: var(--muted);
+  color: #fff;
   font-weight: 600;
   text-decoration: none;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.5);
 }
 
 .site-footer a:hover {
-  color: var(--text);
+  text-decoration: underline;
 }
 
 /* Intro screen */

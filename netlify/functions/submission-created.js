@@ -13,7 +13,7 @@ exports.handler = async function (event) {
   const message   = data['message']    || '';
 
   const smsBody = [
-    `New Rocinante lead!`,
+    `New TWD lead!`,
     `${firstName} ${lastName} | ${company}`,
     `📞 ${phone}`,
     `✉️ ${email}`,

@@ -1,6 +1,6 @@
 # Why Your Google Business Profile Is Invisible for "Tree Service Near Me" — And How a Website Fixes It
 
-**By JJ Jaggers** · Rocinante Marketing · April 16, 2026
+**By JJ Jaggers** · Tree Web Design · April 16, 2026
 
 Try something right now. Open Google and type your company name. You probably show up — a map card, a knowledge panel, maybe your Facebook page sitting underneath it. Looks like you've got a presence. Looks like you're covered.
 
