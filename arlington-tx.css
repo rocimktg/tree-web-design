@@ -1,0 +1,265 @@
+/* ─── BEFORE / AFTER COMPARISON ─────────────────────── */
+
+.atx-compare {
+  background: var(--white);
+  border-bottom: var(--border);
+}
+
+.atx-compare__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-6);
+  margin-top: var(--space-8);
+}
+
+.atx-compare__card {
+  padding: var(--space-8) var(--space-7);
+  border: 5px solid var(--black);
+}
+
+.atx-compare__card--after {
+  background: var(--black);
+}
+
+.atx-compare__label {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: var(--space-6);
+}
+
+.atx-compare__card--before .atx-compare__label {
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.atx-compare__card--after .atx-compare__label {
+  color: var(--acid);
+}
+
+.atx-compare__card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.atx-compare__card li {
+  font-size: 1rem;
+  line-height: 1.5;
+  padding-left: var(--space-6);
+  position: relative;
+}
+
+.atx-compare__card li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 12px;
+  height: 2px;
+}
+
+.atx-compare__card--before li {
+  color: #666;
+}
+
+.atx-compare__card--before li::before {
+  background: #bbb;
+}
+
+.atx-compare__card--after li {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.atx-compare__card--after li::before {
+  background: var(--acid);
+}
+
+@media (max-width: 680px) {
+  .atx-compare__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ─── FLIPPED OVERVIEW (what I build section) ─────────── */
+
+.webdesign-overview__grid--flip .webdesign-overview__media {
+  order: -1;
+}
+
+@media (max-width: 900px) {
+  .webdesign-overview__grid--flip .webdesign-overview__media {
+    order: 0;
+  }
+}
+
+/* ─── JOURNEY (4-step) ───────────────────────────────── */
+
+.atx-journey {
+  background: var(--white);
+  border-bottom: var(--border);
+}
+
+.atx-journey__sub {
+  font-size: 1rem;
+  line-height: 1.65;
+  color: #555;
+  max-width: 52ch;
+  margin-bottom: var(--space-8);
+}
+
+.atx-journey .process-steps {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 900px) {
+  .atx-journey .process-steps {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .atx-journey .process-step:nth-child(2) {
+    border-right: none;
+  }
+
+  .atx-journey .process-step:nth-child(3),
+  .atx-journey .process-step:nth-child(4) {
+    border-top: 5px solid var(--black);
+  }
+}
+
+@media (max-width: 560px) {
+  .atx-journey .process-steps {
+    grid-template-columns: 1fr;
+  }
+
+  .atx-journey .process-step {
+    border-right: none;
+    border-bottom: 5px solid var(--black);
+  }
+
+  .atx-journey .process-step:nth-child(3),
+  .atx-journey .process-step:nth-child(4) {
+    border-top: none;
+  }
+}
+
+/* ─── PRICING SECTION ────────────────────────────────── */
+
+.atx-pricing {
+  background: var(--black);
+  border-bottom: var(--border);
+  padding: var(--space-11) 0;
+}
+
+.atx-pricing__inner {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: var(--space-10);
+  align-items: center;
+}
+
+.atx-pricing__copy {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
+.atx-pricing__copy h2 {
+  font-size: clamp(2.5rem, 4vw, 4rem);
+  line-height: 0.95;
+  color: var(--white);
+}
+
+.atx-pricing__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.atx-pricing__list li {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.75);
+  padding-left: var(--space-5);
+  position: relative;
+}
+
+.atx-pricing__list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.6em;
+  width: 10px;
+  height: 2px;
+  background: var(--acid);
+}
+
+.atx-pricing__stat {
+  text-align: right;
+  border-left: var(--border);
+  padding-left: var(--space-10);
+}
+
+.atx-pricing__from {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--acid);
+  margin-bottom: var(--space-2);
+}
+
+.atx-pricing__price {
+  font-family: var(--font-condensed);
+  font-weight: 900;
+  font-size: clamp(4rem, 8vw, 6rem);
+  line-height: 0.9;
+  color: var(--white);
+}
+
+.atx-pricing__price span {
+  font-size: 0.35em;
+  opacity: 0.5;
+  font-weight: 700;
+}
+
+.atx-pricing__setup {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.4);
+  margin-top: var(--space-3);
+}
+
+@media (max-width: 760px) {
+  .atx-pricing__inner {
+    grid-template-columns: 1fr;
+  }
+
+  .atx-pricing__stat {
+    text-align: left;
+    border-left: none;
+    border-top: var(--border);
+    padding-left: 0;
+    padding-top: var(--space-7);
+  }
+}
+
+/* ─── FINAL CTA ──────────────────────────────────────── */
+
+.atx-cta .webdesign-testimonial__quote {
+  font-size: clamp(1.4rem, 2.5vw, 2rem);
+}
+
+.atx-cta .webdesign-testimonial__shell {
+  gap: var(--space-7);
+}
