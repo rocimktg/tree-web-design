@@ -6,7 +6,7 @@
     if (!name) return;
 
     try {
-      const response = await fetch(`${name}.html`, { cache: 'no-cache' });
+      const response = await fetch(`/${name}.html`, { cache: 'no-cache' });
       if (!response.ok) throw new Error(`Failed to fetch ${name}.html (${response.status})`);
       const html = await response.text();
       const fragment = document.createRange().createContextualFragment(html);
