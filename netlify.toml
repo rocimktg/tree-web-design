@@ -4,6 +4,16 @@ publish = "."
 functions = "netlify/functions"
 
 [[redirects]]
+  from = "/arlington-tx"
+  to = "/tree-service-web-design-arlington-tx"
+  status = 301
+
+[[redirects]]
+  from = "/arlington-tx.html"
+  to = "/tree-service-web-design-arlington-tx"
+  status = 301
+
+[[redirects]]
   from = "/whychooseus"
   to = "/"
   status = 301

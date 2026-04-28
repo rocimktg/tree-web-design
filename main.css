@@ -334,7 +334,7 @@ p.body,
 
 .footer-shell {
   display: grid;
-  grid-template-columns: 1.4fr 1fr 1fr;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: var(--space-11);
 }
 
@@ -422,7 +422,8 @@ p.body,
 }
 
 .footer-links h2,
-.footer-contact h2 {
+.footer-contact h2,
+.footer-service-areas h2 {
   font-family: var(--font-condensed);
   font-weight: 900;
   font-size: 0.8rem;
