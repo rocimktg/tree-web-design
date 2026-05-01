@@ -205,6 +205,17 @@
   font-weight: 700;
 }
 
+.webdesign-testimonial__shell .body {
+  margin: 0;
+  max-width: 760px;
+  justify-self: center;
+  color: rgba(255,255,255,0.78);
+}
+
+.webdesign-testimonial__author .btn {
+  margin-top: var(--space-2);
+}
+
 /* ─── PROCESS ────────────────────────────────── */
 
 .process {

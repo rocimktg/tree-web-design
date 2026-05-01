@@ -31,7 +31,7 @@ Here's what a GBP can't do without a supporting website:
 * **It can't build authority over time.** Every page on your website that gets crawled, indexed, and clicked builds cumulative SEO value. GBP profiles don't compound the same way.
 * **It can't capture organic traffic below the map pack.** The three businesses in the local map pack get prominent placement — but below that are organic results. Without a website, you're completely invisible there.
 
-[See how we build tree service websites →](webdesign.html)
+[See how we build tree service websites →](/tree-service-web-design.html)
 
 ### What Your Website Feeds Into Your Google Business Profile — The Keyword Synergy Explained
 
@@ -110,7 +110,7 @@ That means:
 
 > **Pro Tip — Schema Markup:** Schema is structured data embedded in your website's code that tells Google explicitly: "This is a tree service company. These are the services they offer. This is their service area." It's not visible to visitors but it's highly readable by Google's crawlers. For local service businesses competing in metro markets, properly implemented LocalBusiness and Service schema gives Google the clean signal it needs to confidently rank your GBP for discovery searches. Most template websites don't include it. A hand-coded site built for local SEO should have it from day one.
 
-[Learn how we build hand-coded tree service websites for local search →](webdesign.html)
+[Learn how we build hand-coded tree service websites for local search →](/tree-service-web-design.html)
 
 ### 3 Actionable Takeaways
 

@@ -75,7 +75,7 @@ The fix isn't complicated. It's a system. The guys who dominate their local Map 
 
 A dedicated review request page on your website — with a direct, one-click link to your Google profile — removes every bit of friction from the process. Pair that with an automated text that fires after job completion, and your review count compounds month over month.
 
-Some [tree service web design setups](webdesign.html) include this baked in — a mobile-optimized review request page customers can hit from a text link in under 15 seconds. That kind of infrastructure is worth more than any paid ad campaign.
+Some [tree service web design setups](/tree-service-web-design.html) include this baked in — a mobile-optimized review request page customers can hit from a text link in under 15 seconds. That kind of infrastructure is worth more than any paid ad campaign.
 
 ### Responding to Reviews Is Also a Ranking Signal
 
@@ -123,4 +123,4 @@ Yes — buying fake reviews violates Google's terms of service and can result in
 SEO (Search Engine Optimization) is organic — ranking your website and GMB profile without paying per click. SEM (Search Engine Marketing) includes paid ads like Google Local Service Ads or Pay-Per-Click. Reviews impact SEO and your organic Map Pack ranking, not paid placements. Both have a role, but reviews are free leverage most companies aren't fully using.
 
 **Does my website affect my Google Maps ranking?**
-Yes. Google evaluates the website linked to your Business Profile as part of its local ranking calculation. Site speed, mobile optimization, and relevance of your content all factor in. A [fast, well-built tree service website](webdesign.html) amplifies the work your reviews are doing.
+Yes. Google evaluates the website linked to your Business Profile as part of its local ranking calculation. Site speed, mobile optimization, and relevance of your content all factor in. A [fast, well-built tree service website](/tree-service-web-design.html) amplifies the work your reviews are doing.
