@@ -231,6 +231,63 @@
     }, { passive: true });
   };
 
+  const initRecentArticles = async () => {
+    const band = document.querySelector('[data-recent-posts-band]');
+    const list = document.querySelector('[data-recent-posts]');
+    if (!band || !list) return;
+
+    try {
+      const response = await fetch('/blog.html', { cache: 'no-cache' });
+      if (!response.ok) throw new Error(`Failed to fetch blog index (${response.status})`);
+
+      const html = await response.text();
+      const doc = new DOMParser().parseFromString(html, 'text/html');
+      const posts = Array.from(doc.querySelectorAll('.blog-grid .blog-card'))
+        .map((card) => {
+          const href = card.getAttribute('href');
+          const title = card.querySelector('.blog-card__overlay-title')?.textContent?.trim();
+          const meta = card.querySelector('.blog-card__meta')?.textContent?.trim() || '';
+          const dateText = meta.split('·')[0]?.trim() || '';
+          const timestamp = Date.parse(dateText);
+
+          if (!href || !title || Number.isNaN(timestamp)) return null;
+          return { href, title, dateText, timestamp };
+        })
+        .filter(Boolean)
+        .sort((a, b) => b.timestamp - a.timestamp)
+        .slice(0, 3);
+
+      if (!posts.length) return;
+
+      list.replaceChildren(
+        ...posts.map((post) => {
+          const item = document.createElement('article');
+          item.className = 'home-journal__item';
+
+          const link = document.createElement('a');
+          link.className = 'home-journal__link';
+          link.href = post.href;
+
+          const date = document.createElement('span');
+          date.className = 'home-journal__date';
+          date.textContent = post.dateText;
+
+          const title = document.createElement('span');
+          title.className = 'home-journal__title';
+          title.textContent = post.title;
+
+          link.append(date, title);
+          item.append(link);
+          return item;
+        }),
+      );
+
+      band.hidden = false;
+    } catch (error) {
+      console.error('Recent articles band failed:', error);
+    }
+  };
+
   const run = () => {
     const yearEl = document.getElementById('year');
     if (yearEl) yearEl.textContent = String(new Date().getFullYear());
@@ -240,6 +297,7 @@
     initFaq();
     initHeroCycle();
     initIltCarousel();
+    initRecentArticles();
   };
 
   const ready = window.partialsReady instanceof Promise ? window.partialsReady : Promise.resolve();

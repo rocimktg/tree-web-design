@@ -1923,6 +1923,64 @@ p.body,
   color: rgba(0,0,0,0.55);
 }
 
+.home-journal {
+  background: #f6f1eb;
+  border-top: 1px solid rgba(0,0,0,0.14);
+  border-bottom: 1px solid rgba(0,0,0,0.14);
+}
+
+.home-journal__inner {
+  display: grid;
+  grid-template-columns: 180px minmax(0, 1fr);
+  gap: var(--space-5);
+  align-items: center;
+  padding: 18px 0;
+}
+
+.home-journal__label {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(0,0,0,0.56);
+}
+
+.home-journal__list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-4);
+}
+
+.home-journal__item {
+  min-width: 0;
+}
+
+.home-journal__link {
+  display: grid;
+  gap: 6px;
+}
+
+.home-journal__date {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.03em;
+  color: rgba(0,0,0,0.56);
+}
+
+.home-journal__title {
+  font-family: var(--font-condensed);
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1;
+  text-transform: uppercase;
+  color: var(--black);
+}
+
+.home-journal__link:hover .home-journal__title,
+.home-journal__link:focus-visible .home-journal__title {
+  color: var(--acid);
+}
+
 /* ─── PRICING TEASER ─────────────────────────── */
 
 .pricing-teaser {
@@ -2098,9 +2156,25 @@ p.body,
   .work__grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .home-journal__inner {
+    grid-template-columns: 1fr;
+    gap: var(--space-3);
+    padding: 16px 0 18px;
+  }
+
+  .home-journal__list {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
 }
 
 @media (max-width: 720px) {
+  .home-journal__inner {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   .services-grid {
     grid-template-columns: 1fr;
   }

@@ -67,7 +67,7 @@ On a managed tree service web design plan, you're not just paying for a website.
 * Hosting and SSL handled, always on, never your problem
 * Unlimited edits so your site stays current as your business grows
 * A Review Request Page that routes happy customers to Google automatically
-* Google Business Profile management (Pro plan) so your Maps ranking keeps climbing
+* Google Profile Management (Pro plan) so your Maps ranking keeps climbing
 
 The question isn't whether a monthly website plan is too much. The question is: what is one additional tree removal job per month worth to you?
 
