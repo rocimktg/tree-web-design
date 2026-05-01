@@ -1,0 +1,228 @@
+/* =============================================
+   TREE SERVICE ADS PAGE
+   ============================================= */
+
+/* ─── HERO EXTENSIONS ────────────────────────── */
+
+.page-header__sub {
+  font-family: var(--font-condensed);
+  font-size: clamp(1.1rem, 2vw, 1.6rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--acid);
+  line-height: 1;
+}
+
+.page-header__lead {
+  font-size: 1rem;
+  line-height: 1.65;
+  color: rgba(255,255,255,0.72);
+  max-width: 640px;
+}
+
+.page-header__ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+  margin-top: var(--space-3);
+}
+
+/* ─── SEARCH TERMS SECTION ───────────────────── */
+
+.ads-searches {
+  background: var(--black);
+  border-bottom: var(--border);
+  padding: var(--space-11) 0;
+}
+
+.ads-searches__intro {
+  max-width: 760px;
+  margin-bottom: var(--space-8);
+}
+
+.ads-searches__intro h2 {
+  font-size: clamp(2.5rem, 4vw, 4.5rem);
+  line-height: 0.95;
+  color: var(--white);
+}
+
+.ads-searches__intro p {
+  margin-top: var(--space-5);
+  font-size: 1rem;
+  line-height: 1.65;
+  color: rgba(255,255,255,0.65);
+}
+
+.ads-searches__terms {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  padding: 0;
+  margin-bottom: var(--space-7);
+}
+
+.ads-searches__terms li {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  color: var(--black);
+  background: var(--white);
+  border-left: 5px solid var(--acid);
+  padding: 8px 16px;
+}
+
+.ads-searches__note {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: rgba(255,255,255,0.6);
+  max-width: 680px;
+}
+
+/* ─── DARK SECTION HEADER ────────────────────── */
+
+.ads-dark-intro {
+  margin-bottom: var(--space-8);
+  max-width: 760px;
+}
+
+.ads-dark-intro h2 {
+  font-size: clamp(2.25rem, 3.5vw, 3.5rem);
+  color: var(--white);
+}
+
+.ads-dark-intro p {
+  margin-top: var(--space-5);
+  font-size: 1rem;
+  line-height: 1.65;
+  color: rgba(255,255,255,0.65);
+}
+
+/* ─── COMPARISON h3 HEADINGS ─────────────────── */
+
+.webdesign-overview h3 {
+  font-size: clamp(1.75rem, 2.5vw, 2.5rem);
+  line-height: 0.95;
+  margin-bottom: var(--space-5);
+}
+
+/* ─── WHICH AD PATH FITS ─────────────────────── */
+
+.ads-fit {
+  background: var(--white);
+  border-bottom: var(--border);
+  padding: var(--space-11) 0;
+}
+
+.ads-fit__intro {
+  max-width: 860px;
+  margin-bottom: var(--space-9);
+}
+
+.ads-fit__intro h2 {
+  font-size: clamp(2.25rem, 3.5vw, 3.5rem);
+  line-height: 0.95;
+  margin-bottom: var(--space-5);
+}
+
+.ads-fit__intro .body {
+  margin-top: var(--space-4);
+}
+
+.ads-fit__sub {
+  font-family: var(--font-condensed);
+  font-weight: 900;
+  font-size: clamp(1.25rem, 2vw, 1.75rem);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  margin-bottom: var(--space-6);
+}
+
+.ads-fit__cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-6);
+}
+
+.ads-fit__col {
+  border: 3px solid var(--black);
+  padding: var(--space-7);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
+.ads-fit__col-head h3 {
+  font-size: clamp(1.25rem, 1.75vw, 1.6rem);
+  line-height: 1;
+  margin-bottom: var(--space-3);
+}
+
+.ads-fit__col-head p {
+  font-size: 0.9rem;
+  line-height: 1.55;
+  color: #555;
+}
+
+.ads-fit__col-label {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(0,0,0,0.5);
+  margin: 0;
+}
+
+.ads-fit__col .webdesign-overview__list {
+  gap: var(--space-3);
+}
+
+@media (max-width: 860px) {
+  .ads-fit__cols {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .ads-fit__col {
+    padding: var(--space-6);
+  }
+}
+
+/* ─── ARROW LIST VARIANT ─────────────────────── */
+
+.webdesign-overview__list--arrow li {
+  border-left: none;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: var(--space-3);
+  align-items: baseline;
+}
+
+.webdesign-overview__list--arrow li::before {
+  content: '→';
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--acid);
+  line-height: 1.45;
+}
+
+/* ─── DUAL CTA (final call-to-action) ────────── */
+
+.webdesign-testimonial__ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+  justify-content: center;
+  margin-top: var(--space-5);
+}
+
+@media (max-width: 480px) {
+  .webdesign-testimonial__ctas {
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -1,0 +1,121 @@
+/* =============================================
+   TREE SERVICE SEO PAGE
+   ============================================= */
+
+/* ─── HERO EXTENSIONS ────────────────────────── */
+
+.page-header__sub {
+  font-family: var(--font-condensed);
+  font-size: clamp(1.1rem, 2vw, 1.6rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--acid);
+  line-height: 1;
+}
+
+.page-header__lead {
+  font-size: 1rem;
+  line-height: 1.65;
+  color: rgba(255,255,255,0.72);
+  max-width: 640px;
+}
+
+.page-header__ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+  margin-top: var(--space-3);
+}
+
+/* ─── DARK SECTION HEADER ────────────────────── */
+
+.seo-dark-intro {
+  margin-bottom: var(--space-8);
+  max-width: 760px;
+}
+
+.seo-dark-intro h2 {
+  font-size: clamp(2.25rem, 3.5vw, 3.5rem);
+  color: var(--white);
+}
+
+.seo-dark-intro p {
+  margin-top: var(--space-5);
+  font-size: 1rem;
+  line-height: 1.65;
+  color: rgba(255,255,255,0.65);
+}
+
+/* ─── CLOSING NOTE IN DARK SECTIONS ─────────── */
+
+.seo-features__note {
+  margin-top: var(--space-8);
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: rgba(255,255,255,0.6);
+  max-width: 680px;
+}
+
+/* ─── SERVICE / AREA PAGE TAGS ───────────────── */
+
+.seo-tags {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  padding: 0;
+  margin: 0;
+}
+
+.seo-tags li {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  color: var(--black);
+  background: var(--white);
+  border-left: 5px solid var(--acid);
+  padding: 8px 16px;
+}
+
+.seo-tags--muted li {
+  color: #555;
+  border-left-color: rgba(0,0,0,0.25);
+}
+
+/* ─── ARROW LIST VARIANT ─────────────────────── */
+
+.webdesign-overview__list--arrow li {
+  border-left: none;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: var(--space-3);
+  align-items: baseline;
+}
+
+.webdesign-overview__list--arrow li::before {
+  content: '→';
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--acid);
+  line-height: 1.45;
+}
+
+/* ─── DUAL CTA ───────────────────────────────── */
+
+.webdesign-testimonial__ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+  justify-content: center;
+  margin-top: var(--space-5);
+}
+
+@media (max-width: 480px) {
+  .webdesign-testimonial__ctas {
+    flex-direction: column;
+    align-items: center;
+  }
+}
