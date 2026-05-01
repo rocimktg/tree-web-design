@@ -66,13 +66,16 @@
           </div>
           <div class="contact-notes" aria-label="Contact details">
             <p><strong>Fast Response</strong><span>Most replies go out within one business day.</span></p>
-            <p><strong>No Pressure</strong><span>Ask questions, get straight answers, and decide when you're ready. No follow-up sequence, no sales funnel.</span></p>
+            <p><strong>No Pressure</strong><span>Ask questions, get straight answers, and decide when you're ready. No hard sell, no pushy follow-up, no weird sales funnel.</span></p>
             <p><strong>Built For Tree Service</strong><span>Everything is tailored to tree service businesses.</span></p>
           </div>
         </div>
 
-        <form class="contact-form" id="contact-form" method="POST" name="contact" data-netlify="true">
+        <form class="contact-form" id="contact-form" method="POST" name="contact" action="/contact.html" data-netlify="true" netlify-honeypot="bot-field">
           <input type="hidden" name="form-name" value="contact">
+          <p hidden>
+            <label>Don't fill this out if you're human: <input name="bot-field"></label>
+          </p>
           <div class="form-grid">
             <div>
               <label for="first-name">First name</label>
@@ -146,7 +149,8 @@
         status.hidden = true;
 
         try {
-          const response = await fetch('/', {
+          const endpoint = form.getAttribute('action') || window.location.pathname || '/contact.html';
+          const response = await fetch(endpoint, {
             method: 'POST',
             headers: {
               'Content-Type': 'application/x-www-form-urlencoded',

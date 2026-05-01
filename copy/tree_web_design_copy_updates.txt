@@ -1,0 +1,645 @@
+TREE WEB DESIGN COPY UPDATES
+Pricing page remains the source of truth.
+
+Updated business logic:
+- Lite: $149/mo, 3-month minimum, then month-to-month
+- Growth: $349/mo, 6-month agreement, then month-to-month
+- Pro: $649/mo, 12-month agreement, then month-to-month
+- Buyout: $3,500 flat after initial agreement
+- Lead Acceleration: $300/mo + ad spend
+- Extra Pages: $100/page one-time
+
+================================================================================
+GLOBAL RULES
+================================================================================
+
+Use pricing.html as the source of truth across the entire site.
+
+Remove or replace any outdated references to:
+- $75/mo
+- $99/mo
+- $175/mo
+- $275/mo
+- $299/mo
+- Month-to-month Lite with no minimum
+
+Use this pricing language anywhere a short summary is needed:
+
+Plans start at $149/mo with no setup fee. Lite has a 3-month minimum, Growth has a 6-month agreement, and Pro has a 12-month agreement. After the initial agreement, plans continue month-to-month.
+
+Use this buyout language anywhere a short summary is needed:
+
+After your initial agreement, you can continue monthly, cancel, or buy out the finished website for $3,500.
+
+================================================================================
+PRICING PAGE UPDATES
+================================================================================
+
+HERO SECTION
+
+Pricing Built Around Getting You More Calls
+
+Fast websites, local SEO structure, and Google-ready pages built to turn searches into phone calls.
+
+No setup fees. Hosting included. Built to perform from day one.
+
+
+--------------------------------------------------------------------------------
+LITE PLAN
+--------------------------------------------------------------------------------
+
+Lite
+
+$149/mo
+
+3-month minimum, then month-to-month
+
+A fast single-page site to get you online and capturing calls.
+
+Includes:
+- Single-page custom website
+- Fast load times
+- Mobile-first design
+- Click-to-call buttons
+- Local SEO schema
+- Hosting + SSL
+- Operational edits
+- Annual refresh
+
+Best for:
+Tree service companies that need a professional web presence without a large upfront cost.
+
+CTA:
+Get Started
+
+
+--------------------------------------------------------------------------------
+GROWTH PLAN
+--------------------------------------------------------------------------------
+
+Growth
+
+$349/mo
+
+6-month agreement
+
+A stronger local foundation for more consistent inbound calls.
+
+Includes everything in Lite, plus:
+- Up to 5 total pages
+- Review Request Page
+- Unlimited text and photo edits
+- One-time Google Business Profile setup
+- Ongoing local SEO expansion up to 2 pages/mo
+
+Best for:
+Tree service companies that want a stronger website, clearer service pages, and a better foundation for local search.
+
+CTA:
+Get More Calls
+
+
+--------------------------------------------------------------------------------
+PRO PLAN
+--------------------------------------------------------------------------------
+
+Pro
+
+$649/mo
+
+12-month agreement
+
+Built to expand into more cities, services, and higher-value jobs.
+
+Includes everything in Growth, plus:
+- 5 core pages
+- 10 custom service area pages
+- Active weekly Google Business Profile management
+- Ongoing local SEO expansion up to 4 pages/mo
+- More aggressive local visibility support
+
+Best for:
+Tree service companies expanding into multiple cities, pushing higher-value jobs, or trying to own more local search territory.
+
+CTA:
+Grow My Market
+
+
+--------------------------------------------------------------------------------
+ADD-ONS SECTION
+--------------------------------------------------------------------------------
+
+Add-Ons
+
+
+Lead Acceleration
+
+$300/mo + ad spend
+
+Get calls faster while SEO builds.
+
+SEO takes time. If you need your phone ringing sooner, we can launch Google Ads or Local Services Ads alongside your website.
+
+Includes:
+- Local Services Ads setup
+- Google Ads campaign setup
+- Call-focused optimization
+- Monthly performance review
+
+Ad spend is paid directly to Google.
+
+
+Extra Pages
+
+$100/page one-time
+
+Add service, city, or seasonal pages one at a time without upgrading your plan.
+
+
+--------------------------------------------------------------------------------
+BUYOUT OPTION
+--------------------------------------------------------------------------------
+
+Website Buyout Option
+
+Prefer to own the finished site outright? After your initial agreement, you can buy out the website for a flat $3,500.
+
+The buyout includes the finished website files so you can host the site elsewhere. Hosting, updates, SEO, ads, Google Business Profile management, and ongoing support are not included after buyout.
+
+
+Short version for pricing page:
+
+After your initial agreement, you can continue monthly, cancel, or buy out the finished website for $3,500.
+
+================================================================================
+FAQ PAGE UPDATES
+================================================================================
+
+--------------------------------------------------------------------------------
+QUESTION: What plans do you offer?
+--------------------------------------------------------------------------------
+
+We offer three website plans with no setup fees.
+
+Lite ($149/mo, 3-month minimum): A fast, professional single-page website built custom, hosted, and ready to capture calls. After the first 3 months, Lite continues month-to-month.
+
+Growth ($349/mo, 6-month agreement): Everything in Lite plus up to 5 total pages, a Review Request Page, one-time Google Business Profile setup, unlimited text and photo edits, and ongoing local SEO expansion up to 2 pages per month.
+
+Pro ($649/mo, 12-month agreement): Everything in Growth plus 5 core pages, 10 custom service area pages, active weekly Google Business Profile management, and ongoing local SEO expansion up to 4 pages per month.
+
+All plans include fast load times, a custom website, mobile-first design, click-to-call, local SEO schema, hosting, SSL, and a $0 setup fee.
+
+
+--------------------------------------------------------------------------------
+QUESTION: How many pages do I get?
+--------------------------------------------------------------------------------
+
+Lite includes a single-page website.
+
+Growth includes up to 5 total pages, usually Home, Services, About, Service Area, and Contact.
+
+Pro includes 5 core pages plus 10 custom service area pages, for 15 total pages.
+
+Additional pages are $100 each, one-time.
+
+
+--------------------------------------------------------------------------------
+QUESTION: How does billing work?
+--------------------------------------------------------------------------------
+
+There are no setup fees on any plan.
+
+Your first monthly payment is due at kickoff to start the build. Lite has a 3-month minimum, Growth has a 6-month agreement, and Pro has a 12-month agreement.
+
+After the initial agreement, your plan continues month-to-month unless you cancel, change plans, or buy out the finished website.
+
+Recurring payments are handled automatically through Stripe on the same billing date each month.
+
+
+--------------------------------------------------------------------------------
+QUESTION: Can I buy out my website?
+--------------------------------------------------------------------------------
+
+Yes. After your initial agreement, you can buy out the finished website for a flat $3,500.
+
+The buyout includes the finished website files so you can host the site elsewhere. Hosting, updates, SEO, ads, Google Business Profile management, and ongoing support are not included after buyout.
+
+Most clients stay on a monthly plan because hosting, updates, support, and ongoing growth work are included, but the buyout option is there if you ever want to take the site elsewhere.
+
+
+--------------------------------------------------------------------------------
+QUESTION: Do I own my website?
+--------------------------------------------------------------------------------
+
+Your domain, logo, photos, and written copy are yours permanently.
+
+The live website runs on our managed infrastructure while your monthly plan is active. If your plan ends, the hosted site comes offline at the end of your billing period.
+
+If you choose the buyout option after your initial agreement, we provide the finished website files so you can host the site elsewhere.
+
+
+--------------------------------------------------------------------------------
+QUESTION: What happens if I cancel?
+--------------------------------------------------------------------------------
+
+After your initial agreement, you can cancel before your next billing cycle.
+
+If you cancel, the hosted site comes offline at the end of your billing period. Your domain, logo, photos, and written copy remain yours, and we’ll provide those files within 5 business days so you can transition cleanly.
+
+You can also choose to buy out the finished website for $3,500 if you want to take the site elsewhere.
+
+
+--------------------------------------------------------------------------------
+QUESTION: Do you manage Google Business Profiles?
+--------------------------------------------------------------------------------
+
+Yes, depending on your plan.
+
+Growth includes a one-time Google Business Profile setup to make sure your listing is complete and aligned with your website.
+
+Pro includes active weekly Google Business Profile management, including photos, posts, and ongoing optimization to support local visibility and drive more calls.
+
+================================================================================
+HOMEPAGE UPDATES
+================================================================================
+
+--------------------------------------------------------------------------------
+HERO STATS
+--------------------------------------------------------------------------------
+
+Setup Fee
+$0
+
+Starting At
+$149/mo
+
+Minimum
+3 Months
+
+Hand-Coded
+100%
+
+
+--------------------------------------------------------------------------------
+OPTIMIZED PAGE SPEED SECTION
+--------------------------------------------------------------------------------
+
+Replace overly absolute speed claim with:
+
+Our sites are built for sub-one-second load times, so more visitors actually make it to the call button.
+
+
+Alternative:
+
+Built for sub-one-second load times, lean code, and fast mobile performance when homeowners are ready to call.
+
+
+--------------------------------------------------------------------------------
+EVERY CLICK SECTION
+--------------------------------------------------------------------------------
+
+Replace:
+
+Every button, every form, every layout decision guides visitors toward one action — call or text for an estimate. Nothing on your site is decorative.
+
+With:
+
+Every design choice has a job: build trust, explain your services, or move the visitor toward a call or estimate request.
+
+
+--------------------------------------------------------------------------------
+HOW IT WORKS
+--------------------------------------------------------------------------------
+
+01
+We Talk
+
+A quick 15-minute call to make sure we’re a fit. We’ll cover your goals, your market, and what sets you apart from the competition.
+
+
+02
+You See a Preview
+
+Before you commit, you’ll see a working homepage preview built around your business. Real, hand-coded, and customized to your company, not a template with your logo swapped in.
+
+
+03
+We Refine & Launch
+
+Once you’re on board, your first monthly payment starts the full build. We dial in the details together, handle the technical setup, and get you live, usually within 7–10 business days.
+
+
+--------------------------------------------------------------------------------
+REVIEW REQUEST PAGE SECTION
+--------------------------------------------------------------------------------
+
+Replace:
+
+More 5-star reviews + a fast site = higher visibility in Local Maps.
+
+With:
+
+More reviews. Faster site. Stronger local signals.
+
+Or:
+
+More recent reviews and a fast, clear website can support stronger visibility in Local Maps.
+
+================================================================================
+CITY PAGE UPDATES
+================================================================================
+
+Use this pricing block across all service-area/city pages:
+
+Pricing
+
+Simple monthly plans.
+No surprises.
+
+- Plans start at $149/mo
+- $0 setup fee
+- Lite has a 3-month minimum
+- Hosting included
+- Growth and Pro include unlimited updates
+- Growth and Pro include ongoing local SEO expansion
+
+View Current Plans & Pricing →
+
+
+Use this pricing callout:
+
+Plans start at
+$149/mo
+
+$0 setup fee
+3-month minimum on Lite. First payment due at kickoff.
+
+
+Use this add-on block:
+
+ADD-ON
+Get Calls While Your SEO Builds
+
+SEO takes time to build momentum. If you need calls right away, we can launch Google Ads or Local Services Ads to start generating leads while your website and local SEO ramp up.
+
+- Google Ads or Local Services Ads setup
+- High-intent keyword targeting
+- Call-focused campaigns
+- Ongoing optimization
+
+Ad spend is paid directly to Google. This is optional and can be added to any plan.
+
+
+Use this mobile-ready section if any city page still has city copy errors:
+
+Mobile Ready
+
+Most local searches happen on a phone — from the driveway, from the yard, or right after a storm. Your site has to work perfectly there first.
+
+================================================================================
+ABOUT PAGE UPDATES
+================================================================================
+
+Replace repeated intro section with:
+
+Tree Web Design exists because local tree service companies deserve the same level of strategy, speed, and attention that larger companies get, without hiring an in-house marketing department.
+
+
+Keep or use this founder paragraph:
+
+I’m JJ Jaggers, owner and developer at Tree Web Design. I spent a decade at Federal Heath, a national sign manufacturer, working my way from Art Director to Digital Marketing Manager. In that time I rebuilt the company’s digital footprint across five divisions, owned their advertising and lead generation strategy, and learned firsthand how visibility and execution drive results at scale.
+
+
+Replace:
+
+We handle your online presence like a dedicated digital manager — keeping your site updated, managing your Google Business profile, and making sure everything runs smoothly.
+
+With:
+
+We build and maintain the website side of your online presence, with Google Business Profile setup and management available on Growth and Pro plans.
+
+================================================================================
+CONTACT PAGE UPDATES
+================================================================================
+
+Replace:
+
+No follow-up sequence, no sales funnel.
+
+With:
+
+No hard sell, no pushy follow-up, no weird sales funnel.
+
+
+Full replacement:
+
+No Pressure
+
+Ask questions, get straight answers, and decide when you’re ready. No hard sell, no pushy follow-up, no weird sales funnel.
+
+================================================================================
+WEB DESIGN PAGE UPDATES
+================================================================================
+
+Replace:
+
+Every Element Has One Job: Every button, every form, every layout decision points visitors toward one action — calling you for an estimate. Nothing on your site is decorative.
+
+With:
+
+Every Element Has One Job: Every design choice has a purpose — build trust, explain your services, and move visitors toward calling or requesting an estimate.
+
+
+Keep:
+
+No WordPress.
+No Templates.
+No Shortcuts.
+
+Hand-coded tree service websites built specifically for tree service pros — fast, mobile-first, and designed to turn visitors into calls.
+
+
+Optional pricing meta/description language:
+
+Professional web design for tree service pros. Fast, hand-coded websites built to convert visitors into calls. No templates, no WordPress, $0 setup, plans start at $149/mo with a 3-month minimum.
+
+================================================================================
+BLOG UPDATES
+================================================================================
+
+Search blog content for outdated managed-plan pricing:
+- $75/mo
+- $99/mo
+- $175/mo
+- $275/mo
+- $299/mo
+- $99–$299/mo
+- $175/month
+
+Replace exact old pricing references with:
+
+View current plans and pricing →
+
+Or:
+
+Managed plans start at $149/mo with no setup fee.
+
+Or:
+
+See current pricing for the latest plan details.
+
+
+--------------------------------------------------------------------------------
+BLOG LISTING UPDATE
+--------------------------------------------------------------------------------
+
+Replace:
+
+Google reviews aren't just stars — they're the #1 Maps ranking factor for tree services. Here's the math on what each review is actually worth to your bottom line.
+
+With:
+
+Google reviews aren’t just stars. They’re one of the strongest trust and visibility signals for tree service companies. Here’s the math on what each review can mean to your bottom line.
+
+
+--------------------------------------------------------------------------------
+1-SECOND LOAD TIME ARTICLE CLEANUP
+--------------------------------------------------------------------------------
+
+Replace:
+
+The Cost of Latency: Website load speed is the primary driver of lead conversion for tree services. In emergency scenarios, a 1-second load time reduces bounce rates by up to 50% compared to a 3-second load time. Because homeowners prioritize immediate assistance during storms, a faster site ensures your "Click-to-Call" button is the first one they see and use.
+
+With:
+
+The Cost of Latency: Website speed matters most when the customer is urgent. During storm calls or emergency searches, every delay gives the homeowner another reason to hit back and call someone else. A faster site gets the click-to-call button in front of them sooner and removes friction at the exact moment they are ready to act.
+
+
+Replace:
+
+By optimizing for a 1-second clean load time, you create a buffer. You ensure that even on the worst connection, you are the arborist who answers the digital door.
+
+With:
+
+By building for a fast, clean mobile load, you create a buffer. Even when the connection is not perfect, the goal is simple: get the visitor to your phone number before they give up and call the next company.
+
+
+Replace performance table if it currently claims exact conversion rates:
+
+Site Type
+Load Speed
+Reliability in Storms
+
+Bloated WordPress
+4.5s–8s
+Higher risk of lag, plugin issues, and mobile frustration
+
+Standard Template
+2s–4s
+Better, but still often weighed down by builder code and oversized media
+
+High-Performance Static Site
+Built for sub-one-second loads
+Lean, stable, and designed for fast mobile action
+
+
+Replace:
+
+Case Study: The Post-Storm Proof
+
+With:
+
+Example Scenario: What Happens After a Storm
+
+
+Replace:
+
+We tracked two ISA Certified Arborists during a major regional weather event.
+
+With:
+
+Here’s a simplified example of how this plays out during a storm event.
+
+
+Replace:
+
+The Result: Company B booked their entire crews out for three weeks within the first four hours of the storm hitting. They did not necessarily have a better reputation than Company A. They just had a site that worked when the customers needed it most.
+
+With:
+
+The result is not magic. The faster site is simply more likely to capture the call while the slower site is still loading. In emergency work, that timing matters.
+
+
+Replace:
+
+2026 SEO: Winning the AI Citation
+
+With:
+
+2026 SEO: Speed Supports Trust
+
+
+Replace:
+
+Search has changed. Google's AI does not just look for keywords. It looks for Performance and Authority (E-E-A-T). If an AI agent is searching for "emergency tree removal near me" for a user, it prefers to cite and recommend sites that are technically sound and lightning-fast.
+
+With:
+
+Search has changed. Google is looking at more than keywords. Your site needs to be fast, useful, structured clearly, and supported by real trust signals like reviews, service pages, and accurate business information.
+
+
+Replace:
+
+A fast site tells the AI that you are a modern, reliable business. When you combine your credentials with a 1-second load time, you become the primary cited source for local tree queries.
+
+With:
+
+A fast site does not guarantee rankings by itself, but it supports the larger trust picture. When speed, service pages, reviews, and your Google Business Profile all work together, your online presence becomes easier for both people and search engines to understand.
+
+================================================================================
+FINAL BUSINESS LOGIC SUMMARY
+================================================================================
+
+Lite:
+$149/mo
+3-month minimum, then month-to-month
+Single-page website
+Operational edits
+Annual refresh
+No active GBP management
+No ongoing local SEO expansion
+
+Growth:
+$349/mo
+6-month agreement, then month-to-month
+Up to 5 total pages
+Review Request Page
+Unlimited text and photo edits
+One-time Google Business Profile setup
+Ongoing local SEO expansion up to 2 pages/mo
+
+Pro:
+$649/mo
+12-month agreement, then month-to-month
+5 core pages
+10 custom service area pages
+Review Request Page
+Unlimited text and photo edits
+Active weekly Google Business Profile management
+Ongoing local SEO expansion up to 4 pages/mo
+
+Lead Acceleration:
+$300/mo + ad spend
+Google Ads or Local Services Ads setup and management
+Ad spend paid directly to Google
+
+Extra Pages:
+$100/page one-time
+
+Buyout:
+$3,500 flat after initial agreement
+Includes finished website files
+Does not include hosting, updates, SEO, ads, GBP management, or support after buyout
+
+Anchor sentence:
+After your initial agreement, you can continue monthly, cancel, or buy out the finished website for $3,500.

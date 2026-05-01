@@ -4,7 +4,7 @@
 
 You've probably already Googled it. Maybe you got quotes from three different people and have no idea why one guy wants $500 and another wants $5,000. The range is real, and it matters — because tree service website cost isn't just about the build. It's about what happens after you go live.
 
-Here's the straight answer: a functional, lead-generating website for a tree service company will run you anywhere from $99/month on a managed plan to $3,000–$8,000 as a one-time build from a general agency. The gap in those numbers tells you everything about what you're actually buying.
+Here's the straight answer: a functional, lead-generating website for a tree service company can run anywhere from $16/month on a DIY builder to $3,000–$8,000 as a one-time build from a general agency. Managed plans built specifically for tree companies start at $149/mo. The gap in those numbers tells you everything about what you're actually buying.
 
 ### What Does a Tree Service Website Actually Cost in 2026?
 
@@ -15,7 +15,7 @@ Let's break down every option on the table — no spin.
 | **DIY (Wix / Squarespace)** | $0 | $16–$49 | Guys who want to figure it out themselves |
 | **WordPress + Freelancer** | $500–$2,500 | $0–$50 | One-time build, you maintain it |
 | **General Web Agency** | $3,000–$8,000 | $100–$300 | Anyone with a budget and no niche focus |
-| **Managed Niche Plan (us)** | $0 setup | $99–$299/mo | Tree companies who want leads, not headaches |
+| **Managed Niche Plan (us)** | $0 setup | Monthly plans starting at $149/mo | Tree companies who want leads, not headaches |
 
 None of these are wrong choices by default. They're wrong or right depending on what you actually need.
 
@@ -57,7 +57,7 @@ They build a site. They don't build a lead machine for your specific business.
 
 ### Managed Tree Service Web Design: What You're Actually Paying For
 
-This is where the monthly model gets misunderstood. Owners hear "$175/month" and do the math — "that's $2,100 a year, I could've just paid once."
+This is where the monthly model gets misunderstood. Owners hear a monthly price and do the math — "that's money every year, I could've just paid once."
 
 That math ignores what's included.
 
@@ -69,11 +69,11 @@ On a managed tree service web design plan, you're not just paying for a website.
 * A Review Request Page that routes happy customers to Google automatically
 * Google Business Profile management (Pro plan) so your Maps ranking keeps climbing
 
-The question isn't "is $175/month too much for a website." The question is: what is one additional tree removal job per month worth to you?
+The question isn't whether a monthly website plan is too much. The question is: what is one additional tree removal job per month worth to you?
 
 If you're charging $800–$1,500 for a removal, one extra job covers the plan with money left over. Our clients typically see that within the first 30 days.
 
-[View plans and pricing →](pricing.html)
+[View current plans and pricing →](pricing.html)
 
 ### Case Study: One-Time Build vs. Managed Plan
 
@@ -81,13 +81,13 @@ Two tree service operators in the same metro area. Both started with similar Goo
 
 **Operator A** paid $4,500 to a local agency for a one-time WordPress build. The site looked solid at launch. Eight months later, a plugin update broke his contact form. He didn't know for six weeks. During a major wind event that season, his site went down for four hours at peak traffic. No backup. No support contact.
 
-**Operator B** launched on a managed Growth plan at $175/month. When a storm rolled through the same metro, his site stayed up, loaded in under a second, and his phone started ringing at 11pm. He booked 12 jobs before sunrise.
+**Operator B** launched on a managed Growth plan. When a storm rolled through the same metro, his site stayed up, loaded in under a second, and his phone started ringing at 11pm. He booked 12 jobs before sunrise.
 
 Same market. Same storm. Different infrastructure.
 
 ### 3 Takeaways Before You Decide
 
-1. **Calculate cost per lead, not cost per month.** If your plan costs $175 and generates 4 jobs, your cost per lead is under $50. That's cheaper than almost any other marketing channel for tree service.
+1. **Calculate cost per lead, not cost per month.** If your website plan generates 4 jobs, the cost per lead can drop below almost any other marketing channel for tree service.
 2. **Ask any web provider: what happens when it breaks at 2am?** If the answer isn't "we handle it," you're the IT department now.
 3. **Don't confuse a good-looking site with a high-performing one.** Design is the wrapper. Speed, structure, and conversion architecture are what make your phone ring.
 
@@ -102,7 +102,7 @@ A tree service website costs exactly what you're willing to tolerate in missed c
 ### FAQ
 
 **How much does a tree service website cost?**
-Depending on the approach, anywhere from $16/month on a DIY builder to $8,000+ for a custom agency build. Managed niche plans built specifically for tree companies typically run $99–$299/month with no setup fee.
+Depending on the approach, anywhere from $16/month on a DIY builder to $8,000+ for a custom agency build. Managed plans built specifically for tree companies typically start at $149/mo with no setup fee.
 
 **Is a monthly web design plan worth it for a tree service company?**
 Yes — if the plan includes hosting, maintenance, edits, and lead tools. A managed plan eliminates the hidden costs of one-time builds: maintenance, downtime, and developer fees when something breaks.

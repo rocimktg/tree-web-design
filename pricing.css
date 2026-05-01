@@ -51,7 +51,7 @@
   font-size: 0.8rem;
   color: rgba(0,0,0,0.6);
   letter-spacing: 0.04em;
-  margin-bottom: var(--space-7);
+  margin-bottom: var(--space-4);
 }
 
 /* ─── COMPARISON TABLE GRID ──────────────────── */
@@ -447,6 +447,12 @@
   color: #444;
 }
 
+.addon-card__body {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #444;
+}
+
 .addon-card__list {
   margin: 0;
   padding-left: 1.1rem;
@@ -462,6 +468,38 @@
   font-size: 0.72rem;
   color: rgba(0,0,0,0.6);
   letter-spacing: 0.04em;
+}
+
+.pricing-buyout {
+  margin-top: var(--space-7);
+  padding-top: var(--space-6);
+  border-top: 1px solid rgba(0,0,0,0.18);
+}
+
+.pricing-buyout__card {
+  border: 5px solid var(--black);
+  padding: var(--space-7) var(--space-6);
+  display: grid;
+  gap: var(--space-4);
+  max-width: 920px;
+}
+
+.pricing-buyout__card h3 {
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  line-height: 1;
+}
+
+.pricing-buyout__card p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+.pricing-buyout__summary {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  color: rgba(0,0,0,0.7);
 }
 
 /* ─── MOBILE LABEL (hidden on desktop) ──────── */

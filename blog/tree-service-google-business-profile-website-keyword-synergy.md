@@ -93,7 +93,7 @@ He'd search his business name — showed up fine. But "tree service [his city]" 
 
 The referrals were real. But he was invisible to the much larger pool of strangers who had no reason to know his name yet. That's the gap a website closes.
 
-[View tree service website plans starting at $99/month →](pricing.html)
+[View current plans and pricing →](pricing.html)
 
 ### What a Properly Built Tree Service Website Does for Your GBP Rankings
 

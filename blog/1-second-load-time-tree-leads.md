@@ -10,7 +10,7 @@ In 2026, the digital landscape for arborists has shifted. Between Google's AI Ov
 
 When an oak tree is leaning over a nursery or a limb has pierced a roof, the homeowner isn't "browsing." They are in a state of high-stress urgency. This is the **Storm Window.** It is a 30-second window where they will pick the first professional who looks competent and whose website actually loads.
 
-> **The Cost of Latency:** Website load speed is the primary driver of lead conversion for tree services. In emergency scenarios, a 1-second load time reduces bounce rates by up to 50% compared to a 3-second load time. Because homeowners prioritize immediate assistance during storms, a faster site ensures your "Click-to-Call" button is the first one they see and use.
+> **The Cost of Latency:** Website speed matters most when the customer is urgent. During storm calls or emergency searches, every delay gives the homeowner another reason to hit back and call someone else. A faster site gets the click-to-call button in front of them sooner and removes friction at the exact moment they are ready to act.
 
 If your site takes 5 seconds to load on a spotty mobile connection, that homeowner has already clicked "Back." They have called the competitor whose site popped up instantly. In their mind, if you cannot maintain a website, they cannot trust you with a 90-foot crane over their house.
 
@@ -25,30 +25,30 @@ Think of your current website. If it is built on a standard WordPress setup with
 
 Cellular networks are fast, but they are not perfect. This is especially true during heavy weather. When the clouds are thick and the wind is up, "signal noise" increases and data speeds drop.
 
-A site that loads in 2 seconds at your office desk might take 8 seconds in a driveway during a thunderstorm. By optimizing for a **1-second clean load time**, you create a buffer. You ensure that even on the worst connection, you are the arborist who answers the digital door.
+A site that loads in 2 seconds at your office desk might take 8 seconds in a driveway during a thunderstorm. By building for a fast, clean mobile load, you create a buffer. Even when the connection is not perfect, the goal is simple: get the visitor to your phone number before they give up and call the next company.
 
 ### Comparison of Performance Tiers
 
-| Site Type | Load Speed | Conversion Rate | Reliability in Storms |
-| :--- | :--- | :--- | :--- |
-| **Bloated WordPress** | 4.5s – 8s | Low (2–4%) | High risk of crashing |
-| **Standard Template** | 2s – 4s | Moderate (5–8%) | Laggy on mobile |
-| **High-Performance (1s)** | **< 1.0s** | **High (15–25%)** | **Unbreakable** |
+| Site Type | Load Speed | Reliability in Storms |
+| :--- | :--- | :--- |
+| **Bloated WordPress** | 4.5s–8s | Higher risk of lag, plugin issues, and mobile frustration |
+| **Standard Template** | 2s–4s | Better, but still often weighed down by builder code and oversized media |
+| **High-Performance Static Site** | Built for sub-one-second loads | Lean, stable, and designed for fast mobile action |
 
-### Case Study: The Post-Storm Proof
+### Example Scenario: What Happens After a Storm
 
-We tracked two ISA Certified Arborists during a major regional weather event.
+Here's a simplified example of how this plays out during a storm event.
 
 * **Company A** had a beautiful, "heavy" site with auto-playing videos of their crew. It took 6.2 seconds to load. During the peak of the storm, their bounce rate hit 78%. People simply would not wait.
 * **Company B** used a stripped-down, high-performance architecture. Their site loaded in 0.9 seconds.
 
-**The Result:** Company B booked their entire crews out for three weeks within the first four hours of the storm hitting. They did not necessarily have a better reputation than Company A. They just had a site that worked when the customers needed it most.
+**The Result:** The result is not magic. The faster site is simply more likely to capture the call while the slower site is still loading. In emergency work, that timing matters.
 
-### 2026 SEO: Winning the AI Citation
+### 2026 SEO: Speed Supports Trust
 
-Search has changed. Google's AI does not just look for keywords. It looks for **Performance and Authority (E-E-A-T).** If an AI agent is searching for "emergency tree removal near me" for a user, it prefers to cite and recommend sites that are technically sound and lightning-fast.
+Search has changed. Google is looking at more than keywords. Your site needs to be fast, useful, structured clearly, and supported by real trust signals like reviews, service pages, and accurate business information.
 
-A fast site tells the AI that you are a modern, reliable business. When you combine your credentials with a 1-second load time, you become the primary cited source for local tree queries.
+A fast site does not guarantee rankings by itself, but it supports the larger trust picture. When speed, service pages, reviews, and your Google Business Profile all work together, your online presence becomes easier for both people and search engines to understand.
 
 ### 3 Immediate Fixes for More Leads
 
