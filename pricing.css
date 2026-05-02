@@ -52,6 +52,7 @@
   color: rgba(0,0,0,0.6);
   letter-spacing: 0.04em;
   margin-bottom: var(--space-4);
+  white-space: nowrap;
 }
 
 /* ─── COMPARISON TABLE GRID ──────────────────── */
@@ -139,7 +140,7 @@
   justify-content: flex-start;
   background: #fff3ee;
   position: relative;
-  border-top: 4px solid var(--acid);
+  box-shadow: inset 0 4px 0 var(--acid);
 }
 
 .pt__badge {
@@ -167,7 +168,10 @@
   letter-spacing: 0.02em;
   line-height: 1;
   color: var(--black);
-  margin-bottom: 6px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  border-bottom: 1px solid rgba(0,0,0,0.12);
 }
 
 .pt__price {
@@ -176,7 +180,10 @@
   font-size: 3.25rem;
   color: var(--black);
   line-height: 1;
-  margin-bottom: 4px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  border-bottom: 1px solid rgba(0,0,0,0.12);
 }
 
 .pt__price span {
@@ -193,6 +200,9 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
   margin-bottom: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  border-bottom: 1px solid rgba(0,0,0,0.12);
 }
 
 .pt__subline {
@@ -202,7 +212,9 @@
   line-height: 1.2;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  margin-bottom: 14px;
+  margin-bottom: 0;
+  padding-top: 10px;
+  width: 100%;
 }
 
 .pt__pitch {
@@ -334,7 +346,10 @@
   font-weight: 400;
   color: rgba(0,0,0,0.6);
   line-height: 1.3;
-  margin-bottom: 4px;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+  width: 100%;
+  border-bottom: 1px solid rgba(0,0,0,0.12);
 }
 
 .pt__microline {
@@ -565,6 +580,10 @@
 
 @media (max-width: 700px) {
 
+  .pricing-plans__note {
+    white-space: normal;
+  }
+
   /* Switch to flex column, drop outer border */
   .pricing-table {
     display: flex;
@@ -595,7 +614,7 @@
 
   /* Top border on each card header */
   .pt__growth.pt__head {
-    border-top: 5px solid var(--acid);
+    box-shadow: inset 0 5px 0 var(--acid);
     border-bottom: 3px solid var(--black);
     flex-direction: column;
     align-items: flex-start;

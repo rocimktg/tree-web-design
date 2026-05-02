@@ -5,33 +5,39 @@ OUTWARD-FACING SITE COPY
 Generated from current public HTML routes and shared nav/footer includes.
 
 ================================================================================
+
 FILE: nav.html
+
 ================================================================================
+
 TREE WEB DESIGN FOR TREE SERVICE PROS
-- Home
-- About
-- Web Design
-- SEO
-- Ads
-- Pricing
-- FAQ
-- Contact
+Home
+About
+Web Design
+SEO
+Ads
+Pricing
+FAQ
+Contact
 Schedule a Call
 (817) 518-4222
-- Home
-- About
-- Web Design
-- SEO
-- Ads
-- Pricing
-- FAQ
-- Contact
+Home
+About
+Web Design
+SEO
+Ads
+Pricing
+FAQ
+Contact
 Schedule a Call
 
 ================================================================================
+
 FILE: footer.html
+
 ================================================================================
-Tree Web Design
+
+TREE WEB DESIGN FOR TREE SERVICE PROS
 Tree service websites built to get your phone ringing. Fast, hand-coded, and done right.
 Contact Us
 Quick Links
@@ -39,14 +45,17 @@ Home About Us Web Design SEO Ads Pricing FAQ Blog Contact
 Service Areas
 Arlington, TX Dallas, TX Denton, TX Fort Worth, TX Frisco, TX Garland, TX Grand Prairie, TX Irving, TX McKinney, TX Plano, TX
 Contact
-- (817) 518-4222
-- Send a Message
+(817) 518-4222
+Send a Message
 © 2026 Tree Web Design
 Privacy Policy
 
 ================================================================================
+
 FILE: 404.html
+
 ================================================================================
+
 Page Not Found | Tree Web Design
 The page you were looking for could not be found.
 Page Not Found | Tree Web Design
@@ -58,8 +67,11 @@ About Web Design Pricing FAQ
 Back Home Call Now
 
 ================================================================================
+
 FILE: about.html
+
 ================================================================================
+
 About | Tree Web Design
 Tree Web Design builds fast, hand-coded websites for tree service companies in DFW. Custom sites built to show up in local search and convert visitors into calls. $0 setup, plans start at $149/mo.
 About | Tree Web Design
@@ -82,8 +94,11 @@ Client Account Services
 Keeps projects on track and clients in the loop. Handles scheduling, updates, and the details that make the process feel effortless on your end.
 
 ================================================================================
+
 FILE: blog-post.html
+
 ================================================================================
+
 Blog Redirect | Tree Web Design
 Legacy blog article route. This URL redirects to the current static article page.
 Blog Redirect | Tree Web Design
@@ -92,38 +107,44 @@ Loading…
 Loading article…
 
 ================================================================================
+
 FILE: blog.html
+
 ================================================================================
-Tree Service Web Design Blog | Tips, Strategy & Industry Insight
+
+Tree Service Web Design Blog | Tips, Strategy &amp; Industry Insight
 Practical articles on web design, lead generation, and Google ranking for tree service companies. Written for arborists by the team at Tree Web Design.
 Tree Service Web Design Blog | Tips, Strategy & Industry Insight
 Blog
 // Resources
 For Tree Service Companies.
 If Your Google Business Profile Links to Facebook, You're Losing Tree Jobs
-April 28, 2026 · Tree Web Design
+April 28, 2026  ·  Tree Web Design
 If your GBP sends searchers to Facebook instead of a real website, you're weakening your local SEO, hurting trust, and losing high-intent calls before they ever reach you.
 Read Article →
 Why a 1-Second Load Time is the Secret to More Tree Leads
-February 4, 2026 · JJ Jaggers
+February 4, 2026  ·  JJ Jaggers
 In emergency scenarios, homeowners aren't browsing — they're in a 30-second window deciding who to call. A slow site loses that call before it starts.
 Read Article →
 How Much Does a Tree Service Website Cost?
-March 18, 2026 · JJ Jaggers
+March 18, 2026  ·  JJ Jaggers
 DIY builder, WordPress freelancer, agency, or managed plan — the range is $16/month to $8,000 upfront. Here's what each one actually gets you, and which makes your phone ring.
 Read Article →
 The Real ROI of Five-Star Google Reviews for Tree Service Companies
-January 29, 2026 · JJ Jaggers
+January 29, 2026  ·  JJ Jaggers
 Google reviews aren't just stars. They're one of the strongest trust and visibility signals for tree service companies. Here's the math on what each review can mean to your bottom line.
 Read Article →
 Why Your Google Business Profile Is Invisible for "Tree Service Near Me"
-April 9, 2026 · JJ Jaggers
+April 9, 2026  ·  JJ Jaggers
 Your GBP shows up when people search your name. Your website is what ranks you for "tree service near me." Here's why you need both — and exactly how they work together.
 Read Article →
 
 ================================================================================
+
 FILE: contact.html
+
 ================================================================================
+
 Contact | Tree Web Design
 Contact Tree Web Design to ask questions, schedule a call, or request a quote. Fast, hand-coded websites built to generate calls for tree service companies in DFW.
 Contact | Tree Web Design
@@ -147,8 +168,11 @@ Message
 Submit
 
 ================================================================================
+
 FILE: faq.html
+
 ================================================================================
+
 Tree Service Website FAQ | Web Design Questions Answered | Tree Web Design
 Answers to the most common questions from tree service companies about websites, pricing, lead generation, Google Maps ranking, and what features every arborist site needs.
 Tree Service Website FAQ | Web Design Questions Answered | Tree Web Design
@@ -158,32 +182,38 @@ Straight Answers.
 Everything tree service pros ask before signing on.
 What plans do you offer?
 We offer three website plans with no setup fees.
-Lite ($149/mo, 3-month minimum): A fast, professional single-page website built custom, hosted, and ready to capture calls. After the first 3 months, Lite continues month-to-month.
-Growth ($349/mo, 6-month agreement): Everything in Lite plus 5 core pages, 5 custom city pages, monthly Google Profile Management, and ongoing SEO expansion up to 2 pages per month.
-Pro ($549/mo, 12-month agreement): Everything in Growth plus 10 custom city pages, active weekly Google Profile Management, and Google Ads / LSA support with setup, tracking, and monthly review. Ad spend is separate.
-All plans include a custom website, mobile-first design, click-to-call, local SEO schema, hosting, SSL, unlimited website updates, and a $0 setup fee.
+Lite ($149/mo, 3-month minimum): A custom single-page website with hosting, edits, and the core setup you need to start strong.
+Growth ($349/mo, 6-month agreement): Everything in Lite plus 5 core pages, 5 custom city pages, monthly Google Profile Management, and ongoing SEO expansion.
+Pro ($549/mo, 12-month agreement): Everything in Growth plus 10 custom city pages, active weekly Google Profile Management, and Google Ads / LSA support. Ad spend is separate.
+All plans include hosting, SSL, unlimited website updates, and a $0 setup fee.
 How many pages do I get?
 Lite includes a single-page site.
 Growth includes 5 core pages plus 5 custom city pages.
 Pro includes 5 core pages plus 10 custom city pages (15 total).
-Additional pages are $100 each, one-time.
+Additional pages are $100 each , one-time.
 How does billing work?
 There are no setup fees on any plan.
-Your first monthly payment is due at kickoff to start the build. Lite has a 3-month minimum, Growth has a 6-month agreement, and Pro has a 12-month agreement.
-After the initial agreement, your plan continues month-to-month unless you cancel, change plans, or buy out the finished website.
+Your first monthly payment is due at kickoff to start the build. Lite has a 3-month minimum , Growth has a 6-month agreement , and Pro has a 12-month agreement .
+After the initial term, your plan simply continues month-to-month unless you cancel, change plans, or choose a buyout option.
 Recurring payments are handled automatically through Stripe on the same billing date each month.
 Do I own my website?
-Your domain, logo, photos, and written copy are yours permanently.
-The live website runs on our managed infrastructure while your monthly plan is active. If your plan ends, the hosted site comes offline at the end of your billing period.
-If you choose the buyout option after your initial agreement, we provide the finished website files so you can host the site elsewhere.
+Your domain, logo, photos, and written copy are yours.
+The live website runs on Tree Web Design's managed hosting while your monthly plan is active.
+If you stay on the plan after the initial term, nothing changes. Your website stays live, hosting continues, edits continue, support continues, and your included plan services continue.
 Can I buy out my website?
-Yes. After your initial agreement, you can buy out the finished website for a flat $2,500.
-The buyout includes the finished website files so you can host the site elsewhere. Hosting, updates, SEO, ads, Google Profile Management, and ongoing support are not included after buyout.
-Most clients stay on a monthly plan because hosting, updates, support, and ongoing growth work are included, but the buyout option is there if you ever want to take the site elsewhere.
+Yes. After your initial term, you can either keep your monthly plan going, move the site somewhere else, or stop the monthly plan.
+For Lite , the buyout is $2,000 after the 3-month minimum .
+For Growth , the buyout is $0 after the 6-month agreement .
+For Pro , the buyout is $0 after the 12-month agreement .
+The buyout gives you the finished website files. From there, you can host the site wherever you want, or keep it hosted with Tree Web Design for $25/month .
+What happens after my initial term?
+After your initial term, you can continue month-to-month or stop the monthly plan.
+If you continue month-to-month, nothing changes. Your website stays live, hosting continues, edits continue, support continues, and included plan services continue.
+If you stop the monthly plan, you can buy out the finished website files and keep hosting with Tree Web Design for $25/mo , buy out the files and host them elsewhere, or decline the buyout and let the managed site come offline.
 What happens if I cancel?
-After your initial agreement, you can cancel before your next billing cycle.
-If you cancel, the hosted site comes offline at the end of your billing period. Your domain, logo, photos, and written copy remain yours, and we'll provide those files within 5 business days so you can transition cleanly.
-You can also choose to buy out the finished website for $2,500 if you want to take the site elsewhere.
+After your initial term, you can cancel before your next billing cycle.
+If you cancel and do not choose a buyout option, the managed website comes offline at the end of your billing period and no website files are transferred.
+Your domain, logo, photos, and written copy remain yours.
 What is the Review Request Page?
 The Review Request Page is a simple feedback page built into every plan — accessible at your domain (e.g., yourbusiness.com/feedback). When a job is done, you send the customer a link or they scan a QR code from your business card or truck wrap. They land on a clean, mobile-friendly page where they can leave a review on Google, Yelp, Nextdoor, or other platforms. It also gives customers a private channel to reach you directly if something wasn't right — so you can fix it before it becomes a public one-star review. See Demo.
 What do you need from me to get started?
@@ -193,11 +223,11 @@ Yes. You don't need to write a word. We'll pull what we need from our kickoff ca
 How fast will my site launch?
 Once we have your payment and materials — logo, business info, photos — we get to work. Most sites are live within 7–10 business days.
 Can I add more pages?
-Yes. Additional pages are $100 each, one-time, on any plan. No package upgrade required — just let us know what you need and we'll add it.
+Yes. Additional pages are $100 each , one-time, on any plan. No package upgrade required — just let us know what you need and we'll add it.
 Why don't you use WordPress or page builders?
 WordPress sites rely on plugins that break and create security risks. Page builders bloat your code and slow your site down. We hand-code everything from scratch. The result is a site that loads in under a second, never breaks on its own, and has nothing for hackers to exploit.
 Do you manage Google Profiles?
-Yes, depending on your plan.
+Yes. Google Profile support is built into all three plans, and ads support is included with Pro only.
 Lite includes one-time setup to make sure your profile is complete and aligned with your website.
 Growth includes monthly Google Profile Management.
 Pro includes active weekly Google Profile Management, plus Google Ads / LSA support with setup, tracking, and monthly review. Ad spend is separate.
@@ -212,11 +242,14 @@ Your Google Business Profile needs accurate service categories, real job photos,
 Lite includes one-time profile setup. Growth includes monthly Google Profile Management. Pro includes active weekly Google Profile Management — we keep your profile current with photos and posts from jobs you send us.
 What features does every arborist website need?
 At minimum: a mobile-first design (most searches happen on phones), a click-to-call button on every page, a fast contact or estimate form, and real photos from your jobs. Those are table stakes.
-The features that actually move the needle for tree companies are a Review Request Page to collect Google reviews after every job, and service area pages targeting the specific cities you work in. Every plan we build includes the basics, and Growth and Pro expand the city-page footprint over time.
+The features that actually move the needle for tree companies are a Review Request Page to collect Google reviews after every job, and city pages targeting the specific places you work in. Every plan we build includes the basics, and Growth and Pro expand the city-page footprint over time.
 
 ================================================================================
+
 FILE: index.html
+
 ================================================================================
+
 Tree Service Web Design | Websites That Get More Calls | Tree Web Design
 Custom websites for tree service companies in DFW. Hand-coded, mobile-first, built for arborists and tree removal crews. $0 setup fee, plans start at $149/mo.
 Tree Service Web Design | Websites That Get More Calls | Tree Web Design
@@ -240,7 +273,7 @@ A custom, hand-coded tree service website — fast loading, mobile-first, and de
 On-Page SEO Structure
 We structure your site around the services and cities you want to be found for, so Google can clearly understand what you do, where you work, and which searches you should show up for.
 Google Search + LSA
-When a homeowner searches “tree removal near me,” timing matters. We can run Google Search Ads or Local Services Ads alongside your site to help capture those calls while SEO builds.
+When a homeowner searches “tree removal near me,” timing matters. Pro includes Google Search Ads and Local Services Ads support to help capture those calls while SEO builds.
 Every Click. One Goal.
 Every design choice has a job: build trust, explain your services, or move the visitor toward a call or estimate request.
 See Current Plans & Pricing
@@ -259,14 +292,14 @@ Once you're on board, your first monthly payment starts the full build. We dial 
 Client Results
 "Once the site went live my Google listing picked up. I'm getting calls from people who never would've found me before."
 — Mike Torres, Torres Tree Service, Mansfield TX
-ADD-ON
+PRO PLAN
 Need Calls
 Now?
-SEO builds over time. If you need your phone ringing right away, we can launch Google Ads or Local Services Ads alongside your site to generate immediate leads.
-Ask About Ads
-- ✓ Google Local Services Ads — pay per lead, not per click. Show up at the very top of search results.
-- ✓ Google Search Ads — target high-intent keywords in your service area and get calls the same day it launches.
-- ✓ No long-term contracts. Run it while your SEO builds, then scale back or keep it going.
+SEO builds over time. Pro includes Google Ads and Local Services Ads support so your website, local SEO, and paid lead channels can work together.
+See Pro Plan
+✓ Google Local Services Ads — pay per lead, not per click. Show up at the very top of search results.
+✓ Google Search Ads — target high-intent keywords in your service area and get calls the same day it launches.
+✓ Included with Pro. Setup, tracking, and monthly review are part of the plan. Ad spend stays separate.
 Our Work
 Recent Projects
 Real websites. Real tree service pros. Real results.
@@ -284,11 +317,8 @@ Review Request Page
 Build Trust
 Faster
 Fresh reviews help homeowners feel safer calling someone they have never hired before.
--
 One Link No searching, no instructions, no friction.
--
 Public or Private Happy customers go to review platforms. Unhappy customers can message you first.
--
 Built for Crews Send it by text after the job while the customer still remembers the work.
 View Demo
 \\
@@ -302,11 +332,15 @@ Meet JJ
 Latest Articles
 
 ================================================================================
+
 FILE: pricing.html
+
 ================================================================================
+
 Web Design Pricing for Contractors | Tree Web Design
 Performance-focused web design pricing for tree service companies. Plans start at $149/mo and are built for speed, local visibility, and more calls.
 Web Design Pricing for Contractors | Tree Web Design
+Pricing
 Pricing
 Pricing Built Around Getting You More Calls
 Fast websites, local SEO structure, Google-ready pages, and ads-ready support built to turn local searches into phone calls.
@@ -314,26 +348,43 @@ No setup fees. Hosting included. Built to perform from day one.
 Feature
 Lite
 $149 /mo
-3-month minimum, then month-to-month
-A fast single-page site to get you online and capturing calls.
+3-month agreement
+A high-speed single-page site with your branding, photos, and reviews built to get you online and capturing calls.
 Single page
 Most Popular
 Growth
 $349 /mo
 6-month agreement
-A stronger local foundation with core service pages, local SEO structure, and 5 custom service area pages.
-5 core pages + 5 service area pages
+A stronger local foundation with core service pages, local SEO structure, and 5 custom city pages.
+5 core + 5 city pages
 Pro
 $549 /mo
 12-month agreement
 Built for tree companies ready to grow across multiple services, nearby cities, and paid lead channels.
-5 core pages + 10 service area pages
+5 core + 10 city pages
+Custom Website
+Custom Website
+Custom Website
 Custom Website
 Mobile-First
+Mobile-First
+Mobile-First
+Mobile-First
+Click-to-Call
+Click-to-Call
+Click-to-Call
 Click-to-Call
 Local SEO Schema Helps Google understand your services and service areas
+Local SEO Schema Helps Google understand your services and service areas
+Local SEO Schema Helps Google understand your services and service areas
+Local SEO Schema Helps Google understand your services and service areas
+Review Request Page One simple link for customer reviews
+Review Request Page One simple link for customer reviews
+Review Request Page One simple link for customer reviews
 Review Request Page One simple link for customer reviews
 Website Updates Text, photo, and content changes
+Website Updates Text, photo, and content changes Unlimited
+Website Updates Text, photo, and content changes Unlimited
 Website Updates Text, photo, and content changes Unlimited
 Google Profile Management
 Google Profile Management One-time setup
@@ -348,6 +399,7 @@ pages
 Custom Service Area Pages 10 custom city
 pages
 Google Ads / LSA Support Setup, tracking, and monthly review
+Google Ads / LSA Support Setup, tracking, and monthly review —
 Google Ads / LSA Support Setup, tracking, and monthly review —
 Google Ads / LSA Support Setup, tracking, and monthly review Included
 Ad spend separate
@@ -364,31 +416,34 @@ Add-Ons
 Branding Accelerator
 $500 one-time
 Print-ready marketing pieces that help turn job sites, finished work, and happy customers into more reviews, referrals, website visits, and calls.
-- Lead-capture QR code
-- 18" x 24" yard sign design
-- Double-sided business card design
-- Direct Google review link + QR code
-- 4" x 6" review/referral postcard
-- 8.5" x 11" project checklist
+Lead-capture QR code
+18" x 24" yard sign design
+Double-sided business card design
+Direct Google review link + QR code
+4" x 6" review/referral postcard
+8.5" x 11" project checklist
 Printing not included.
 Social Visibility Add-On
 $250 /mo
 Keep your online presence active where customers check before they call. We turn your job photos, reviews, before/afters, and seasonal reminders into monthly posts for Facebook, Instagram, and Google Business Profile.
 So your company looks current, even when your crews are too busy to post.
 Includes:
-- 4 monthly posts
-- Facebook, Instagram, and Google Business Profile
-- Light branded graphics
-- Review or before/after content
-- Local service-focused captions
-- Scheduling and simple monthly recap
+4 monthly posts
+Facebook, Instagram, and Google Business Profile
+Light branded graphics
+Review or before/after content
+Local service-focused captions
+Scheduling and simple monthly recap
 Additional Service / City Pages
 $100 per page
 Add more service, city, or specialty pages as needed for new offers, nearby markets, or expanded search coverage.
 
 ================================================================================
+
 FILE: privacy.html
+
 ================================================================================
+
 Privacy Policy | Tree Web Design
 Privacy Policy for Tree Web Design. Learn how we collect, use, and protect your information.
 Privacy Policy | Tree Web Design
@@ -423,88 +478,200 @@ We may update this Privacy Policy periodically. Material changes will be indicat
 If you have questions about this Privacy Policy or our practices, please contact Tree Web Design at (817) 518-4222 or through our contact page . Tree Web Design is a brand operated by Rocinante Marketing, LLC.
 
 ================================================================================
-FILE: tree-service-web-design.html
-================================================================================
-Tree Service Web Design | Websites for Tree Service Companies That Need More Calls
-Hand-coded tree service websites built for tree removal, trimming, pruning, stump grinding, land clearing, and emergency storm work. Fast, mobile-friendly, and built to help homeowners trust you and call.
-Tree Service Web Design | Websites for Tree Service Companies That Need More Calls
-Tree Service Web Design
-Web Design
-Websites for Tree Service Companies That Need More Calls
-Hand-coded tree service websites built for tree removal, trimming, pruning, stump grinding, land clearing, and emergency storm work.
-No WordPress. No templates. No bloated page builders. Just a fast, mobile-friendly website designed to help homeowners trust you, understand your services, and call or request an estimate.
-Most homeowners do not study tree companies for hours.
-They search, skim, compare, and make a decision fast.
-Your website needs to make that decision easier.
-It should show your work, explain what you do, build trust quickly, and make it obvious how to contact you.
-That is what we build.
-How We Build
-No WordPress.
-No Templates.
-No Shortcuts.
-Tree service websites need to do more than look nice.
-They need to load fast on phones, show real proof, support your Google presence, and turn local searches into phone calls.
-Every site is hand-coded around your business, your services, your photos, your reviews, and your service area.
-- Every Element Has One Job Every design choice has a purpose: build trust, explain your services, show proof, and move visitors toward calling or requesting an estimate. No clutter. No dead ends. No generic contractor template pretending to be built for tree work.
-- Nothing to Break No plugins. No WordPress updates. No bloated theme files. No page builder conflicts. No security patches from random third-party add-ons. A hand-coded website is simpler, faster, and easier to maintain. That matters when your site is supposed to be working while you are out on the job.
-- Your Best Salesperson Does Not Sleep While you are on a job site, your website is answering questions, showing your work, and helping homeowners decide whether to call. It can explain your tree removal process, show before-and-after photos, highlight reviews, and send estimate requests straight to you. It never calls in sick. It never misses a lead. It never forgets to follow up with the basics.
-Search Intent
-Built for the Way Tree Service Customers Actually Search
-Tree service customers usually show up with a specific problem:
-- A dead tree near the house.
-- Storm damage in the yard.
-- Branches hanging over a roof.
-- A stump they want gone.
-- A lot that needs clearing.
-- A tree they are not sure is safe.
-Your website should speak to those situations clearly.
-We structure your site around the services homeowners are already searching for, including tree removal, tree trimming, stump grinding, emergency tree service, pruning, arborist work, and land clearing when relevant.
-What Your Tree Service Website Should Include
-The Structure Should Match How Homeowners Decide
-Clear Calls to Action Every page should point toward the next step: call now or request an estimate. Your phone number, estimate form, and contact options should be easy to find on desktop and mobile.
-Estimate Request Forms A good form should collect the basics without making the homeowner feel like they are filling out paperwork: name, phone, address or service area, what they need help with, and photos if useful. Simple forms get more submissions.
-Before and After Gallery Tree work is visual. Before-and-after photos help homeowners see the transformation from unsafe, messy, or overgrown to clean, open, and handled. Your gallery should make your work easier to trust.
-Service Pages That Match Real Searches A tree service website should not lump everything into one vague services section. Tree removal, tree trimming, stump grinding, emergency storm cleanup, pruning, land clearing, and arborist services often deserve clear explanations of their own.
-Emergency Tree Service Section Storm damage does not wait. If you handle emergency calls, your website should make that obvious. Homeowners with urgent problems are not reading every page. They need to know you can help, where you work, and how to reach you quickly.
-Mobile-First Design Homeowners search from the yard. Owners check leads from the truck. Crews send photos from job sites. Your website needs to work cleanly on every screen, especially phones.
-Real Photos and Reviews Stock photos do not build the same trust as your own trucks, crew, equipment, and job sites. We help structure your website around real proof: your work, your reviews, your service area, and the reasons someone should call you instead of the next tree company in Google.
-Local SEO Foundation Your site should support how people search locally. That means clear service pages, location signals, structured content, fast load times, and a website that works alongside your Google Business Profile. The goal is to make your tree company easier to find, easier to trust, and easier to contact.
-How It Works
-Three Steps.
-No Surprises.
-01
-We Talk
-A quick call to make sure we are a fit. We cover your services, your market, your current online presence, your goals, and what makes your company different.
-02
-You See a Preview
-Before you commit, you see a working homepage preview built around your business. No pitch decks. No vague mockups. No guessing what the site might look like. You get something real enough to judge.
-03
-We Refine and Launch
-Once you are on board, we dial in the details together. Then we handle the technical setup, launch, hosting, forms, speed, and the core pieces needed to get your site live. Most sites launch within 7 to 10 business days once we have the content we need.
-Built for Tree Pros, Not Everyone
-Tree Web Design is focused on tree service companies.
-That matters.
-A tree company does not need the same website as a dentist, restaurant, roofer, or law firm.
-You need a site that can explain dangerous removals, emergency calls, equipment-heavy jobs, service areas, reviews, cleanup, insurance concerns, and the kind of trust homeowners need before they let someone near their house with a saw.
-Tree Service Web Design FAQ
-Common Questions From Tree Companies
-- Do tree service companies really need a website? Yes. Even if most of your leads come from Google Business Profile, referrals, or word of mouth, people still look you up before calling. A strong website helps confirm that you are real, trustworthy, and worth contacting.
-- What should a tree service website include? A strong tree service website should include your services, service area, phone number, estimate form, reviews, real job photos, before-and-after examples, emergency service information if applicable, and clear reasons to choose your company.
-- Can you build pages for tree removal, stump grinding, and trimming? Yes. Those services often deserve their own pages because homeowners search for them directly. Dedicated pages also help explain each service more clearly and support your local SEO.
-- Do you use WordPress? No. We build hand-coded websites without WordPress, templates, or page builders. That keeps the site faster, simpler, and easier to maintain.
-- Can you use my existing photos and reviews? Yes. Real photos and reviews are some of the strongest assets your tree company has. We can build the site around your existing proof, and we can also help identify where better photos would strengthen the page.
-- How fast can the site launch? Most tree service websites can launch within 7 to 10 business days once we have the information, photos, and approvals needed.
-- Will this help me get more calls? That is the goal. No website can guarantee a specific number of calls, but a fast, well-structured tree service website can make your company easier to find, easier to trust, and easier to contact.
-Ready to See What Your Tree Service Website Could Look Like?
-If your tree company needs a better website, we can build a working preview around your business so you can see the direction before committing.
-Schedule a Call
+
+FILE: tree-service-ads.html
 
 ================================================================================
-FILE: tree-service-seo.html
+
+Tree Service Ads | Google Ads &amp; Local Services Ads for Tree Companies
+Google Ads and Local Services Ads support for tree service companies. Get found by homeowners searching for tree removal, trimming, emergency tree work, stump grinding, and more.
+Tree Service Ads | Google Ads & Local Services Ads for Tree Companies
+Tree Service Ads
+Google Ads &
+Local Services Ads
+for Tree Companies
+Get found when homeowners are actively searching for tree removal, trimming, emergency tree work, stump grinding, and other high-value services in your area.
+Schedule a Call See Pricing
+Tree Service Advertising
+More Visibility When People Are Ready to Call
+Tree service leads are often urgent.
+A homeowner has a storm-damaged tree.
+A branch is hanging over the roof.
+A stump is in the way of a new project.
+A property manager needs a crew fast.
+Someone is comparing local tree companies before requesting estimates.
+When they search, you want to be visible.
+Google Ads and Local Services Ads help put your company in front of people who are already looking for the work you do. The goal is not just more clicks. The goal is more qualified calls, estimate requests, and booked jobs.
+Ads do not replace a strong website or local SEO foundation. They help you show up faster while your website, service pages, Google Business Profile, and local search structure build long-term momentum.
+That is the approach here: ads connected to a real local marketing foundation, not floating on their own.
+High-Intent Searches
+Tree Service Customers Usually Search When They Need Help
+Most people do not casually browse tree service companies for fun. They search because they have a problem. That makes search ads different from general brand awareness advertising. You are not interrupting random people. You are showing up when someone is already looking for help.
+Tree removal near me
+Emergency tree service
+Tree trimming company
+Stump grinding near me
+Arborist near me
+Storm damage tree removal
+Tree service in [city]
+Those searches can turn into real phone calls quickly, but only if your ads, website, service pages, and Google presence all work together.
+Search Ads + Local Services Ads
+Search & Local Services Ads
+Google Search Ads and Local Services Ads can both be useful, but they are not the same thing.
+Google Search Ads
+Google Search Ads are the traditional text ads that appear when someone searches for specific keywords. They can target services like tree removal, trimming, stump grinding, emergency tree service, lot clearing, and other high-value work.
+These campaigns usually involve:
+Keyword targeting
+Negative keywords
+Location targeting
+Ad copy
+Landing pages
+Call-focused tracking
+Budget management
+Monthly review and adjustments
+Search Ads give you more control over keywords, pages, messaging, and service focus.
+Local Services Ads
+Local Services Ads are Google's local lead-focused ads that appear in a different format than regular search ads. For tree companies, LSAs are built around local trust signals, service areas, reviews, and direct lead actions.
+LSAs are especially helpful when your company has:
+Strong Google reviews
+A complete Google Business Profile
+Fast response time
+Clear service areas
+Proper business documentation
+A real process for handling calls and leads
+LSAs can be powerful, but they still need to be watched. Bad-fit leads, weak categories, missed calls, slow responses, or incomplete profiles can waste money.
+Which Ad Path Fits Your Tree Company?
+Not Every Tree Company Should Start With the Same Ad Setup
+Google Search Ads are usually the better starting point if you want more control over keywords, services, cities, landing pages, and budget. They are also a practical option if Local Services Ads are not available yet, your profile is still being built, or you want to start with a more flexible campaign.
+Local Services Ads may be a better fit if your company already has strong reviews, a complete Google Business Profile, clear service areas, and a fast response process. LSAs can be powerful, but they usually take more setup, verification, and follow-up discipline.
+Sometimes the right move is to fix the foundation first. If your website is weak, your reviews are thin, your Google profile is incomplete, or calls are regularly missed, ads may expose those problems instead of solving them.
+The goal is simple: choose the ad path that fits where your business is right now.
+The Practical Starting Point
+Search Ads
+Best for tree companies that want control, flexibility, and a faster starting point.
+Good fit if:
+You want to promote specific services
+You want to target specific cities
+You need focused landing pages
+You are still building reviews
+LSAs are not available or approved yet
+Local Services Ads
+Best for tree companies that already have trust signals and can respond quickly.
+Good fit if:
+You have solid Google reviews
+Your Google profile is complete
+Your service areas are clear
+You can handle verification
+You answer and follow up fast
+Fix the Foundation First
+Best for companies that are not ready to spend on traffic yet.
+Start here if:
+Your website looks outdated
+Your reviews are thin
+Your Google profile is incomplete
+Your phone number is hard to find
+You miss calls often
+Ad Support
+What’s Included With Tree Service Ad Support
+The goal is to keep your ads focused, local, and tied to real calls. Depending on your plan and ad setup, support can include:
+Campaign Setup Structure the campaign around your services, locations, budget, and business goals so every dollar is aimed at the right work.
+Keyword Research Focus on searches that connect to real tree service work, not random traffic that burns budget without producing calls.
+Negative Keywords Block poor-fit searches so your ads are not wasting money on the wrong clicks, wrong services, or wrong locations.
+Local Targeting Aim your ads at the areas you actually serve, not a giant radius that brings in calls from jobs you do not want.
+Ad Copy Clear, direct ads built around what homeowners care about: fast response, local service, experience, emergency help, and easy estimates.
+Landing Page Alignment Ads work better when the page they send people to matches the search. A tree removal ad should not dump people onto a vague homepage.
+Google Business Profile Reviews, categories, service areas, photos, and business details all affect trust and LSA performance. Profile alignment matters.
+Monthly Review Performance is watched and the campaign is adjusted over time so your budget stays pointed at what is actually working.
+Built Around Calls
+The Goal Is Not Traffic.
+The Goal Is More Calls.
+A lot of ad campaigns focus too much on clicks. Clicks are not the business outcome. For a tree company, the real question is whether the phone rang, whether the lead made sense, whether the job fit your service area, and whether someone answered.
+That is why ads work best when they are connected to a strong website, clear service pages, review signals, and a simple path to contact you. Your ads should not send people into a confusing website. They should send people into a page built to help them call or request an estimate quickly.
+Tree Service Campaigns
+Ads Can Be Built Around Your Most Valuable Services
+Not every service needs the same ad strategy. Some are urgent. Some are seasonal. Some are high-ticket. Some need more education before the customer calls.
+The right mix depends on your market, your crew, your margins, your reviews, and the types of jobs you actually want more of.
+Common tree service ad targets include:
+Tree removal
+Emergency tree service
+Storm damage tree removal
+Tree trimming
+Tree pruning
+Stump grinding
+Stump removal
+Lot clearing
+Brush clearing
+Crane-assisted tree removal
+Commercial tree service
+Arborist consultations
+Best Fit
+Ads Are Best When Your Business Is Ready for Leads
+Ads work best when your tree company can answer calls, follow up quickly, and handle new estimate requests.
+You do not need everything perfect before running ads, but the basics matter: a trustworthy website, clear service areas, solid reviews, and a complete Google Business Profile.
+If those pieces are weak, the first step may be improving the foundation before increasing ad spend.
+No Magic Buttons
+Ads Need Budget, Tracking, and Patience
+Some markets are competitive. Some services cost more per lead. Some campaigns need testing before they become efficient.
+The goal is to keep improving the campaign over time: better targeting, better keywords, and better landing pages. That is how a campaign becomes more efficient — not by running perfectly from day one.
+Tree Service Marketing Support
+Ads Work Better When the Website Is Built for Them
+Most ad managers can send traffic. That does not mean the traffic will convert.
+My focus is on the full path: search → ad → landing page → trust → call or estimate request.
+Because I build fast, hand-coded websites for tree service companies, the ad strategy is not disconnected from the website. The pages, calls-to-action, service areas, reviews, and tracking all work together.
+Your ads are not floating on their own. They are connected to a local search foundation designed to help homeowners understand who you are, what you do, where you work, and how to contact you.
+Available With Pro
+Google Ads and Local Services Ads support is included with the Pro plan — setup, structure, review, and ongoing ad support as part of your monthly website and marketing plan.
+Ad spend is separate and paid directly to Google. Your monthly plan covers the support, management, review, and website alignment around the ads.
+For many tree companies, this creates a stronger growth setup:
+Website
+Service pages
+Service area pages
+Google Business Profile management
+Local SEO structure
+Google Ads / LSA support
+Monthly review and improvements
+View Pricing
+Questions
+Tree Service Ads FAQ
+Common questions about Google Ads and Local Services Ads for tree companies.
+Are Google Ads and Local Services Ads the same thing?
+No. Google Search Ads are keyword-based ads that usually send people to your website or landing page. Local Services Ads are a different Google ad format built more around local trust, reviews, service areas, and direct leads.
+Both can be useful, but they need different setup and management.
+Is ad spend included in the monthly plan?
+No. Ad spend is paid directly to Google and is not included in the monthly plan.
+That support is included with Pro. The monthly plan covers setup, review, management, and website alignment. Ad spend stays separate.
+Do I need a website to run ads?
+Technically, not always. Practically, yes, you should have one.
+A strong website gives people a place to verify your company, view your services, see proof, understand your service area, and contact you. Ads work better when the website builds trust.
+How much should a tree company spend on ads?
+It depends on your market, competition, service area, and goals.
+A small test budget can show early signals, but competitive tree service markets usually need enough budget to collect data and make adjustments. If the budget is too small, it may be hard to learn what is working.
+Can ads help me get emergency tree service calls?
+Yes, emergency tree service can be a strong ad category because people often search when they need help quickly.
+The campaign needs to be set up carefully so you are not paying for bad-fit searches, out-of-area leads, or calls you cannot answer.
+Do LSAs work for tree companies?
+They can, especially when the company has strong reviews, a complete Google profile, good response habits, and a clear service area.
+LSAs still need monitoring. Missed calls, bad-fit leads, weak profile details, or poor follow-up can hurt performance.
+Will ads help my SEO?
+Ads do not directly replace SEO.
+The better way to think about it: SEO builds long-term visibility. Ads help you show up faster while that foundation grows. A strong website, service pages, reviews, and Google Business Profile support both.
+Get Found Faster
+Want to See if Ads Make Sense
+for Your Tree Company?
+If you already have reviews, answer the phone consistently, and want more calls from your service area, Google Ads or Local Services Ads may be worth testing.
+I can help you figure out whether ads make sense, what services to focus on, and how to connect the campaign to a website built to convert.
+Schedule a Call View Pricing
+
 ================================================================================
-Tree Service SEO | On-Page SEO, Local Schema & Google Profile Support
+
+FILE: tree-service-seo.html
+
+================================================================================
+
+Tree Service SEO | On-Page SEO, Local Schema &amp; Google Profile Support
 Tree service SEO support focused on on-page SEO, local schema, service pages, service area pages, Google Business Profile alignment, and stronger local search signals.
 Tree Service SEO | On-Page SEO, Local Schema & Google Profile Support
+Tree Service SEO
 Tree Service SEO
 Built Around
 Local Search
@@ -537,23 +704,23 @@ Separate Pages for the Work You Want More Of
 Tree companies often make the mistake of putting every service on one general page.
 A stronger SEO structure gives important services their own pages, so each one can explain the work clearly, answer common questions, show trust signals, and guide visitors toward calling or requesting an estimate.
 Better service pages also help ads perform better because the landing page can match the search.
-- Tree Removal
-- Tree Trimming
-- Emergency Tree Service
-- Stump Grinding
-- Storm Damage Cleanup
-- Lot Clearing
-- Commercial Tree Service
+Tree Removal
+Tree Trimming
+Emergency Tree Service
+Stump Grinding
+Storm Damage Cleanup
+Lot Clearing
+Commercial Tree Service
 Service Area Pages
 Show Where You Work
 If your tree company serves multiple cities, your website should make that clear.
 Service area pages help explain where you work and give Google more location-specific context.
 These pages should not be lazy duplicates with the city name swapped out. They should be useful, readable, and connected to your actual services.
-- Tree service in [city]
-- Tree removal in [city]
-- Emergency tree service in [city]
-- Stump grinding in [city]
-- Tree trimming company near [city]
+Tree service in [city]
+Tree removal in [city]
+Emergency tree service in [city]
+Stump grinding in [city]
+Tree trimming company near [city]
 Local Schema Markup
 Structured Data That Helps Search Engines Understand Your Business
 Local schema is code added to your website that gives search engines clearer information about your business.
@@ -564,11 +731,11 @@ Your Website and Google Profile Should Support Each Other
 Your Google Business Profile is often seen before your website.
 That means your profile and website should tell the same story.
 If your website says you offer emergency tree removal, stump grinding, and trimming across specific cities, your Google profile should support that with accurate categories, services, photos, descriptions, and updates.
-- Your website explains the work
-- Your Google profile confirms the business
-- Your reviews prove the trust
-- Your photos show the real company
-- Your calls-to-action make it easy to contact you
+Your website explains the work
+Your Google profile confirms the business
+Your reviews prove the trust
+Your photos show the real company
+Your calls-to-action make it easy to contact you
 Reviews, Photos, and Proof
 SEO Is Not Just Keywords
 Google needs relevance. Customers need proof.
@@ -579,9 +746,9 @@ Better Pages Help Paid Traffic Too
 SEO and ads are not separate worlds.
 If you run Google Ads, the pages people land on still matter. A stronger page can help visitors understand the service, trust the company, and call faster.
 A clear website, strong service pages, local schema, service area pages, and Google profile alignment can support both organic visibility and paid campaigns.
-- A tree removal ad should go to a tree removal page
-- A stump grinding ad should go to a stump grinding page
-- An emergency tree service ad should go to a page built for urgent calls
+A tree removal ad should go to a tree removal page
+A stump grinding ad should go to a stump grinding page
+An emergency tree service ad should go to a page built for urgent calls
 SEO Support
 What Can Be Improved
 Depending on your plan and where your website is now, SEO support may include:
@@ -640,190 +807,11 @@ I can help build a cleaner foundation around the services you offer, the areas y
 Schedule a Call View Pricing
 
 ================================================================================
-FILE: tree-service-ads.html
-================================================================================
-Tree Service Ads | Google Ads & Local Services Ads for Tree Companies
-Google Ads and Local Services Ads support for tree service companies. Get found by homeowners searching for tree removal, trimming, emergency tree work, stump grinding, and more.
-Tree Service Ads | Google Ads & Local Services Ads for Tree Companies
-Tree Service Ads
-Google Ads &
-Local Services Ads
-for Tree Companies
-Get found when homeowners are actively searching for tree removal, trimming, emergency tree work, stump grinding, and other high-value services in your area.
-Schedule a Call See Pricing
-Tree Service Advertising
-More Visibility When People Are Ready to Call
-Tree service leads are often urgent.
-- A homeowner has a storm-damaged tree.
-- A branch is hanging over the roof.
-- A stump is in the way of a new project.
-- A property manager needs a crew fast.
-- Someone is comparing local tree companies before requesting estimates.
-When they search, you want to be visible.
-Google Ads and Local Services Ads help put your company in front of people who are already looking for the work you do. The goal is not just more clicks. The goal is more qualified calls, estimate requests, and booked jobs.
-Ads do not replace a strong website or local SEO foundation. They help you show up faster while your website, service pages, Google Business Profile, and local search structure build long-term momentum.
-That is the approach here: ads connected to a real local marketing foundation, not floating on their own.
-High-Intent Searches
-Tree Service Customers Usually Search When They Need Help
-Most people do not casually browse tree service companies for fun. They search because they have a problem. That makes search ads different from general brand awareness advertising. You are not interrupting random people. You are showing up when someone is already looking for help.
-- Tree removal near me
-- Emergency tree service
-- Tree trimming company
-- Stump grinding near me
-- Arborist near me
-- Storm damage tree removal
-- Tree service in [city]
-Those searches can turn into real phone calls quickly, but only if your ads, website, service pages, and Google presence all work together.
-Search Ads + Local Services Ads
-Search & Local Services Ads
-Google Search Ads and Local Services Ads can both be useful, but they are not the same thing.
-Google Search Ads
-Google Search Ads are the traditional text ads that appear when someone searches for specific keywords. They can target services like tree removal, trimming, stump grinding, emergency tree service, lot clearing, and other high-value work.
-These campaigns usually involve:
-- Keyword targeting
-- Negative keywords
-- Location targeting
-- Ad copy
-- Landing pages
-- Call-focused tracking
-- Budget management
-- Monthly review and adjustments
-Search Ads give you more control over keywords, pages, messaging, and service focus.
-Local Services Ads
-Local Services Ads are Google's local lead-focused ads that appear in a different format than regular search ads. For tree companies, LSAs are built around local trust signals, service areas, reviews, and direct lead actions.
-LSAs are especially helpful when your company has:
-- Strong Google reviews
-- A complete Google Business Profile
-- Fast response time
-- Clear service areas
-- Proper business documentation
-- A real process for handling calls and leads
-LSAs can be powerful, but they still need to be watched. Bad-fit leads, weak categories, missed calls, slow responses, or incomplete profiles can waste money.
-Which Ad Path Fits Your Tree Company?
-Not Every Tree Company Should Start With the Same Ad Setup
-Google Search Ads are usually the better starting point if you want more control over keywords, services, cities, landing pages, and budget. They are also a practical option if Local Services Ads are not available yet, your profile is still being built, or you want to start with a more flexible campaign.
-Local Services Ads may be a better fit if your company already has strong reviews, a complete Google Business Profile, clear service areas, and a fast response process. LSAs can be powerful, but they usually take more setup, verification, and follow-up discipline.
-Sometimes the right move is to fix the foundation first. If your website is weak, your reviews are thin, your Google profile is incomplete, or calls are regularly missed, ads may expose those problems instead of solving them.
-The goal is simple: choose the ad path that fits where your business is right now.
-The Practical Starting Point
-Search Ads
-Best for tree companies that want control, flexibility, and a faster starting point.
-Good fit if:
-- You want to promote specific services
-- You want to target specific cities
-- You need focused landing pages
-- You are still building reviews
-- LSAs are not available or approved yet
-Local Services Ads
-Best for tree companies that already have trust signals and can respond quickly.
-Good fit if:
-- You have solid Google reviews
-- Your Google profile is complete
-- Your service areas are clear
-- You can handle verification
-- You answer and follow up fast
-Fix the Foundation First
-Best for companies that are not ready to spend on traffic yet.
-Start here if:
-- Your website looks outdated
-- Your reviews are thin
-- Your Google profile is incomplete
-- Your phone number is hard to find
-- You miss calls often
-Ad Support
-What’s Included With Tree Service Ad Support
-The goal is to keep your ads focused, local, and tied to real calls. Depending on your plan and ad setup, support can include:
-Campaign Setup Structure the campaign around your services, locations, budget, and business goals so every dollar is aimed at the right work.
-Keyword Research Focus on searches that connect to real tree service work, not random traffic that burns budget without producing calls.
-Negative Keywords Block poor-fit searches so your ads are not wasting money on the wrong clicks, wrong services, or wrong locations.
-Local Targeting Aim your ads at the areas you actually serve, not a giant radius that brings in calls from jobs you do not want.
-Ad Copy Clear, direct ads built around what homeowners care about: fast response, local service, experience, emergency help, and easy estimates.
-Landing Page Alignment Ads work better when the page they send people to matches the search. A tree removal ad should not dump people onto a vague homepage.
-Google Business Profile Reviews, categories, service areas, photos, and business details all affect trust and LSA performance. Profile alignment matters.
-Monthly Review Performance is watched and the campaign is adjusted over time so your budget stays pointed at what is actually working.
-Built Around Calls
-The Goal Is Not Traffic.
-The Goal Is More Calls.
-A lot of ad campaigns focus too much on clicks. Clicks are not the business outcome. For a tree company, the real question is whether the phone rang, whether the lead made sense, whether the job fit your service area, and whether someone answered.
-That is why ads work best when they are connected to a strong website, clear service pages, review signals, and a simple path to contact you. Your ads should not send people into a confusing website. They should send people into a page built to help them call or request an estimate quickly.
-Tree Service Campaigns
-Ads Can Be Built Around Your Most Valuable Services
-Not every service needs the same ad strategy. Some are urgent. Some are seasonal. Some are high-ticket. Some need more education before the customer calls.
-The right mix depends on your market, your crew, your margins, your reviews, and the types of jobs you actually want more of.
-Common tree service ad targets include:
-- Tree removal
-- Emergency tree service
-- Storm damage tree removal
-- Tree trimming
-- Tree pruning
-- Stump grinding
-- Stump removal
-- Lot clearing
-- Brush clearing
-- Crane-assisted tree removal
-- Commercial tree service
-- Arborist consultations
-Best Fit
-Ads Are Best When Your Business Is Ready for Leads
-Ads work best when your tree company can answer calls, follow up quickly, and handle new estimate requests.
-You do not need everything perfect before running ads, but the basics matter: a trustworthy website, clear service areas, solid reviews, and a complete Google Business Profile.
-If those pieces are weak, the first step may be improving the foundation before increasing ad spend.
-No Magic Buttons
-Ads Need Budget, Tracking, and Patience
-Some markets are competitive. Some services cost more per lead. Some campaigns need testing before they become efficient.
-The goal is to keep improving the campaign over time: better targeting, better keywords, and better landing pages. That is how a campaign becomes more efficient — not by running perfectly from day one.
-Tree Service Marketing Support
-Ads Work Better When the Website Is Built for Them
-Most ad managers can send traffic. That does not mean the traffic will convert.
-My focus is on the full path: search → ad → landing page → trust → call or estimate request.
-Because I build fast, hand-coded websites for tree service companies, the ad strategy is not disconnected from the website. The pages, calls-to-action, service areas, reviews, and tracking all work together.
-Your ads are not floating on their own. They are connected to a local search foundation designed to help homeowners understand who you are, what you do, where you work, and how to contact you.
-Available With Pro
-Google Ads and Local Services Ads support is included with the Pro plan — setup, structure, review, and ongoing ad support as part of your monthly website and marketing plan.
-Ad spend is separate and paid directly to Google. Your monthly plan covers the support, management, review, and website alignment around the ads.
-For many tree companies, this creates a stronger growth setup:
-- Website
-- Service pages
-- Service area pages
-- Google Business Profile management
-- Local SEO structure
-- Google Ads / LSA support
-- Monthly review and improvements
-View Pricing
-Questions
-Tree Service Ads FAQ
-Common questions about Google Ads and Local Services Ads for tree companies.
-Are Google Ads and Local Services Ads the same thing?
-No. Google Search Ads are keyword-based ads that usually send people to your website or landing page. Local Services Ads are a different Google ad format built more around local trust, reviews, service areas, and direct leads.
-Both can be useful, but they need different setup and management.
-Is ad spend included in the monthly plan?
-No. Ad spend is paid directly to Google and is not included in the monthly plan.
-The monthly plan covers support, setup, review, management, and website alignment depending on your plan.
-Do I need a website to run ads?
-Technically, not always. Practically, yes, you should have one.
-A strong website gives people a place to verify your company, view your services, see proof, understand your service area, and contact you. Ads work better when the website builds trust.
-How much should a tree company spend on ads?
-It depends on your market, competition, service area, and goals.
-A small test budget can show early signals, but competitive tree service markets usually need enough budget to collect data and make adjustments. If the budget is too small, it may be hard to learn what is working.
-Can ads help me get emergency tree service calls?
-Yes, emergency tree service can be a strong ad category because people often search when they need help quickly.
-The campaign needs to be set up carefully so you are not paying for bad-fit searches, out-of-area leads, or calls you cannot answer.
-Do LSAs work for tree companies?
-They can, especially when the company has strong reviews, a complete Google profile, good response habits, and a clear service area.
-LSAs still need monitoring. Missed calls, bad-fit leads, weak profile details, or poor follow-up can hurt performance.
-Will ads help my SEO?
-Ads do not directly replace SEO.
-The better way to think about it: SEO builds long-term visibility. Ads help you show up faster while that foundation grows. A strong website, service pages, reviews, and Google Business Profile support both.
-Get Found Faster
-Want to See if Ads Make Sense
-for Your Tree Company?
-If you already have reviews, answer the phone consistently, and want more calls from your service area, Google Ads or Local Services Ads may be worth testing.
-I can help you figure out whether ads make sense, what services to focus on, and how to connect the campaign to a website built to convert.
-Schedule a Call View Pricing
+
+FILE: tree-service-web-design-arlington-tx.html
 
 ================================================================================
-FILE: tree-service-web-design-arlington-tx.html
-================================================================================
+
 Tree Service Web Design in Arlington, TX | Tree Web Design
 Tree service web design built for Arlington, TX companies. Hand-coded, fast-loading websites that turn visitors into calls. $0 setup fee. Starting at $149/mo.
 Tree Service Web Design in Arlington, TX | Tree Web Design
@@ -833,9 +821,9 @@ Arlington, TX
 Built for Tree Companies
 That Need More Calls.
 Most tree companies in Arlington rely on referrals, repeat customers, and Google reviews. That works — until someone searches "tree removal Arlington TX" and your site loses them in the first three seconds. Spring storm season hits Arlington hard, and that's when the phones should be ringing most. Most companies here have strong reviews but a website that doesn't back it up.
-- Storm damage and emergency removals bring high-intent searches at all hours. Your site needs to be ready.
-- Overgrown trees near structures mean customers are already motivated — they just need to find you first.
-- Seasonal spikes don't wait. When the calls come in, a slow site hands those jobs to whoever loads faster.
+Storm damage and emergency removals bring high-intent searches at all hours. Your site needs to be ready.
+Overgrown trees near structures mean customers are already motivated — they just need to find you first.
+Seasonal spikes don't wait. When the calls come in, a slow site hands those jobs to whoever loads faster.
 What You Get
 A Company That Looks Legit Homeowners comparing options quickly will skip past anything that looks outdated or generic. First impressions close or kill the call.
 Clear Services Removal, trimming, stump grinding, emergency response — visitors need to see exactly what you do without hunting for it.
@@ -845,25 +833,25 @@ The Difference
 Most Sites Look Fine.
 They Just Don't Convert.
 Typical Tree Company Site
-- Slow to load on mobile
-- Generic layout that looks like everyone else
-- Phone number buried or hard to find
-- No clear next step for the visitor
-- Contact form that disappears into a void
+Slow to load on mobile
+Generic layout that looks like everyone else
+Phone number buried or hard to find
+No clear next step for the visitor
+Contact form that disappears into a void
 What I Build
-- Loads in under a second, on any connection
-- Immediate clarity on services and service area
-- Call button visible on every page, every screen size
-- Layout designed around how customers actually decide
-- Leads delivered straight to your phone
+Loads in under a second, on any connection
+Immediate clarity on services and service area
+Call button visible on every page, every screen size
+Layout designed around how customers actually decide
+Leads delivered straight to your phone
 What I Build Instead
 No Templates.
 No Guesswork.
 Every tree service website I build is designed around one goal: turn visitors into calls. Not pretty pictures. Calls.
-- Hand-coded from scratch — no WordPress, no page builders, nothing to break or slow down.
-- Loads in under a second — fast enough for someone standing in their yard during a storm.
-- Built for emergency call behavior — storm-related searches, high-intent service pages, real jobsite photography when available.
-- Mobile-first, always — because that's where most of your calls come from.
+Hand-coded from scratch — no WordPress, no page builders, nothing to break or slow down.
+Loads in under a second — fast enough for someone standing in their yard during a storm.
+Built for emergency call behavior — storm-related searches, high-intent service pages, real jobsite photography when available.
+Mobile-first, always — because that's where most of your calls come from.
 Why It Works for Arlington
 Four Steps.
 One Decision.
@@ -884,32 +872,35 @@ A site that reinforces what they already heard closes the call. A site that does
 Pricing
 Simple monthly plans.
 No surprises.
-- Plans start at $149/mo
-- $0 setup fee
-- Lite has a 3-month minimum
-- Hosting included
-- Growth and Pro include unlimited updates
-- Growth and Pro include ongoing local SEO expansion
+Plans start at $149/mo
+$0 setup fee
+Lite has a 3-month minimum
+Hosting included
+Growth and Pro include unlimited updates
+Growth and Pro include ongoing local SEO expansion
 View Current Plans & Pricing →
 Plans start at
 $149 /mo
 $0 setup fee
 3-month minimum on Lite. First payment due at kickoff.
-ADD-ON
+PRO PLAN
 Get Calls While Your SEO Builds
-SEO takes time to build momentum. If you need calls right away, we can launch Google Ads or Local Services Ads to start generating leads while your website and local SEO ramp up.
-- Google Ads or Local Services Ads setup
-- High-intent keyword targeting
-- Call-focused campaigns
-- Ongoing optimization
-Ad spend is paid directly to Google. This is optional and can be added to any plan.
+SEO takes time to build momentum. Pro includes Google Ads and Local Services Ads support to help generate leads while your website and local SEO ramp up.
+Google Ads or Local Services Ads support
+High-intent keyword targeting
+Call-focused campaigns
+Ongoing optimization
+Included with Pro. Ad spend is paid directly to Google.
 Arlington, TX Tree Companies
 See your site before you commit. A real demo, built for your company — not a slide deck.
 Schedule a Free 15-Min Call →
 
 ================================================================================
+
 FILE: tree-service-web-design-dallas-tx.html
+
 ================================================================================
+
 Tree Service Web Design in Dallas, TX | Tree Web Design
 Tree service web design built for Dallas, TX companies. Hand-coded, fast-loading websites that turn visitors into calls. $0 setup fee. Starting at $149/mo.
 Tree Service Web Design in Dallas, TX | Tree Web Design
@@ -919,9 +910,9 @@ Dallas, TX
 Built for Tree Companies
 That Need More Calls.
 Most tree companies in Dallas are spread across a massive service area — Oak Cliff to Far North Dallas — and still relying on referrals and Google reviews to fill the schedule. That works until someone searches "tree removal Dallas TX" and lands on a competitor's site that loads faster and looks sharper. Dallas has some of the oldest, largest trees in North Texas. The jobs are high-ticket. The competition for those calls is real.
-- Large canopy removals and high-risk jobs near structures drive some of the highest-value searches in the market. Your site needs to match that scale.
-- Dallas customers research before they call . If your site looks outdated, they assume your operation is too.
-- North Texas heat and wind events spike emergency searches fast. A slow site loses those jobs before you even know they came in.
+Large canopy removals and high-risk jobs near structures drive some of the highest-value searches in the market. Your site needs to match that scale.
+Dallas customers research before they call . If your site looks outdated, they assume your operation is too.
+North Texas heat and wind events spike emergency searches fast. A slow site loses those jobs before you even know they came in.
 What You Get
 A Company That Looks Legit Homeowners comparing options quickly will skip past anything that looks outdated or generic. First impressions close or kill the call.
 Clear Services Removal, trimming, stump grinding, emergency response — visitors need to see exactly what you do without hunting for it.
@@ -931,25 +922,25 @@ The Difference
 Most Sites Look Fine.
 They Just Don't Convert.
 Typical Tree Company Site
-- Slow to load on mobile
-- Generic layout that looks like everyone else
-- Phone number buried or hard to find
-- No clear next step for the visitor
-- Contact form that disappears into a void
+Slow to load on mobile
+Generic layout that looks like everyone else
+Phone number buried or hard to find
+No clear next step for the visitor
+Contact form that disappears into a void
 What I Build
-- Loads in under a second, on any connection
-- Immediate clarity on services and service area
-- Call button visible on every page, every screen size
-- Layout designed around how customers actually decide
-- Leads delivered straight to your phone
+Loads in under a second, on any connection
+Immediate clarity on services and service area
+Call button visible on every page, every screen size
+Layout designed around how customers actually decide
+Leads delivered straight to your phone
 What I Build Instead
 No Templates.
 No Guesswork.
 Every tree service website I build is designed around one goal: turn visitors into calls. Not pretty pictures. Calls.
-- Hand-coded from scratch — no WordPress, no page builders, nothing to break or slow down.
-- Loads in under a second — fast enough for someone standing in their yard during a storm.
-- Built for emergency call behavior — storm-related searches, high-intent service pages, real jobsite photography when available.
-- Mobile-first, always — because that's where most of your calls come from.
+Hand-coded from scratch — no WordPress, no page builders, nothing to break or slow down.
+Loads in under a second — fast enough for someone standing in their yard during a storm.
+Built for emergency call behavior — storm-related searches, high-intent service pages, real jobsite photography when available.
+Mobile-first, always — because that's where most of your calls come from.
 Why It Works for Dallas
 Four Steps.
 One Decision.
@@ -970,32 +961,35 @@ A site that reinforces what they already heard closes the call. A site that does
 Pricing
 Simple monthly plans.
 No surprises.
-- Plans start at $149/mo
-- $0 setup fee
-- Lite has a 3-month minimum
-- Hosting included
-- Growth and Pro include unlimited updates
-- Growth and Pro include ongoing local SEO expansion
+Plans start at $149/mo
+$0 setup fee
+Lite has a 3-month minimum
+Hosting included
+Growth and Pro include unlimited updates
+Growth and Pro include ongoing local SEO expansion
 View Current Plans & Pricing →
 Plans start at
 $149 /mo
 $0 setup fee
 3-month minimum on Lite. First payment due at kickoff.
-ADD-ON
+PRO PLAN
 Get Calls While Your SEO Builds
-SEO takes time to build momentum. If you need calls right away, we can launch Google Ads or Local Services Ads to start generating leads while your website and local SEO ramp up.
-- Google Ads or Local Services Ads setup
-- High-intent keyword targeting
-- Call-focused campaigns
-- Ongoing optimization
-Ad spend is paid directly to Google. This is optional and can be added to any plan.
+SEO takes time to build momentum. Pro includes Google Ads and Local Services Ads support to help generate leads while your website and local SEO ramp up.
+Google Ads or Local Services Ads support
+High-intent keyword targeting
+Call-focused campaigns
+Ongoing optimization
+Included with Pro. Ad spend is paid directly to Google.
 Dallas, TX Tree Companies
 See your site before you commit. A real demo, built for your company — not a slide deck.
 Schedule a Free 15-Min Call →
 
 ================================================================================
+
 FILE: tree-service-web-design-denton-tx.html
+
 ================================================================================
+
 Tree Service Web Design in Denton, TX | Tree Web Design
 Tree service web design built for Denton, TX companies. Hand-coded, fast-loading websites that turn visitors into calls. $0 setup fee. Starting at $149/mo.
 Tree Service Web Design in Denton, TX | Tree Web Design
@@ -1005,9 +999,9 @@ Denton, TX
 Built for Tree Companies
 That Need More Calls.
 Denton has a different character than most DFW markets — college town, growing fast, with a strong mix of older established neighborhoods and new development pushing outward in every direction. Tree service demand here is real and consistent, but the market is thinner on competition than Dallas or Fort Worth. When someone searches "tree removal Denton TX," there are fewer strong options showing up. That's an opening. A fast, professional site in this market stands out more than almost anywhere else in the metro.
-- Denton's older neighborhoods near the square and TWU have large, mature trees that generate steady removal and trimming demand.
-- University population and rental properties mean frequent turnover — new residents who don't have a referral network and go straight to search.
-- Less digital competition here than in Dallas or Fort Worth . A well-built site captures a higher share of available searches.
+Denton's older neighborhoods near the square and TWU have large, mature trees that generate steady removal and trimming demand.
+University population and rental properties mean frequent turnover — new residents who don't have a referral network and go straight to search.
+Less digital competition here than in Dallas or Fort Worth . A well-built site captures a higher share of available searches.
 What You Get
 A Company That Looks Legit Homeowners comparing options quickly will skip past anything that looks outdated or generic. First impressions close or kill the call.
 Clear Services Removal, trimming, stump grinding, emergency response — visitors need to see exactly what you do without hunting for it.
@@ -1017,25 +1011,25 @@ The Difference
 Most Sites Look Fine.
 They Just Don't Convert.
 Typical Tree Company Site
-- Slow to load on mobile
-- Generic layout that looks like everyone else
-- Phone number buried or hard to find
-- No clear next step for the visitor
-- Contact form that disappears into a void
+Slow to load on mobile
+Generic layout that looks like everyone else
+Phone number buried or hard to find
+No clear next step for the visitor
+Contact form that disappears into a void
 What I Build
-- Loads in under a second, on any connection
-- Immediate clarity on services and service area
-- Call button visible on every page, every screen size
-- Layout designed around how customers actually decide
-- Leads delivered straight to your phone
+Loads in under a second, on any connection
+Immediate clarity on services and service area
+Call button visible on every page, every screen size
+Layout designed around how customers actually decide
+Leads delivered straight to your phone
 What I Build Instead
 No Templates.
 No Guesswork.
 Every tree service website I build is designed around one goal: turn visitors into calls. Not pretty pictures. Calls.
-- Hand-coded from scratch — no WordPress, no page builders, nothing to break or slow down.
-- Loads in under a second — fast enough for someone standing in their yard during a storm.
-- Built for emergency call behavior — storm-related searches, high-intent service pages, real jobsite photography when available.
-- Mobile-first, always — because that's where most of your calls come from.
+Hand-coded from scratch — no WordPress, no page builders, nothing to break or slow down.
+Loads in under a second — fast enough for someone standing in their yard during a storm.
+Built for emergency call behavior — storm-related searches, high-intent service pages, real jobsite photography when available.
+Mobile-first, always — because that's where most of your calls come from.
 Why It Works for Denton
 Four Steps.
 One Decision.
@@ -1056,32 +1050,35 @@ A site that reinforces what they already heard closes the call. A site that does
 Pricing
 Simple monthly plans.
 No surprises.
-- Plans start at $149/mo
-- $0 setup fee
-- Lite has a 3-month minimum
-- Hosting included
-- Growth and Pro include unlimited updates
-- Growth and Pro include ongoing local SEO expansion
+Plans start at $149/mo
+$0 setup fee
+Lite has a 3-month minimum
+Hosting included
+Growth and Pro include unlimited updates
+Growth and Pro include ongoing local SEO expansion
 View Current Plans & Pricing →
 Plans start at
 $149 /mo
 $0 setup fee
 3-month minimum on Lite. First payment due at kickoff.
-ADD-ON
+PRO PLAN
 Get Calls While Your SEO Builds
-SEO takes time to build momentum. If you need calls right away, we can launch Google Ads or Local Services Ads to start generating leads while your website and local SEO ramp up.
-- Google Ads or Local Services Ads setup
-- High-intent keyword targeting
-- Call-focused campaigns
-- Ongoing optimization
-Ad spend is paid directly to Google. This is optional and can be added to any plan.
+SEO takes time to build momentum. Pro includes Google Ads and Local Services Ads support to help generate leads while your website and local SEO ramp up.
+Google Ads or Local Services Ads support
+High-intent keyword targeting
+Call-focused campaigns
+Ongoing optimization
+Included with Pro. Ad spend is paid directly to Google.
 Denton, TX Tree Companies
 See your site before you commit. A real demo, built for your company — not a slide deck.
 Schedule a Free 15-Min Call →
 
 ================================================================================
+
 FILE: tree-service-web-design-fort-worth-tx.html
+
 ================================================================================
+
 Tree Service Web Design in Fort Worth, TX | Tree Web Design
 Tree service web design built for Fort Worth, TX companies. Hand-coded, fast-loading websites that turn visitors into calls. $0 setup fee. Starting at $149/mo.
 Tree Service Web Design in Fort Worth, TX | Tree Web Design
@@ -1091,9 +1088,9 @@ Fort Worth, TX
 Built for Tree Companies
 That Need More Calls.
 Most tree companies in Fort Worth built their business on referrals and repeat customers — and it's worked. But Fort Worth is growing fast, and new homeowners don't have that referral network yet. They search. When someone types "tree removal Fort Worth TX" and your site is slow, generic, or hard to read on a phone, that call goes to whoever shows up ready. Fort Worth has a strong base of established tree companies. The ones with better sites are pulling ahead.
-- New construction and rapid neighborhood growth means a constant wave of first-time customers with no referral to lean on. They're going straight to Google.
-- Fort Worth storm season is no joke . When limbs come down, people aren't browsing — they're calling the first company that looks ready to move.
-- Established companies here often have the best crews and worst websites . That gap is exactly where you lose jobs you should have won.
+New construction and rapid neighborhood growth means a constant wave of first-time customers with no referral to lean on. They're going straight to Google.
+Fort Worth storm season is no joke . When limbs come down, people aren't browsing — they're calling the first company that looks ready to move.
+Established companies here often have the best crews and worst websites . That gap is exactly where you lose jobs you should have won.
 What You Get
 A Company That Looks Legit Homeowners comparing options quickly will skip past anything that looks outdated or generic. First impressions close or kill the call.
 Clear Services Removal, trimming, stump grinding, emergency response — visitors need to see exactly what you do without hunting for it.
@@ -1103,25 +1100,25 @@ The Difference
 Most Sites Look Fine.
 They Just Don't Convert.
 Typical Tree Company Site
-- Slow to load on mobile
-- Generic layout that looks like everyone else
-- Phone number buried or hard to find
-- No clear next step for the visitor
-- Contact form that disappears into a void
+Slow to load on mobile
+Generic layout that looks like everyone else
+Phone number buried or hard to find
+No clear next step for the visitor
+Contact form that disappears into a void
 What I Build
-- Loads in under a second, on any connection
-- Immediate clarity on services and service area
-- Call button visible on every page, every screen size
-- Layout designed around how customers actually decide
-- Leads delivered straight to your phone
+Loads in under a second, on any connection
+Immediate clarity on services and service area
+Call button visible on every page, every screen size
+Layout designed around how customers actually decide
+Leads delivered straight to your phone
 What I Build Instead
 No Templates.
 No Guesswork.
 Every tree service website I build is designed around one goal: turn visitors into calls. Not pretty pictures. Calls.
-- Hand-coded from scratch — no WordPress, no page builders, nothing to break or slow down.
-- Loads in under a second — fast enough for someone standing in their yard during a storm.
-- Built for emergency call behavior — storm-related searches, high-intent service pages, real jobsite photography when available.
-- Mobile-first, always — because that's where most of your calls come from.
+Hand-coded from scratch — no WordPress, no page builders, nothing to break or slow down.
+Loads in under a second — fast enough for someone standing in their yard during a storm.
+Built for emergency call behavior — storm-related searches, high-intent service pages, real jobsite photography when available.
+Mobile-first, always — because that's where most of your calls come from.
 Why It Works for Fort Worth
 Four Steps.
 One Decision.
@@ -1142,32 +1139,35 @@ A site that reinforces what they already heard closes the call. A site that does
 Pricing
 Simple monthly plans.
 No surprises.
-- Plans start at $149/mo
-- $0 setup fee
-- Lite has a 3-month minimum
-- Hosting included
-- Growth and Pro include unlimited updates
-- Growth and Pro include ongoing local SEO expansion
+Plans start at $149/mo
+$0 setup fee
+Lite has a 3-month minimum
+Hosting included
+Growth and Pro include unlimited updates
+Growth and Pro include ongoing local SEO expansion
 View Current Plans & Pricing →
 Plans start at
 $149 /mo
 $0 setup fee
 3-month minimum on Lite. First payment due at kickoff.
-ADD-ON
+PRO PLAN
 Get Calls While Your SEO Builds
-SEO takes time to build momentum. If you need calls right away, we can launch Google Ads or Local Services Ads to start generating leads while your website and local SEO ramp up.
-- Google Ads or Local Services Ads setup
-- High-intent keyword targeting
-- Call-focused campaigns
-- Ongoing optimization
-Ad spend is paid directly to Google. This is optional and can be added to any plan.
+SEO takes time to build momentum. Pro includes Google Ads and Local Services Ads support to help generate leads while your website and local SEO ramp up.
+Google Ads or Local Services Ads support
+High-intent keyword targeting
+Call-focused campaigns
+Ongoing optimization
+Included with Pro. Ad spend is paid directly to Google.
 Fort Worth, TX Tree Companies
 See your site before you commit. A real demo, built for your company — not a slide deck.
 Schedule a Free 15-Min Call →
 
 ================================================================================
+
 FILE: tree-service-web-design-frisco-tx.html
+
 ================================================================================
+
 Tree Service Web Design in Frisco, TX | Tree Web Design
 Tree service web design built for Frisco, TX companies. Hand-coded, fast-loading websites that turn visitors into calls. $0 setup fee. Starting at $149/mo.
 Tree Service Web Design in Frisco, TX | Tree Web Design
@@ -1177,9 +1177,9 @@ Frisco, TX
 Built for Tree Companies
 That Need More Calls.
 Frisco is one of the fastest-growing cities in the country, and the tree service market is growing with it. New construction means new trees — and new homeowners who don't have a referral network yet. They go straight to Google. When someone searches "tree trimming Frisco TX" or "tree removal near me," they're making a decision in seconds. Most established tree companies in Frisco built their book on word of mouth. The ones adding a strong website are pulling new customers the others never see.
-- Rapid growth means a constant wave of new residents with no local referrals. They're searching, and they're calling whoever looks ready.
-- Frisco's newer neighborhoods have younger trees now — but they're growing fast, and so is the demand for trimming, shaping, and storm cleanup.
-- High-income homeowners here expect a professional presentation . A generic site loses the call before it starts.
+Rapid growth means a constant wave of new residents with no local referrals. They're searching, and they're calling whoever looks ready.
+Frisco's newer neighborhoods have younger trees now — but they're growing fast, and so is the demand for trimming, shaping, and storm cleanup.
+High-income homeowners here expect a professional presentation . A generic site loses the call before it starts.
 What You Get
 A Company That Looks Legit Homeowners comparing options quickly will skip past anything that looks outdated or generic. First impressions close or kill the call.
 Clear Services Removal, trimming, stump grinding, emergency response — visitors need to see exactly what you do without hunting for it.
@@ -1189,25 +1189,25 @@ The Difference
 Most Sites Look Fine.
 They Just Don't Convert.
 Typical Tree Company Site
-- Slow to load on mobile
-- Generic layout that looks like everyone else
-- Phone number buried or hard to find
-- No clear next step for the visitor
-- Contact form that disappears into a void
+Slow to load on mobile
+Generic layout that looks like everyone else
+Phone number buried or hard to find
+No clear next step for the visitor
+Contact form that disappears into a void
 What I Build
-- Loads in under a second, on any connection
-- Immediate clarity on services and service area
-- Call button visible on every page, every screen size
-- Layout designed around how customers actually decide
-- Leads delivered straight to your phone
+Loads in under a second, on any connection
+Immediate clarity on services and service area
+Call button visible on every page, every screen size
+Layout designed around how customers actually decide
+Leads delivered straight to your phone
 What I Build Instead
 No Templates.
 No Guesswork.
 Every tree service website I build is designed around one goal: turn visitors into calls. Not pretty pictures. Calls.
-- Hand-coded from scratch — no WordPress, no page builders, nothing to break or slow down.
-- Loads in under a second — fast enough for someone standing in their yard during a storm.
-- Built for emergency call behavior — storm-related searches, high-intent service pages, real jobsite photography when available.
-- Mobile-first, always — because that's where most of your calls come from.
+Hand-coded from scratch — no WordPress, no page builders, nothing to break or slow down.
+Loads in under a second — fast enough for someone standing in their yard during a storm.
+Built for emergency call behavior — storm-related searches, high-intent service pages, real jobsite photography when available.
+Mobile-first, always — because that's where most of your calls come from.
 Why It Works for Frisco
 Four Steps.
 One Decision.
@@ -1228,32 +1228,35 @@ A site that reinforces what they already heard closes the call. A site that does
 Pricing
 Simple monthly plans.
 No surprises.
-- Plans start at $149/mo
-- $0 setup fee
-- Lite has a 3-month minimum
-- Hosting included
-- Growth and Pro include unlimited updates
-- Growth and Pro include ongoing local SEO expansion
+Plans start at $149/mo
+$0 setup fee
+Lite has a 3-month minimum
+Hosting included
+Growth and Pro include unlimited updates
+Growth and Pro include ongoing local SEO expansion
 View Current Plans & Pricing →
 Plans start at
 $149 /mo
 $0 setup fee
 3-month minimum on Lite. First payment due at kickoff.
-ADD-ON
+PRO PLAN
 Get Calls While Your SEO Builds
-SEO takes time to build momentum. If you need calls right away, we can launch Google Ads or Local Services Ads to start generating leads while your website and local SEO ramp up.
-- Google Ads or Local Services Ads setup
-- High-intent keyword targeting
-- Call-focused campaigns
-- Ongoing optimization
-Ad spend is paid directly to Google. This is optional and can be added to any plan.
+SEO takes time to build momentum. Pro includes Google Ads and Local Services Ads support to help generate leads while your website and local SEO ramp up.
+Google Ads or Local Services Ads support
+High-intent keyword targeting
+Call-focused campaigns
+Ongoing optimization
+Included with Pro. Ad spend is paid directly to Google.
 Frisco, TX Tree Companies
 See your site before you commit. A real demo, built for your company — not a slide deck.
 Schedule a Free 15-Min Call →
 
 ================================================================================
+
 FILE: tree-service-web-design-garland-tx.html
+
 ================================================================================
+
 Tree Service Web Design in Garland, TX | Tree Web Design
 Tree service web design built for Garland, TX companies. Hand-coded, fast-loading websites that turn visitors into calls. $0 setup fee. Starting at $149/mo.
 Tree Service Web Design in Garland, TX | Tree Web Design
@@ -1263,9 +1266,9 @@ Garland, TX
 Built for Tree Companies
 That Need More Calls.
 Garland is one of the most underserved markets in DFW when it comes to tree company websites. The demand is there — older neighborhoods, large established trees, consistent storm activity — but most companies operating here are still running on referrals and a basic Google listing. When someone searches "tree removal Garland TX" after a storm, they're not waiting. They're calling the first company that looks legitimate and loads fast. That gap is exactly where a focused site wins.
-- Garland's older residential areas have some of the largest trees in the metro. Removal and emergency jobs here are high-ticket and high-urgency.
-- Storm activity in this part of DFW is consistent . Emergency searches spike fast and go to whoever's ready.
-- Most tree companies in Garland have no real web presence . A clean, fast site stands out immediately.
+Garland's older residential areas have some of the largest trees in the metro. Removal and emergency jobs here are high-ticket and high-urgency.
+Storm activity in this part of DFW is consistent . Emergency searches spike fast and go to whoever's ready.
+Most tree companies in Garland have no real web presence . A clean, fast site stands out immediately.
 What You Get
 A Company That Looks Legit Homeowners comparing options quickly will skip past anything that looks outdated or generic. First impressions close or kill the call.
 Clear Services Removal, trimming, stump grinding, emergency response — visitors need to see exactly what you do without hunting for it.
@@ -1275,25 +1278,25 @@ The Difference
 Most Sites Look Fine.
 They Just Don't Convert.
 Typical Tree Company Site
-- Slow to load on mobile
-- Generic layout that looks like everyone else
-- Phone number buried or hard to find
-- No clear next step for the visitor
-- Contact form that disappears into a void
+Slow to load on mobile
+Generic layout that looks like everyone else
+Phone number buried or hard to find
+No clear next step for the visitor
+Contact form that disappears into a void
 What I Build
-- Loads in under a second, on any connection
-- Immediate clarity on services and service area
-- Call button visible on every page, every screen size
-- Layout designed around how customers actually decide
-- Leads delivered straight to your phone
+Loads in under a second, on any connection
+Immediate clarity on services and service area
+Call button visible on every page, every screen size
+Layout designed around how customers actually decide
+Leads delivered straight to your phone
 What I Build Instead
 No Templates.
 No Guesswork.
 Every tree service website I build is designed around one goal: turn visitors into calls. Not pretty pictures. Calls.
-- Hand-coded from scratch — no WordPress, no page builders, nothing to break or slow down.
-- Loads in under a second — fast enough for someone standing in their yard during a storm.
-- Built for emergency call behavior — storm-related searches, high-intent service pages, real jobsite photography when available.
-- Mobile-first, always — because that's where most of your calls come from.
+Hand-coded from scratch — no WordPress, no page builders, nothing to break or slow down.
+Loads in under a second — fast enough for someone standing in their yard during a storm.
+Built for emergency call behavior — storm-related searches, high-intent service pages, real jobsite photography when available.
+Mobile-first, always — because that's where most of your calls come from.
 Why It Works for Garland
 Four Steps.
 One Decision.
@@ -1314,32 +1317,35 @@ A site that reinforces what they already heard closes the call. A site that does
 Pricing
 Simple monthly plans.
 No surprises.
-- Plans start at $149/mo
-- $0 setup fee
-- Lite has a 3-month minimum
-- Hosting included
-- Growth and Pro include unlimited updates
-- Growth and Pro include ongoing local SEO expansion
+Plans start at $149/mo
+$0 setup fee
+Lite has a 3-month minimum
+Hosting included
+Growth and Pro include unlimited updates
+Growth and Pro include ongoing local SEO expansion
 View Current Plans & Pricing →
 Plans start at
 $149 /mo
 $0 setup fee
 3-month minimum on Lite. First payment due at kickoff.
-ADD-ON
+PRO PLAN
 Get Calls While Your SEO Builds
-SEO takes time to build momentum. If you need calls right away, we can launch Google Ads or Local Services Ads to start generating leads while your website and local SEO ramp up.
-- Google Ads or Local Services Ads setup
-- High-intent keyword targeting
-- Call-focused campaigns
-- Ongoing optimization
-Ad spend is paid directly to Google. This is optional and can be added to any plan.
+SEO takes time to build momentum. Pro includes Google Ads and Local Services Ads support to help generate leads while your website and local SEO ramp up.
+Google Ads or Local Services Ads support
+High-intent keyword targeting
+Call-focused campaigns
+Ongoing optimization
+Included with Pro. Ad spend is paid directly to Google.
 Garland, TX Tree Companies
 See your site before you commit. A real demo, built for your company — not a slide deck.
 Schedule a Free 15-Min Call →
 
 ================================================================================
+
 FILE: tree-service-web-design-grand-prairie-tx.html
+
 ================================================================================
+
 Tree Service Web Design in Grand Prairie, TX | Tree Web Design
 Tree service web design built for Grand Prairie, TX companies. Hand-coded, fast-loading websites that turn visitors into calls. $0 setup fee. Starting at $149/mo.
 Tree Service Web Design in Grand Prairie, TX | Tree Web Design
@@ -1349,9 +1355,9 @@ Grand Prairie, TX
 Built for Tree Companies
 That Need More Calls.
 Grand Prairie sits dead center in DFW — between Dallas, Fort Worth, and Arlington — and tree companies here are competing with operators from all three markets. When someone searches "tree removal Grand Prairie TX," they're getting results from companies across the metro. Most local operators don't have a site that can compete with that. Grand Prairie has strong residential density, consistent storm activity, and homeowners actively searching after weather events. A fast, clear site puts you ahead of most of what they're finding.
-- Central DFW location means Grand Prairie homeowners see a lot of options in search results. A sharp site is what separates you from the noise.
-- Consistent storm activity through this corridor drives steady emergency search volume. Your site needs to be ready when those searches happen.
-- Dense residential neighborhoods mean high job volume potential — but only for companies that show up online and look ready to work.
+Central DFW location means Grand Prairie homeowners see a lot of options in search results. A sharp site is what separates you from the noise.
+Consistent storm activity through this corridor drives steady emergency search volume. Your site needs to be ready when those searches happen.
+Dense residential neighborhoods mean high job volume potential — but only for companies that show up online and look ready to work.
 What You Get
 A Company That Looks Legit Homeowners comparing options quickly will skip past anything that looks outdated or generic. First impressions close or kill the call.
 Clear Services Removal, trimming, stump grinding, emergency response — visitors need to see exactly what you do without hunting for it.
@@ -1361,25 +1367,25 @@ The Difference
 Most Sites Look Fine.
 They Just Don't Convert.
 Typical Tree Company Site
-- Slow to load on mobile
-- Generic layout that looks like everyone else
-- Phone number buried or hard to find
-- No clear next step for the visitor
-- Contact form that disappears into a void
+Slow to load on mobile
+Generic layout that looks like everyone else
+Phone number buried or hard to find
+No clear next step for the visitor
+Contact form that disappears into a void
 What I Build
-- Loads in under a second, on any connection
-- Immediate clarity on services and service area
-- Call button visible on every page, every screen size
-- Layout designed around how customers actually decide
-- Leads delivered straight to your phone
+Loads in under a second, on any connection
+Immediate clarity on services and service area
+Call button visible on every page, every screen size
+Layout designed around how customers actually decide
+Leads delivered straight to your phone
 What I Build Instead
 No Templates.
 No Guesswork.
 Every tree service website I build is designed around one goal: turn visitors into calls. Not pretty pictures. Calls.
-- Hand-coded from scratch — no WordPress, no page builders, nothing to break or slow down.
-- Loads in under a second — fast enough for someone standing in their yard during a storm.
-- Built for emergency call behavior — storm-related searches, high-intent service pages, real jobsite photography when available.
-- Mobile-first, always — because that's where most of your calls come from.
+Hand-coded from scratch — no WordPress, no page builders, nothing to break or slow down.
+Loads in under a second — fast enough for someone standing in their yard during a storm.
+Built for emergency call behavior — storm-related searches, high-intent service pages, real jobsite photography when available.
+Mobile-first, always — because that's where most of your calls come from.
 Why It Works for Grand Prairie
 Four Steps.
 One Decision.
@@ -1400,32 +1406,35 @@ A site that reinforces what they already heard closes the call. A site that does
 Pricing
 Simple monthly plans.
 No surprises.
-- Plans start at $149/mo
-- $0 setup fee
-- Lite has a 3-month minimum
-- Hosting included
-- Growth and Pro include unlimited updates
-- Growth and Pro include ongoing local SEO expansion
+Plans start at $149/mo
+$0 setup fee
+Lite has a 3-month minimum
+Hosting included
+Growth and Pro include unlimited updates
+Growth and Pro include ongoing local SEO expansion
 View Current Plans & Pricing →
 Plans start at
 $149 /mo
 $0 setup fee
 3-month minimum on Lite. First payment due at kickoff.
-ADD-ON
+PRO PLAN
 Get Calls While Your SEO Builds
-SEO takes time to build momentum. If you need calls right away, we can launch Google Ads or Local Services Ads to start generating leads while your website and local SEO ramp up.
-- Google Ads or Local Services Ads setup
-- High-intent keyword targeting
-- Call-focused campaigns
-- Ongoing optimization
-Ad spend is paid directly to Google. This is optional and can be added to any plan.
+SEO takes time to build momentum. Pro includes Google Ads and Local Services Ads support to help generate leads while your website and local SEO ramp up.
+Google Ads or Local Services Ads support
+High-intent keyword targeting
+Call-focused campaigns
+Ongoing optimization
+Included with Pro. Ad spend is paid directly to Google.
 Grand Prairie, TX Tree Companies
 See your site before you commit. A real demo, built for your company — not a slide deck.
 Schedule a Free 15-Min Call →
 
 ================================================================================
+
 FILE: tree-service-web-design-irving-tx.html
+
 ================================================================================
+
 Tree Service Web Design in Irving, TX | Tree Web Design
 Tree service web design built for Irving, TX companies. Hand-coded, fast-loading websites that turn visitors into calls. $0 setup fee. Starting at $149/mo.
 Tree Service Web Design in Irving, TX | Tree Web Design
@@ -1435,9 +1444,9 @@ Irving, TX
 Built for Tree Companies
 That Need More Calls.
 Irving is a high-density, high-competition market with a mix of established residential neighborhoods and commercial corridors that generate consistent tree service demand. When someone searches "tree removal Irving TX," they're usually making a fast decision — storm damage, a hazard tree, or an overgrown canopy that's become a problem. Most tree companies working Irving are relying on the same referral base they've always had. The ones with a fast, clear website are picking up every search-driven call those companies never see.
-- Irving's mix of older residential streets and newer developments keeps demand steady across removal, trimming, and emergency response.
-- Close proximity to DFW Airport and Las Colinas means commercial and HOA tree work is also in play — and those clients research before they call.
-- Storm-driven emergency searches in this market move fast . A site that loads slow or looks outdated loses those calls in seconds.
+Irving's mix of older residential streets and newer developments keeps demand steady across removal, trimming, and emergency response.
+Close proximity to DFW Airport and Las Colinas means commercial and HOA tree work is also in play — and those clients research before they call.
+Storm-driven emergency searches in this market move fast . A site that loads slow or looks outdated loses those calls in seconds.
 What You Get
 A Company That Looks Legit Homeowners comparing options quickly will skip past anything that looks outdated or generic. First impressions close or kill the call.
 Clear Services Removal, trimming, stump grinding, emergency response — visitors need to see exactly what you do without hunting for it.
@@ -1447,25 +1456,25 @@ The Difference
 Most Sites Look Fine.
 They Just Don't Convert.
 Typical Tree Company Site
-- Slow to load on mobile
-- Generic layout that looks like everyone else
-- Phone number buried or hard to find
-- No clear next step for the visitor
-- Contact form that disappears into a void
+Slow to load on mobile
+Generic layout that looks like everyone else
+Phone number buried or hard to find
+No clear next step for the visitor
+Contact form that disappears into a void
 What I Build
-- Loads in under a second, on any connection
-- Immediate clarity on services and service area
-- Call button visible on every page, every screen size
-- Layout designed around how customers actually decide
-- Leads delivered straight to your phone
+Loads in under a second, on any connection
+Immediate clarity on services and service area
+Call button visible on every page, every screen size
+Layout designed around how customers actually decide
+Leads delivered straight to your phone
 What I Build Instead
 No Templates.
 No Guesswork.
 Every tree service website I build is designed around one goal: turn visitors into calls. Not pretty pictures. Calls.
-- Hand-coded from scratch — no WordPress, no page builders, nothing to break or slow down.
-- Loads in under a second — fast enough for someone standing in their yard during a storm.
-- Built for emergency call behavior — storm-related searches, high-intent service pages, real jobsite photography when available.
-- Mobile-first, always — because that's where most of your calls come from.
+Hand-coded from scratch — no WordPress, no page builders, nothing to break or slow down.
+Loads in under a second — fast enough for someone standing in their yard during a storm.
+Built for emergency call behavior — storm-related searches, high-intent service pages, real jobsite photography when available.
+Mobile-first, always — because that's where most of your calls come from.
 Why It Works for Irving
 Four Steps.
 One Decision.
@@ -1486,32 +1495,35 @@ A site that reinforces what they already heard closes the call. A site that does
 Pricing
 Simple monthly plans.
 No surprises.
-- Plans start at $149/mo
-- $0 setup fee
-- Lite has a 3-month minimum
-- Hosting included
-- Growth and Pro include unlimited updates
-- Growth and Pro include ongoing local SEO expansion
+Plans start at $149/mo
+$0 setup fee
+Lite has a 3-month minimum
+Hosting included
+Growth and Pro include unlimited updates
+Growth and Pro include ongoing local SEO expansion
 View Current Plans & Pricing →
 Plans start at
 $149 /mo
 $0 setup fee
 3-month minimum on Lite. First payment due at kickoff.
-ADD-ON
+PRO PLAN
 Get Calls While Your SEO Builds
-SEO takes time to build momentum. If you need calls right away, we can launch Google Ads or Local Services Ads to start generating leads while your website and local SEO ramp up.
-- Google Ads or Local Services Ads setup
-- High-intent keyword targeting
-- Call-focused campaigns
-- Ongoing optimization
-Ad spend is paid directly to Google. This is optional and can be added to any plan.
+SEO takes time to build momentum. Pro includes Google Ads and Local Services Ads support to help generate leads while your website and local SEO ramp up.
+Google Ads or Local Services Ads support
+High-intent keyword targeting
+Call-focused campaigns
+Ongoing optimization
+Included with Pro. Ad spend is paid directly to Google.
 Irving, TX Tree Companies
 See your site before you commit. A real demo, built for your company — not a slide deck.
 Schedule a Free 15-Min Call →
 
 ================================================================================
+
 FILE: tree-service-web-design-mckinney-tx.html
+
 ================================================================================
+
 Tree Service Web Design in McKinney, TX | Tree Web Design
 Tree service web design built for McKinney, TX companies. Hand-coded, fast-loading websites that turn visitors into calls. $0 setup fee. Starting at $149/mo.
 Tree Service Web Design in McKinney, TX | Tree Web Design
@@ -1521,9 +1533,9 @@ McKinney, TX
 Built for Tree Companies
 That Need More Calls.
 McKinney sits in a unique spot — half established neighborhoods with mature trees, half new construction with homeowners who have no local referrals yet. Both sides of that market search online. When someone in McKinney types "tree service near me" or "tree removal McKinney TX," they're comparing fast. The historic downtown area alone has trees that require experienced crews and command serious job values. If your site doesn't communicate that you're the right company for that work, the call goes elsewhere.
-- McKinney's mix of historic and new neighborhoods creates consistent demand across removal, trimming, and storm cleanup year-round.
-- New residents moving into developments off 380 and 75 don't have referrals yet. They search, and they call whoever looks credible.
-- High-value jobs around the historic district require companies that look established. Your site is the first proof of that.
+McKinney's mix of historic and new neighborhoods creates consistent demand across removal, trimming, and storm cleanup year-round.
+New residents moving into developments off 380 and 75 don't have referrals yet. They search, and they call whoever looks credible.
+High-value jobs around the historic district require companies that look established. Your site is the first proof of that.
 What You Get
 A Company That Looks Legit Homeowners comparing options quickly will skip past anything that looks outdated or generic. First impressions close or kill the call.
 Clear Services Removal, trimming, stump grinding, emergency response — visitors need to see exactly what you do without hunting for it.
@@ -1533,25 +1545,25 @@ The Difference
 Most Sites Look Fine.
 They Just Don't Convert.
 Typical Tree Company Site
-- Slow to load on mobile
-- Generic layout that looks like everyone else
-- Phone number buried or hard to find
-- No clear next step for the visitor
-- Contact form that disappears into a void
+Slow to load on mobile
+Generic layout that looks like everyone else
+Phone number buried or hard to find
+No clear next step for the visitor
+Contact form that disappears into a void
 What I Build
-- Loads in under a second, on any connection
-- Immediate clarity on services and service area
-- Call button visible on every page, every screen size
-- Layout designed around how customers actually decide
-- Leads delivered straight to your phone
+Loads in under a second, on any connection
+Immediate clarity on services and service area
+Call button visible on every page, every screen size
+Layout designed around how customers actually decide
+Leads delivered straight to your phone
 What I Build Instead
 No Templates.
 No Guesswork.
 Every tree service website I build is designed around one goal: turn visitors into calls. Not pretty pictures. Calls.
-- Hand-coded from scratch — no WordPress, no page builders, nothing to break or slow down.
-- Loads in under a second — fast enough for someone standing in their yard during a storm.
-- Built for emergency call behavior — storm-related searches, high-intent service pages, real jobsite photography when available.
-- Mobile-first, always — because that's where most of your calls come from.
+Hand-coded from scratch — no WordPress, no page builders, nothing to break or slow down.
+Loads in under a second — fast enough for someone standing in their yard during a storm.
+Built for emergency call behavior — storm-related searches, high-intent service pages, real jobsite photography when available.
+Mobile-first, always — because that's where most of your calls come from.
 Why It Works for McKinney
 Four Steps.
 One Decision.
@@ -1572,32 +1584,35 @@ A site that reinforces what they already heard closes the call. A site that does
 Pricing
 Simple monthly plans.
 No surprises.
-- Plans start at $149/mo
-- $0 setup fee
-- Lite has a 3-month minimum
-- Hosting included
-- Growth and Pro include unlimited updates
-- Growth and Pro include ongoing local SEO expansion
+Plans start at $149/mo
+$0 setup fee
+Lite has a 3-month minimum
+Hosting included
+Growth and Pro include unlimited updates
+Growth and Pro include ongoing local SEO expansion
 View Current Plans & Pricing →
 Plans start at
 $149 /mo
 $0 setup fee
 3-month minimum on Lite. First payment due at kickoff.
-ADD-ON
+PRO PLAN
 Get Calls While Your SEO Builds
-SEO takes time to build momentum. If you need calls right away, we can launch Google Ads or Local Services Ads to start generating leads while your website and local SEO ramp up.
-- Google Ads or Local Services Ads setup
-- High-intent keyword targeting
-- Call-focused campaigns
-- Ongoing optimization
-Ad spend is paid directly to Google. This is optional and can be added to any plan.
+SEO takes time to build momentum. Pro includes Google Ads and Local Services Ads support to help generate leads while your website and local SEO ramp up.
+Google Ads or Local Services Ads support
+High-intent keyword targeting
+Call-focused campaigns
+Ongoing optimization
+Included with Pro. Ad spend is paid directly to Google.
 McKinney, TX Tree Companies
 See your site before you commit. A real demo, built for your company — not a slide deck.
 Schedule a Free 15-Min Call →
 
 ================================================================================
+
 FILE: tree-service-web-design-plano-tx.html
+
 ================================================================================
+
 Tree Service Web Design in Plano, TX | Tree Web Design
 Tree service web design built for Plano, TX companies. Hand-coded, fast-loading websites that turn visitors into calls. $0 setup fee. Starting at $149/mo.
 Tree Service Web Design in Plano, TX | Tree Web Design
@@ -1607,9 +1622,9 @@ Plano, TX
 Built for Tree Companies
 That Need More Calls.
 Most tree companies in Plano are competing in one of the most research-driven markets in DFW. Plano homeowners compare before they call. They check reviews, they check your site, and they decide fast. When someone searches "tree removal Plano TX," they're looking at 3–4 options side by side. Older neighborhoods like East Plano have massive canopies — big jobs, high ticket, high competition. If your site doesn't look the part, they move on before you even know they were there.
-- Mature tree canopies in established Plano neighborhoods mean high-value removal jobs are always in the market. Your site needs to match what those homeowners expect.
-- Plano customers research heavily before calling . A slow or outdated site reads as an outdated operation.
-- When spring storms roll through , search volume spikes overnight. The companies with fast, clear sites capture those calls first.
+Mature tree canopies in established Plano neighborhoods mean high-value removal jobs are always in the market. Your site needs to match what those homeowners expect.
+Plano customers research heavily before calling . A slow or outdated site reads as an outdated operation.
+When spring storms roll through , search volume spikes overnight. The companies with fast, clear sites capture those calls first.
 What You Get
 A Company That Looks Legit Homeowners comparing options quickly will skip past anything that looks outdated or generic. First impressions close or kill the call.
 Clear Services Removal, trimming, stump grinding, emergency response — visitors need to see exactly what you do without hunting for it.
@@ -1619,25 +1634,25 @@ The Difference
 Most Sites Look Fine.
 They Just Don't Convert.
 Typical Tree Company Site
-- Slow to load on mobile
-- Generic layout that looks like everyone else
-- Phone number buried or hard to find
-- No clear next step for the visitor
-- Contact form that disappears into a void
+Slow to load on mobile
+Generic layout that looks like everyone else
+Phone number buried or hard to find
+No clear next step for the visitor
+Contact form that disappears into a void
 What I Build
-- Loads in under a second, on any connection
-- Immediate clarity on services and service area
-- Call button visible on every page, every screen size
-- Layout designed around how customers actually decide
-- Leads delivered straight to your phone
+Loads in under a second, on any connection
+Immediate clarity on services and service area
+Call button visible on every page, every screen size
+Layout designed around how customers actually decide
+Leads delivered straight to your phone
 What I Build Instead
 No Templates.
 No Guesswork.
 Every tree service website I build is designed around one goal: turn visitors into calls. Not pretty pictures. Calls.
-- Hand-coded from scratch — no WordPress, no page builders, nothing to break or slow down.
-- Loads in under a second — fast enough for someone standing in their yard during a storm.
-- Built for emergency call behavior — storm-related searches, high-intent service pages, real jobsite photography when available.
-- Mobile-first, always — because that's where most of your calls come from.
+Hand-coded from scratch — no WordPress, no page builders, nothing to break or slow down.
+Loads in under a second — fast enough for someone standing in their yard during a storm.
+Built for emergency call behavior — storm-related searches, high-intent service pages, real jobsite photography when available.
+Mobile-first, always — because that's where most of your calls come from.
 Why It Works for Plano
 Four Steps.
 One Decision.
@@ -1658,34 +1673,117 @@ A site that reinforces what they already heard closes the call. A site that does
 Pricing
 Simple monthly plans.
 No surprises.
-- Plans start at $149/mo
-- $0 setup fee
-- Lite has a 3-month minimum
-- Hosting included
-- Growth and Pro include unlimited updates
-- Growth and Pro include ongoing local SEO expansion
+Plans start at $149/mo
+$0 setup fee
+Lite has a 3-month minimum
+Hosting included
+Growth and Pro include unlimited updates
+Growth and Pro include ongoing local SEO expansion
 View Current Plans & Pricing →
 Plans start at
 $149 /mo
 $0 setup fee
 3-month minimum on Lite. First payment due at kickoff.
-ADD-ON
+PRO PLAN
 Get Calls While Your SEO Builds
-SEO takes time to build momentum. If you need calls right away, we can launch Google Ads or Local Services Ads to start generating leads while your website and local SEO ramp up.
-- Google Ads or Local Services Ads setup
-- High-intent keyword targeting
-- Call-focused campaigns
-- Ongoing optimization
-Ad spend is paid directly to Google. This is optional and can be added to any plan.
+SEO takes time to build momentum. Pro includes Google Ads and Local Services Ads support to help generate leads while your website and local SEO ramp up.
+Google Ads or Local Services Ads support
+High-intent keyword targeting
+Call-focused campaigns
+Ongoing optimization
+Included with Pro. Ad spend is paid directly to Google.
 Plano, TX Tree Companies
 See your site before you commit. A real demo, built for your company — not a slide deck.
 Schedule a Free 15-Min Call →
 
 ================================================================================
-FILE: blog/1-second-load-time-tree-leads.html
+
+FILE: tree-service-web-design.html
+
 ================================================================================
+
+Tree Service Web Design | Websites for Tree Service Companies That Need More Calls
+Hand-coded tree service websites built for tree removal, trimming, pruning, stump grinding, land clearing, and emergency storm work. Fast, mobile-friendly, and built to help homeowners trust you and call.
+Tree Service Web Design | Websites for Tree Service Companies That Need More Calls
+Tree Service Web Design
+Web Design
+Websites for Tree Service Companies That Need More Calls
+Hand-coded tree service websites built for tree removal, trimming, pruning, stump grinding, land clearing, and emergency storm work.
+No WordPress. No templates. No bloated page builders. Just a fast, mobile-friendly website designed to help homeowners trust you, understand your services, and call or request an estimate.
+Most homeowners do not study tree companies for hours.
+They search, skim, compare, and make a decision fast.
+Your website needs to make that decision easier.
+It should show your work, explain what you do, build trust quickly, and make it obvious how to contact you.
+That is what we build.
+How We Build
+No WordPress.
+No Templates.
+No Shortcuts.
+Tree service websites need to do more than look nice.
+They need to load fast on phones, show real proof, support your Google presence, and turn local searches into phone calls.
+Every site is hand-coded around your business, your services, your photos, your reviews, and your service area.
+Every Element Has One Job Every design choice has a purpose: build trust, explain your services, show proof, and move visitors toward calling or requesting an estimate. No clutter. No dead ends. No generic contractor template pretending to be built for tree work.
+Nothing to Break No plugins. No WordPress updates. No bloated theme files. No page builder conflicts. No security patches from random third-party add-ons. A hand-coded website is simpler, faster, and easier to maintain. That matters when your site is supposed to be working while you are out on the job.
+Your Best Salesperson Does Not Sleep While you are on a job site, your website is answering questions, showing your work, and helping homeowners decide whether to call. It can explain your tree removal process, show before-and-after photos, highlight reviews, and send estimate requests straight to you. It never calls in sick. It never misses a lead. It never forgets to follow up with the basics.
+Search Intent
+Built for the Way Tree Service Customers Actually Search
+Tree service customers usually show up with a specific problem:
+A dead tree near the house.
+Storm damage in the yard.
+Branches hanging over a roof.
+A stump they want gone.
+A lot that needs clearing.
+A tree they are not sure is safe.
+Your website should speak to those situations clearly.
+We structure your site around the services homeowners are already searching for, including tree removal, tree trimming, stump grinding, emergency tree service, pruning, arborist work, and land clearing when relevant.
+What Your Tree Service Website Should Include
+The Structure Should Match How Homeowners Decide
+Clear Calls to Action Every page should point toward the next step: call now or request an estimate. Your phone number, estimate form, and contact options should be easy to find on desktop and mobile.
+Estimate Request Forms A good form should collect the basics without making the homeowner feel like they are filling out paperwork: name, phone, address or service area, what they need help with, and photos if useful. Simple forms get more submissions.
+Before and After Gallery Tree work is visual. Before-and-after photos help homeowners see the transformation from unsafe, messy, or overgrown to clean, open, and handled. Your gallery should make your work easier to trust.
+Service Pages That Match Real Searches A tree service website should not lump everything into one vague services section. Tree removal, tree trimming, stump grinding, emergency storm cleanup, pruning, land clearing, and arborist services often deserve clear explanations of their own.
+Emergency Tree Service Section Storm damage does not wait. If you handle emergency calls, your website should make that obvious. Homeowners with urgent problems are not reading every page. They need to know you can help, where you work, and how to reach you quickly.
+Mobile-First Design Homeowners search from the yard. Owners check leads from the truck. Crews send photos from job sites. Your website needs to work cleanly on every screen, especially phones.
+Real Photos and Reviews Stock photos do not build the same trust as your own trucks, crew, equipment, and job sites. We help structure your website around real proof: your work, your reviews, your service area, and the reasons someone should call you instead of the next tree company in Google.
+Local SEO Foundation Your site should support how people search locally. That means clear service pages, location signals, structured content, fast load times, and a website that works alongside your Google Business Profile. The goal is to make your tree company easier to find, easier to trust, and easier to contact.
+How It Works
+Three Steps.
+No Surprises.
+01
+We Talk
+A quick call to make sure we are a fit. We cover your services, your market, your current online presence, your goals, and what makes your company different.
+02
+You See a Preview
+Before you commit, you see a working homepage preview built around your business. No pitch decks. No vague mockups. No guessing what the site might look like. You get something real enough to judge.
+03
+We Refine and Launch
+Once you are on board, we dial in the details together. Then we handle the technical setup, launch, hosting, forms, speed, and the core pieces needed to get your site live. Most sites launch within 7 to 10 business days once we have the content we need.
+Built for Tree Pros, Not Everyone
+Tree Web Design is focused on tree service companies.
+That matters.
+A tree company does not need the same website as a dentist, restaurant, roofer, or law firm.
+You need a site that can explain dangerous removals, emergency calls, equipment-heavy jobs, service areas, reviews, cleanup, insurance concerns, and the kind of trust homeowners need before they let someone near their house with a saw.
+Tree Service Web Design FAQ
+Common Questions From Tree Companies
+Do tree service companies really need a website? Yes. Even if most of your leads come from Google Business Profile, referrals, or word of mouth, people still look you up before calling. A strong website helps confirm that you are real, trustworthy, and worth contacting.
+What should a tree service website include? A strong tree service website should include your services, service area, phone number, estimate form, reviews, real job photos, before-and-after examples, emergency service information if applicable, and clear reasons to choose your company.
+Can you build pages for tree removal, stump grinding, and trimming? Yes. Those services often deserve their own pages because homeowners search for them directly. Dedicated pages also help explain each service more clearly and support your local SEO.
+Do you use WordPress? No. We build hand-coded websites without WordPress, templates, or page builders. That keeps the site faster, simpler, and easier to maintain.
+Can you use my existing photos and reviews? Yes. Real photos and reviews are some of the strongest assets your tree company has. We can build the site around your existing proof, and we can also help identify where better photos would strengthen the page.
+How fast can the site launch? Most tree service websites can launch within 7 to 10 business days once we have the information, photos, and approvals needed.
+Will this help me get more calls? That is the goal. No website can guarantee a specific number of calls, but a fast, well-structured tree service website can make your company easier to find, easier to trust, and easier to contact.
+Ready to See What Your Tree Service Website Could Look Like?
+If your tree company needs a better website, we can build a working preview around your business so you can see the direction before committing.
+Schedule a Call
+
+================================================================================
+
+FILE: blog/1-second-load-time-tree-leads.html
+
+================================================================================
+
 Why a 1-Second Load Time is the Secret to More Tree Leads | Tree Web Design
-In emergency scenarios, homeowners aren't browsing — they're in a 30-second window deciding who to call. A slow site loses that call before it starts.
+In emergency scenarios, homeowners aren&#x27;t browsing — they&#x27;re in a 30-second window deciding who to call. A slow site loses that call before it starts.
 Why a 1-Second Load Time is the Secret to More Tree Leads | Tree Web Design
 By JJ Jaggers · April 16, 2026
 Why a 1-Second Load Time is the Secret to More Tree Leads
@@ -1698,44 +1796,39 @@ The Cost of Latency: Website speed matters most when the customer is urgent. Dur
 If your site takes 5 seconds to load on a spotty mobile connection, that homeowner has already clicked "Back." They have called the competitor whose site popped up instantly. In their mind, if you cannot maintain a website, they cannot trust you with a 90-foot crane over their house.
 The Dull Chainsaw: Bloated WordPress vs. High-Performance Static Sites
 Think of your current website. If it is built on a standard WordPress setup with dozens of plugins for "security" and "SEO," it is a dull chainsaw. It might eventually cut through the log, but it is going to smoke and sputter. It will take twice as long to do half the work.
-- The Weight of "Bloat": Every plugin and oversized high-res photo of your bucket truck adds weight. On a mobile device in a storm, that weight turns into lag.
-- The Performance Edge: Modern "Static" or "Vanilla" sites serve pre-built pages to the user. There is no database to query and no heavy scripts to run. It is the difference between fumbling for a pull-cord and having an electric saw that starts at the touch of a button.
+The Weight of "Bloat": Every plugin and oversized high-res photo of your bucket truck adds weight. On a mobile device in a storm, that weight turns into lag.
+The Performance Edge: Modern "Static" or "Vanilla" sites serve pre-built pages to the user. There is no database to query and no heavy scripts to run. It is the difference between fumbling for a pull-cord and having an electric saw that starts at the touch of a button.
 Mobile Latency: The Hidden Killer of Emergency Leads
 Cellular networks are fast, but they are not perfect. This is especially true during heavy weather. When the clouds are thick and the wind is up, "signal noise" increases and data speeds drop.
 A site that loads in 2 seconds at your office desk might take 8 seconds in a driveway during a thunderstorm. By building for a fast, clean mobile load, you create a buffer. Even when the connection is not perfect, the goal is simple: get the visitor to your phone number before they give up and call the next company.
 Comparison of Performance Tiers
-Site Type
-Load Speed
-Reliability in Storms
-Bloated WordPress
-4.5s–8s
-Higher risk of lag, plugin issues, and mobile frustration
-Standard Template
-2s–4s
-Better, but still often weighed down by builder code and oversized media
-High-Performance Static Site
-Built for sub-one-second loads
-Lean, stable, and designed for fast mobile action
+Site Type Load Speed Reliability in Storms
+Bloated WordPress 4.5s–8s Higher risk of lag, plugin issues, and mobile frustration
+Standard Template 2s–4s Better, but still often weighed down by builder code and oversized media
+High-Performance Static Site Built for sub-one-second loads Lean, stable, and designed for fast mobile action
 Example Scenario: What Happens After a Storm
 Here's a simplified example of how this plays out during a storm event.
-- Company A had a beautiful, "heavy" site with auto-playing videos of their crew. It took 6.2 seconds to load. During the peak of the storm, their bounce rate hit 78%. People simply would not wait.
-- Company B used a stripped-down, high-performance architecture. Their site loaded in 0.9 seconds.
+Company A had a beautiful, "heavy" site with auto-playing videos of their crew. It took 6.2 seconds to load. During the peak of the storm, their bounce rate hit 78%. People simply would not wait.
+Company B used a stripped-down, high-performance architecture. Their site loaded in 0.9 seconds.
 The Result: The result is not magic. The faster site is simply more likely to capture the call while the slower site is still loading. In emergency work, that timing matters.
 2026 SEO: Speed Supports Trust
 Search has changed. Google is looking at more than keywords. Your site needs to be fast, useful, structured clearly, and supported by real trust signals like reviews, service pages, and accurate business information.
 A fast site does not guarantee rankings by itself, but it supports the larger trust picture. When speed, service pages, reviews, and your Google Business Profile all work together, your online presence becomes easier for both people and search engines to understand.
 3 Immediate Fixes for More Leads
-- Compress Your Job Photos: Do not upload a 5MB photo straight from your smartphone. Use modern formats like WebP to get that file down to 100KB without losing quality.
-- Audit Your Plugins: If you have not looked at your website's backend in months, you likely have "digital rust." Delete anything that is not essential.
-- Prioritize the "Hero" Button: Ensure your "Call Now" or "Emergency Request" button is the very first thing that appears. It is fine if the rest of the page takes an extra half-second as long as the contact method is there instantly.
+Compress Your Job Photos: Do not upload a 5MB photo straight from your smartphone. Use modern formats like WebP to get that file down to 100KB without losing quality.
+Audit Your Plugins: If you have not looked at your website's backend in months, you likely have "digital rust." Delete anything that is not essential.
+Prioritize the "Hero" Button: Ensure your "Call Now" or "Emergency Request" button is the very first thing that appears. It is fine if the rest of the page takes an extra half-second as long as the contact method is there instantly.
 The Bottom Line
 In the tree business, timing is everything. You do not drop a lead limb when the wind is gusting. Your website should be the same way. It needs to be steady, fast, and ready to perform when the environment is at its worst. Speed is not just a tech stat. It is the sound of your phone ringing.
 
 ================================================================================
+
 FILE: blog/tree-service-google-business-profile-facebook.html
+
 ================================================================================
-If Your Google Business Profile Links to Facebook, You're Losing Tree Jobs | Tree Web Design
-If your GBP sends searchers to Facebook instead of a real website, you're weakening your local SEO, hurting trust, and losing high-intent calls before they ever reach you.
+
+If Your Google Business Profile Links to Facebook, You&#x27;re Losing Tree Jobs | Tree Web Design
+If your GBP sends searchers to Facebook instead of a real website, you&#x27;re weakening your local SEO, hurting trust, and losing high-intent calls before they ever reach you.
 If Your Google Business Profile Links to Facebook, You're Losing Tree Jobs | Tree Web Design
 By Tree Web Design · Local SEO for Tree Service Companies · Updated April 2026
 If Your Google Business Profile Links to Facebook, You're Losing Tree Jobs
@@ -1754,46 +1847,40 @@ Why Facebook specifically fails tree service companies
 1. You do not own it
 A Facebook page is not an asset. It is a tenancy. Meta controls your visibility, your reach, your access, and your algorithm. The day they change something — and they always do — your front door moves without your permission.
 A website is yours. You control the messaging, the structure, the conversion path, and the narrative. It compounds in value over time. Facebook resets with every feed refresh.
-Facebook page
-Your own website
-Rented — can be suspended
-Owned — permanent digital asset
-Algorithm controls your reach
-You control every element
-Competes with ads and noise
-Focused solely on conversion
-Meta's priorities, not yours
-Your priorities, your voice
-Zero SEO structure
-Full SEO architecture
+Facebook page Your own website
+Rented — can be suspended Owned — permanent digital asset
+Algorithm controls your reach You control every element
+Competes with ads and noise Focused solely on conversion
+Meta's priorities, not yours Your priorities, your voice
+Zero SEO structure Full SEO architecture
 2. It kills your Google Business Profile SEO
 Your Google Business Profile is your discovery layer — it's how people find you when they search "tree removal near me" or "emergency tree service Bedford." But the GBP does not work in isolation. Google looks at your linked website to confirm who you are, what you do, and where you do it.
 When that link points to Facebook, Google cannot read:
-- Service-specific pages like stump grinding, lot clearing, and emergency removals
-- Location pages with city-level keyword signals
-- Schema markup that tells Google your hours, service area, and credentials
-- NAP data (Name, Address, Phone) in a structured, verifiable format
-- Internal linking structure that builds topical authority over time
+Service-specific pages like stump grinding, lot clearing, and emergency removals
+Location pages with city-level keyword signals
+Schema markup that tells Google your hours, service area, and credentials
+NAP data (Name, Address, Phone) in a structured, verifiable format
+Internal linking structure that builds topical authority over time
 Google and Meta are competitors. Google does not reward you for pointing traffic to Facebook. You are sending your most valuable prospect — someone ready to call — into a distracted platform designed to keep them scrolling.
 3. Tree service customers are high-intent searchers
 Nobody wakes up browsing for tree companies. They search because they have a problem — a limb hanging over the roof, a storm-damaged tree, a dead oak that needs to come down before it falls on the fence. That intent is high. The window to convert them is short.
 A website built for tree service answers those questions immediately:
-- Do you handle emergency calls?
-- Are you insured and ISA certified?
-- Do you serve my area?
-- Can I get a quote today?
+Do you handle emergency calls?
+Are you insured and ISA certified?
+Do you serve my area?
+Can I get a quote today?
 A Facebook page makes them work to find these answers — if they find them at all.
 Authoritativeness
 What Google actually needs to rank you
 For a tree service company to appear in the local Map Pack — the top three results that capture the majority of calls — Google needs to trust you. That trust is built through structure, consistency, and clarity across your entire digital presence.
-- 4x more Map Pack visibility for sites with service-specific pages vs. Facebook links
-- 75% of consumers judge business credibility by website design alone
-- 3 min average time a high-intent prospect spends evaluating a tree service before deciding
+4x more Map Pack visibility for sites with service-specific pages vs. Facebook links
+75% of consumers judge business credibility by website design alone
+3 min average time a high-intent prospect spends evaluating a tree service before deciding
 A properly built tree service website allows you to target the specific searches that drive jobs:
-- "Tree removal [city name]"
-- "Emergency tree service near me"
-- "Stump grinding [neighborhood]"
-- "ISA certified arborist [metro area]"
+"Tree removal [city name]"
+"Emergency tree service near me"
+"Stump grinding [neighborhood]"
+"ISA certified arborist [metro area]"
 Facebook cannot rank for these queries in any meaningful way. It does not have the structural architecture to compete with a focused, optimized website — and Google knows it.
 Trustworthiness
 The perception gap is costing you real jobs
@@ -1801,18 +1888,18 @@ Customers do not evaluate tree companies logically. They evaluate them emotional
 A clean website says: this company has been here, will be here, and takes their business seriously. A Facebook page says: this might be a side hustle.
 For tree work specifically — where customers are trusting you with large equipment near their home, their vehicles, their property — that trust signal matters more than almost any other trade. The stakes feel higher. The professionalism bar gets raised.
 What a website does well
-- Website with credentials, insurance info, and photos: prospect feels safe calling
-- Clear service pages with local references: prospect sees you know their area
-- Easy click-to-call and quote request: removes friction at the decision moment
+Website with credentials, insurance info, and photos: prospect feels safe calling
+Clear service pages with local references: prospect sees you know their area
+Easy click-to-call and quote request: removes friction at the decision moment
 What a Facebook page does poorly
-- Facebook feed with posts and comments: prospect has to hunt for information
-- No structured trust signals: prospect cannot quickly verify credentials
-- GBP linked to Facebook: Google loses confidence in your legitimacy
+Facebook feed with posts and comments: prospect has to hunt for information
+No structured trust signals: prospect cannot quickly verify credentials
+GBP linked to Facebook: Google loses confidence in your legitimacy
 The structure that actually works
 Each platform has a job. When they each do their job, they reinforce each other. When Facebook tries to do all of them, the whole system underperforms.
-- Your website — conversion engine and SEO foundation. Service pages, location pages, trust signals, and a clear path to contact.
-- Google Business Profile — discovery layer. Linked to your website. Optimized with photos, services, and consistent NAP data.
-- Facebook — social proof and activity. Before/after photos, community engagement, seasonal posts. Traffic driver, not destination.
+Your website — conversion engine and SEO foundation. Service pages, location pages, trust signals, and a clear path to contact.
+Google Business Profile — discovery layer. Linked to your website. Optimized with photos, services, and consistent NAP data.
+Facebook — social proof and activity. Before/after photos, community engagement, seasonal posts. Traffic driver, not destination.
 The bottom line
 Most tree service customers will look you up before they call. That moment — where they click, land somewhere, and decide — is the whole game.
 Right now, if your GBP links to Facebook, you are sending them to a platform that is not optimized for your conversion, not building your search authority, and not yours to control.
@@ -1822,25 +1909,28 @@ Is your Google Business Profile pointing to Facebook?
 Tree Web Design builds websites specifically for tree service companies — optimized for local search, built for conversion, and structured to strengthen your GBP from day one.
 treewebdesign.com
 Sources
-- SOCi Consumer Behavior Index, 2024 — via BrightLocal Local SEO Statistics
-- Hootsuite, "Organic Reach Declining," March 2026
-- Skai study of 2,500+ Facebook Pages, 2022 — via Marketing Scoop
-- LocalDominator, "Top 10 Local Search Ranking Factors: A 2026 Guide"
-- Whitespark, Local Search Ranking Factors 2026
-- Google / Uberall — via Krofile Local SEO Statistics
-- Backlinko, Local SEO Statistics, Dec. 2025
-- BrightLocal, Local Search Ranking Factors 2026
-- Stanford Web Credibility Research — via White Peak Digital
-- BusinessDasher, "42+ Statistics About Websites," Oct. 2024
-- Sweor / Lindgaard et al. — via Rareform New Media
-- BrightLocal, Local Business Discovery and Trust Report, 2023
+SOCi Consumer Behavior Index, 2024 — via BrightLocal Local SEO Statistics
+Hootsuite, "Organic Reach Declining," March 2026
+Skai study of 2,500+ Facebook Pages, 2022 — via Marketing Scoop
+LocalDominator, "Top 10 Local Search Ranking Factors: A 2026 Guide"
+Whitespark, Local Search Ranking Factors 2026
+Google / Uberall — via Krofile Local SEO Statistics
+Backlinko, Local SEO Statistics, Dec. 2025
+BrightLocal, Local Search Ranking Factors 2026
+Stanford Web Credibility Research — via White Peak Digital
+BusinessDasher, "42+ Statistics About Websites," Oct. 2024
+Sweor / Lindgaard et al. — via Rareform New Media
+BrightLocal, Local Business Discovery and Trust Report, 2023
 How this article was developed: This guide draws on direct work with tree service companies across local markets, combined with cited third-party research from BrightLocal, Whitespark, Hootsuite, Stanford University, Google, and SOCi. All statistics link to their source. Our goal is to give tree service operators accurate, useful information — not a sales pitch. Last updated April 2026.
 
 ================================================================================
+
 FILE: blog/tree-service-google-business-profile-website-keyword-synergy.html
+
 ================================================================================
-Why Your Google Business Profile Is Invisible for "Tree Service Near Me" — And How a Website Fixes It | Tree Web Design
-Your GBP shows up when people search your name. Your website is what ranks you for 'tree service near me.' Here's why you need both — and exactly how they work together.
+
+Why Your Google Business Profile Is Invisible for &quot;Tree Service Near Me&quot; — And How a Website Fixes It | Tree Web Design
+Your GBP shows up when people search your name. Your website is what ranks you for &#x27;tree service near me.&#x27; Here&#x27;s why you need both — and exactly how they work together.
 Why Your Google Business Profile Is Invisible for "Tree Service Near Me" — And How a Website Fixes It | Tree Web Design
 By JJ Jaggers · Tree Web Design · April 16, 2026
 Why Your Google Business Profile Is Invisible for "Tree Service Near Me" — And How a Website Fixes It
@@ -1857,10 +1947,10 @@ What Your Google Business Profile Can and Can't Do Alone
 Your GBP gives Google a structured snapshot of your business — name, category, service area, hours, photos, reviews. For branded searches, that's enough. Google knows who you are and surfaces you.
 For discovery searches, Google needs more. It needs to understand what you do, where you do it, and how relevant you are compared to every other tree company in your market. A Google Business Profile has hard limits on how much of that signal it can carry alone.
 Here's what a GBP can't do without a supporting website:
-- It can't rank for long-tail keywords. "Affordable stump grinding [city]," "ISA certified arborist [county]," "tree service after storm damage [neighborhood]" — these queries need indexed web pages to match against. GBP service categories are too broad to cover them.
-- It can't demonstrate topical depth. Google wants evidence that you're a real, credible business with content that proves it. A profile with photos and a business description doesn't do that. A website with individual service pages does.
-- It can't build authority over time. Every page on your website that gets crawled, indexed, and clicked builds cumulative SEO value. GBP profiles don't compound the same way.
-- It can't capture organic traffic below the map pack. The three businesses in the local map pack get prominent placement — but below that are organic results. Without a website, you're completely invisible there.
+It can't rank for long-tail keywords. "Affordable stump grinding [city]," "ISA certified arborist [county]," "tree service after storm damage [neighborhood]" — these queries need indexed web pages to match against. GBP service categories are too broad to cover them.
+It can't demonstrate topical depth. Google wants evidence that you're a real, credible business with content that proves it. A profile with photos and a business description doesn't do that. A website with individual service pages does.
+It can't build authority over time. Every page on your website that gets crawled, indexed, and clicked builds cumulative SEO value. GBP profiles don't compound the same way.
+It can't capture organic traffic below the map pack. The three businesses in the local map pack get prominent placement — but below that are organic results. Without a website, you're completely invisible there.
 See how we build tree service websites →
 What Your Website Feeds Into Your Google Business Profile — The Keyword Synergy Explained
 Your website and your Google Business Profile aren't two separate tools you manage independently. Google reads them together. The signals from your website directly influence how Google ranks your GBP in local discovery searches.
@@ -1879,34 +1969,13 @@ It's Google saying: *I checked their website. They do this. That's why I'm showi
 No website, or a website with no real service pages? No justifications. Your competitors who have dedicated service pages are getting that verified stamp from Google's own interface — right at the moment a customer is deciding who to call. You're not.
 This is the clearest possible demonstration that your website and your Google Business Profile are one system, not two. Build the pages, get the justifications, win the click.
 Branded vs. Discovery Search: What Each Actually Requires
-Search Type
-Example Query
-GBP Alone Enough?
-Website Required?
-Branded
-"[Your company name]"
-Yes
-Helpful, not critical
-Category
-"Tree service near me"
-Partial
-Yes
-Service-specific
-"Stump grinding [city]"
-No
-Yes
-Long-tail
-"Emergency tree removal after storm [city]"
-No
-Yes
-Organic (below map pack)
-Any of the above
-No
-Required
-Discovery in competitive market
-"Best tree service [city]"
-Nearly impossible
-Yes
+Search Type Example Query GBP Alone Enough? Website Required?
+Branded "[Your company name]" Yes Helpful, not critical
+Category "Tree service near me" Partial Yes
+Service-specific "Stump grinding [city]" No Yes
+Long-tail "Emergency tree removal after storm [city]" No Yes
+Organic (below map pack) Any of the above No Required
+Discovery in competitive market "Best tree service [city]" Nearly impossible Yes
 The further you get from someone already knowing your name, the more your website has to carry the weight.
 Real Example: Reviews Don't Rank You If Your Website Can't Back Them Up
 A tree company in a DFW suburb had a solid Google Business Profile — 47 reviews, 4.8 stars, been active three years, regular photo updates. The owner figured he was in good shape. He was getting calls, mostly from referrals and repeat customers who already knew the name.
@@ -1917,18 +1986,18 @@ View current plans and pricing →
 What a Properly Built Tree Service Website Does for Your GBP Rankings
 Not every website fixes this problem. A slow WordPress template with stock photos and a plugin-heavy backend doesn't move the needle much. What works is a site built with local search performance as the primary objective from the ground up.
 That means:
-- Individual service pages — tree removal, stump grinding, trimming, emergency service — each with proper keyword targeting, not a bulleted list on one page
-- City-specific pages for every market you actively serve — each one a separate ranking asset
-- Sub-1-second mobile load times — speed is both a ranking factor and a conversion factor; slow sites lose on both fronts
-- Consistent NAP across every page — not just to satisfy Google's matching algorithm, but because a customer who sees three different phone numbers across your listings loses trust before they ever call
-- A review funnel page your crew can text customers same-day to drive Google reviews back through your GBP
-- Schema markup so Google can parse your business structure, services, and location with zero ambiguity
+Individual service pages — tree removal, stump grinding, trimming, emergency service — each with proper keyword targeting, not a bulleted list on one page
+City-specific pages for every market you actively serve — each one a separate ranking asset
+Sub-1-second mobile load times — speed is both a ranking factor and a conversion factor; slow sites lose on both fronts
+Consistent NAP across every page — not just to satisfy Google's matching algorithm, but because a customer who sees three different phone numbers across your listings loses trust before they ever call
+A review funnel page your crew can text customers same-day to drive Google reviews back through your GBP
+Schema markup so Google can parse your business structure, services, and location with zero ambiguity
 Pro Tip — Schema Markup: Schema is structured data embedded in your website's code that tells Google explicitly: "This is a tree service company. These are the services they offer. This is their service area." It's not visible to visitors but it's highly readable by Google's crawlers. For local service businesses competing in metro markets, properly implemented LocalBusiness and Service schema gives Google the clean signal it needs to confidently rank your GBP for discovery searches. Most template websites don't include it. A hand-coded site built for local SEO should have it from day one.
 Learn how we build hand-coded tree service websites for local search →
 3 Actionable Takeaways
-- Run the real stranger test. Searching incognito doesn't change your location signal — Google still reads your IP. To see what a customer in the next town actually sees, use a tool like BrightLocal's Local Search Results Checker. Plug in the zip codes of cities you want to rank in. If you're not in the top three for "tree service [city]" from that location, you know exactly what you're up against.
-- Check whether your website has individual service pages. If tree removal, stump grinding, and emergency service all live on one page — or there's no real website at all — you're leaving the keyword signals your GBP needs sitting on the table. One page per service, one page per city. That's the foundation.
-- Look for your own Local Justifications. Search your business name in Google and pull up your map listing. Do you see "Their website mentions [service]" underneath it? If not, your website isn't giving Google enough to work with. That's fixable — but only with proper service pages that use the right language.
+Run the real stranger test. Searching incognito doesn't change your location signal — Google still reads your IP. To see what a customer in the next town actually sees, use a tool like BrightLocal's Local Search Results Checker. Plug in the zip codes of cities you want to rank in. If you're not in the top three for "tree service [city]" from that location, you know exactly what you're up against.
+Check whether your website has individual service pages. If tree removal, stump grinding, and emergency service all live on one page — or there's no real website at all — you're leaving the keyword signals your GBP needs sitting on the table. One page per service, one page per city. That's the foundation.
+Look for your own Local Justifications. Search your business name in Google and pull up your map listing. Do you see "Their website mentions [service]" underneath it? If not, your website isn't giving Google enough to work with. That's fixable — but only with proper service pages that use the right language.
 The Bottom Line
 Your Google Business Profile will get you found by people who already know your name. Your website is what gets you found by everyone else — and everyone else is where the growth is.
 FAQ — Tree Service Google Business Profile and Website SEO
@@ -1940,10 +2009,13 @@ How many pages does my tree service website need for local SEO? At minimum — o
 Does NAP consistency still matter for local rankings? Yes, though Google has improved at matching minor variations. The bigger issue today is trust — a customer who finds three different phone numbers or addresses across your listings loses confidence before they ever call. Keep your NAP consistent across your website, GBP, and any directories — not just for Google, but because data friction costs you customers directly.
 
 ================================================================================
+
 FILE: blog/tree-service-google-reviews-roi.html
+
 ================================================================================
+
 The Real ROI of Five-Star Google Reviews for Tree Service Companies | Tree Web Design
-Google reviews aren't just stars. They're one of the strongest trust and visibility signals for tree service companies. Here's the math on what each review can mean to your bottom line.
+Google reviews aren&#x27;t just stars. They&#x27;re one of the strongest trust and visibility signals for tree service companies. Here&#x27;s the math on what each review can mean to your bottom line.
 The Real ROI of Five-Star Google Reviews for Tree Service Companies | Tree Web Design
 By JJ Jaggers · Tree Web Design · April 16, 2026
 The Real ROI of Five-Star Google Reviews for Tree Service Companies
@@ -1959,48 +2031,30 @@ The Math: What Is One Google Review Actually Worth?
 Let's break this down practically, the way you'd price out a job.
 The average tree service job in the U.S. runs $400–$1,200 depending on market and scope. Let's use $600 as a conservative middle.
 Here's a realistic scenario:
-- You're currently sitting at 18 reviews, averaging 4.2 stars
-- A competitor has 47 reviews at 4.7 stars
-- They rank #1 in the Map Pack. You rank #5 — effectively invisible on mobile
+You're currently sitting at 18 reviews, averaging 4.2 stars
+A competitor has 47 reviews at 4.7 stars
+They rank #1 in the Map Pack. You rank #5 — effectively invisible on mobile
 What's it costing you? If the Map Pack delivers even 3 extra calls per week to the #1 spot, and you close half of those at $600 a job — that's $900/week, or roughly $46,000 a year sitting in your competitor's pocket instead of yours.
 Now flip it: if 10 new reviews pushed you from #5 to #2 in the Map Pack, and you picked up just 2 extra calls a week — that's $31,200 in additional annual revenue. From 10 reviews.
 That's the math. One review isn't just a star — it's a piece of market share.
 Tree Service GMB Ranking Factors: Reviews in Context
 Google's local ranking algorithm has three main pillars: Relevance, Distance, and Prominence. Reviews fall under Prominence — and it's the one you have the most control over.
-Ranking Factor
-What It Means
-Your Control Level
-Relevance
-Does your profile match the search?
-Medium (optimize categories, services)
-Distance
-How close are you to the searcher?
-Low (fixed by location)
-Prominence
-How trusted/active is your profile?
-High (reviews, posts, responses)
-Review Quantity
-Total number of reviews
-High
-Review Recency
-How recently reviews were left
-High
-Review Rating
-Your average star rating
-High
-Review Responses
-Whether you respond to reviews
-High
-Website Authority
-Quality/speed of linked website
-High
+Ranking Factor What It Means Your Control Level
+Relevance Does your profile match the search? Medium (optimize categories, services)
+Distance How close are you to the searcher? Low (fixed by location)
+Prominence How trusted/active is your profile? High (reviews, posts, responses)
+Review Quantity Total number of reviews High
+Review Recency How recently reviews were left High
+Review Rating Your average star rating High
+Review Responses Whether you respond to reviews High
+Website Authority Quality/speed of linked website High
 Notice something? Six of the eight factors you can directly influence — and five of them are review-related. Tree service SEO doesn't get more actionable than this.
 Case Study: How a Dallas-Area Tree Company Jumped the Map Pack in 90 Days
 A mid-sized tree service company in the DFW area was stuck. Good crews, solid work, 22 reviews at 4.3 stars. They were ranking #6 in their primary zip code — invisible in the Map Pack. They were spending $800/month on Angi leads to compensate.
 They implemented a dead-simple review system:
-- Text the customer within 2 hours of job completion with a direct Google review link
-- The crew lead mentioned the review verbally before leaving the site
-- The office followed up once by text 48 hours later if no review was left
+Text the customer within 2 hours of job completion with a direct Google review link
+The crew lead mentioned the review verbally before leaving the site
+The office followed up once by text 48 hours later if no review was left
 In 90 days, they went from 22 reviews to 61. Average rating climbed from 4.3 to 4.8.
 Result: They cracked the Map Pack top 3 in their primary zip code. Angi spend dropped to zero. Inbound calls increased enough to keep two crews consistently booked two weeks out.
 The review link system cost them nothing except the discipline to use it consistently.
@@ -2017,9 +2071,9 @@ Tree Service SEO and Reviews: They're the Same Fight
 Here's where tree service SEO meets your Google Business Profile. Your GMB doesn't exist in a vacuum — it's tethered to your website. Google looks at your site's authority, load speed, and mobile experience when deciding how much weight to give your profile in local rankings.
 A slow, clunky website linked to a strong GMB is a drag on your whole operation. A fast, mobile-first site that loads in under a second sends trust signals that compound your review momentum. The two work together. You can't just focus on one.
 3 Actionable Takeaways
-- Build a review capture system today. Text every customer a direct Google review link within 2 hours of job completion. Don't rely on verbal asks alone. Friction kills follow-through.
-- Respond to every review within 48 hours. One or two sentences, mention the job or customer name. This is a direct ranking signal and a conversion tool for anyone reading your profile.
-- Audit your Map Pack position weekly. Search your primary service keywords from an incognito browser. Know exactly where you stand — and track whether your review momentum is moving the needle.
+Build a review capture system today. Text every customer a direct Google review link within 2 hours of job completion. Don't rely on verbal asks alone. Friction kills follow-through.
+Respond to every review within 48 hours. One or two sentences, mention the job or customer name. This is a direct ranking signal and a conversion tool for anyone reading your profile.
+Audit your Map Pack position weekly. Search your primary service keywords from an incognito browser. Know exactly where you stand — and track whether your review momentum is moving the needle.
 The Bottom Line
 Your Google reviews are the highest-ROI marketing activity available to your tree service business — bar none. Every five-star review you fail to capture is money you're handing to whoever's sitting above you in the Map Pack.
 Build the system. Work it every single job. The math takes care of the rest.
@@ -2032,10 +2086,13 @@ What's the difference between tree service SEO and tree service SEM? SEO (Search
 Does my website affect my Google Maps ranking? Yes. Google evaluates the website linked to your Business Profile as part of its local ranking calculation. Site speed, mobile optimization, and relevance of your content all factor in. A fast, well-built tree service website amplifies the work your reviews are doing.
 
 ================================================================================
+
 FILE: blog/tree-service-website-cost.html
+
 ================================================================================
+
 How Much Does a Tree Service Website Cost? (And What You Actually Get) | Tree Web Design
-DIY builder, WordPress freelancer, agency, or managed plan — the range is $16/month to $8,000 upfront. Here's what each one actually gets you, and which makes your phone ring.
+DIY builder, WordPress freelancer, agency, or managed plan — the range is $16/month to $8,000 upfront. Here&#x27;s what each one actually gets you, and which makes your phone ring.
 How Much Does a Tree Service Website Cost? (And What You Actually Get) | Tree Web Design
 By JJ Jaggers · Tree Web Design · April 16, 2026
 How Much Does a Tree Service Website Cost? (And What You Actually Get)
@@ -2044,34 +2101,19 @@ You've probably already Googled it. Maybe you got quotes from three different pe
 Here's the straight answer: a functional, lead-generating website for a tree service company can run anywhere from $16/month on a DIY builder to $3,000–$8,000 as a one-time build from a general agency. Managed plans built specifically for tree companies start at $149/mo. The gap in those numbers tells you everything about what you're actually buying.
 What Does a Tree Service Website Actually Cost in 2026?
 Let's break down every option on the table — no spin.
-Build Type
-Upfront Cost
-Monthly Cost
-Who It's For
-DIY (Wix / Squarespace)
-$0
-$16–$49
-Guys who want to figure it out themselves
-WordPress + Freelancer
-$500–$2,500
-$0–$50
-One-time build, you maintain it
-General Web Agency
-$3,000–$8,000
-$100–$300
-Anyone with a budget and no niche focus
-Managed Niche Plan (us)
-$0 setup
-Monthly plans starting at $149/mo
-Tree companies who want leads, not headaches
+Build Type Upfront Cost Monthly Cost Who It's For
+DIY (Wix / Squarespace) $0 $16–$49 Guys who want to figure it out themselves
+WordPress + Freelancer $500–$2,500 $0–$50 One-time build, you maintain it
+General Web Agency $3,000–$8,000 $100–$300 Anyone with a budget and no niche focus
+Managed Niche Plan (us) $0 setup Monthly plans starting at $149/mo Tree companies who want leads, not headaches
 None of these are wrong choices by default. They're wrong or right depending on what you actually need.
 The DIY Route: Wix, Squarespace, and the Template Trap
 Wix and Squarespace are not bad products. They're bad products for tree service companies.
 Here's why. Those platforms are built for photographers, restaurants, and boutique shops — businesses where visual appeal closes the sale. Your customers aren't hiring you because your website looks pretty. They're hiring you because a limb is sitting on their roof and they need someone competent on the phone in the next ten minutes.
 Template sites have three problems that will cost you jobs:
-- They load slow. Drag-and-drop builders carry bloated code underneath. On a mobile connection during a storm, that means your site doesn't load before the homeowner moves on.
-- They look like everyone else. Your competitor three towns over has the same template. There's nothing that says you.
-- They don't convert. A pretty homepage with no clear call-to-action, no click-to-call button above the fold, and no lead capture form is just an online business card. Business cards don't ring phones.
+They load slow. Drag-and-drop builders carry bloated code underneath. On a mobile connection during a storm, that means your site doesn't load before the homeowner moves on.
+They look like everyone else. Your competitor three towns over has the same template. There's nothing that says you.
+They don't convert. A pretty homepage with no clear call-to-action, no click-to-call button above the fold, and no lead capture form is just an online business card. Business cards don't ring phones.
 WordPress + Freelancer: The Maintenance Nightmare
 WordPress runs roughly 43% of the internet. It's also the source of more headaches for small tree service pros than almost anything else.
 The pitch sounds good: pay once, own it forever. The reality is different.
@@ -2088,11 +2130,11 @@ Managed Tree Service Web Design: What You're Actually Paying For
 This is where the monthly model gets misunderstood. Owners hear a monthly price and do the math — "that's money every year, I could've just paid once."
 That math ignores what's included.
 On a managed tree service web design plan, you're not just paying for a website. You're paying for:
-- A hand-coded site built specifically for tree company conversion — no templates, no plugins, nothing to break
-- Hosting and SSL handled, always on, never your problem
-- Unlimited edits so your site stays current as your business grows
-- A Review Request Page that routes happy customers to Google automatically
-- Google Profile Management (Pro plan) so your Maps ranking keeps climbing
+A hand-coded site built specifically for tree company conversion — no templates, no plugins, nothing to break
+Hosting and SSL handled, always on, never your problem
+Unlimited edits so your site stays current as your business grows
+A Review Request Page that routes happy customers to Google automatically
+Google Profile Management (Pro plan) so your Maps ranking keeps climbing
 The question isn't whether a monthly website plan is too much. The question is: what is one additional tree removal job per month worth to you?
 If you're charging $800–$1,500 for a removal, one extra job covers the plan with money left over. Our clients typically see that within the first 30 days.
 View current plans and pricing →
@@ -2102,9 +2144,9 @@ Operator A paid $4,500 to a local agency for a one-time WordPress build. The sit
 Operator B launched on a managed Growth plan. When a storm rolled through the same metro, his site stayed up, loaded in under a second, and his phone started ringing at 11pm. He booked 12 jobs before sunrise.
 Same market. Same storm. Different infrastructure.
 3 Takeaways Before You Decide
-- Calculate cost per lead, not cost per month. If your website plan generates 4 jobs, the cost per lead can drop below almost any other marketing channel for tree service.
-- Ask any web provider: what happens when it breaks at 2am? If the answer isn't "we handle it," you're the IT department now.
-- Don't confuse a good-looking site with a high-performing one. Design is the wrapper. Speed, structure, and conversion architecture are what make your phone ring.
+Calculate cost per lead, not cost per month. If your website plan generates 4 jobs, the cost per lead can drop below almost any other marketing channel for tree service.
+Ask any web provider: what happens when it breaks at 2am? If the answer isn't "we handle it," you're the IT department now.
+Don't confuse a good-looking site with a high-performing one. Design is the wrapper. Speed, structure, and conversion architecture are what make your phone ring.
 The Bottom Line
 A tree service website costs exactly what you're willing to tolerate in missed calls. Build it right once, keep it running, and let it work while you're in the bucket.
 Schedule a free 15-minute call →
@@ -2115,29 +2157,3 @@ What's wrong with using Wix or Squarespace for a tree service website? Template 
 What's the difference between a general agency and a tree service web design specialist? A general agency builds websites. A specialist builds lead systems for your specific industry — knowing how tree customers search, when they convert, and what makes them call.
 Do I own my website on a monthly plan? Depends on the provider. At Tree Web Design, your domain, logo, photos, and written copy are yours permanently. The site infrastructure runs on our hosting — if you cancel, we help you transition your content.
 How fast should a tree service website load? Under 1 second on mobile is the target. During storm events when most emergency tree leads happen, slower sites lose those calls to competitors whose sites load first.
-
-================================================================================
-FILE: feedback/index.html
-================================================================================
-Leave a Review | Tree Web Design
-Leave a review for Tree Web Design.
-Leave a Review | Tree Web Design
-Site
-How'd we do?
-Every review supports our local business. It takes just 60 seconds to help us grow!
-Choose a platform
-Google
-Most trusted · helps local search ranking
-Nextdoor
-Recommend us to your neighbors
-HomeAdvisor
-Top platform for home service pros
-Thumbtack
-Help others find quality pros
-Yelp
-Trusted local business reviews
-Not 100% satisfied?
-Text the owner directly so we can make it right.
-Every review supports a small, family-owned DFW business.
-We read each one and truly appreciate your time.
-© 2026 Tree Web Design · treewebdesign.com

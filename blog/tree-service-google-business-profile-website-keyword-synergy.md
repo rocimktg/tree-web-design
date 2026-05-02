@@ -139,7 +139,7 @@ Local Justifications are the small snippets Google displays under map pack listi
 Indirectly but meaningfully. When users click from your GBP to your website and bounce immediately because it loads slowly, Google tracks that as a negative experience signal. A fast-loading, mobile-optimized site keeps users engaged, which feeds positive behavioral signals back into both your organic and local rankings over time.
 
 **How many pages does my tree service website need for local SEO?**
-At minimum — one page per core service and one page per city you actively serve. A five-service, eight-city operation should have at least 13 targeted pages beyond the homepage. Each page is an additional keyword signal that feeds your GBP's relevance for discovery searches in that location and for that service.
+As a baseline, you want one page per core service and one page per city you actively serve. A five-service, eight-city operation should have at least 13 targeted pages beyond the homepage. Each page is an additional keyword signal that feeds your GBP's relevance for discovery searches in that location and for that service.
 
 **Does NAP consistency still matter for local rankings?**
 Yes, though Google has improved at matching minor variations. The bigger issue today is trust — a customer who finds three different phone numbers or addresses across your listings loses confidence before they ever call. Keep your NAP consistent across your website, GBP, and any directories — not just for Google, but because data friction costs you customers directly.
