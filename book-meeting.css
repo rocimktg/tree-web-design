@@ -1,0 +1,159 @@
+/* =============================================
+   BOOK MEETING PAGE
+   ============================================= */
+
+.page-header {
+  background: var(--black);
+  border-bottom: var(--border);
+  padding: var(--space-9) 0 var(--space-8);
+}
+
+.page-header__inner {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.page-header h1 {
+  margin: 0;
+  font-size: clamp(3.4rem, 7vw, 7rem);
+  color: var(--white);
+  line-height: 0.9;
+  letter-spacing: -0.02em;
+}
+
+.meeting-page {
+  padding: var(--space-8) 0 var(--space-10);
+  border-bottom: var(--border);
+  background:
+    linear-gradient(135deg, rgba(255, 95, 31, 0.1), transparent 35%),
+    linear-gradient(180deg, #ffffff, #f6f2ea);
+}
+
+.meeting-page__grid {
+  display: grid;
+  gap: var(--space-6);
+  align-items: start;
+}
+
+.meeting-copy {
+  display: grid;
+  gap: var(--space-4);
+}
+
+.meeting-eyebrow {
+  display: block;
+  width: fit-content;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--black);
+  background: var(--acid);
+  padding: 4px 12px;
+}
+
+.meeting-copy h2 {
+  font-size: clamp(2.2rem, 4vw, 4.4rem);
+  line-height: 0.95;
+  max-width: 10ch;
+}
+
+.meeting-copy .body {
+  max-width: 38rem;
+}
+
+.meeting-notes {
+  display: grid;
+  gap: var(--space-4);
+  max-width: 36rem;
+}
+
+.meeting-notes p {
+  display: grid;
+  gap: 6px;
+  padding: 14px 16px;
+  border: var(--border);
+  background: var(--white);
+  box-shadow: 4px 4px 0 var(--black);
+}
+
+.meeting-notes strong {
+  font-family: var(--font-condensed);
+  font-size: 1.15rem;
+  line-height: 0.95;
+  text-transform: uppercase;
+}
+
+.meeting-embed-shell {
+  display: flex;
+  justify-content: center;
+  padding: var(--space-3);
+  border: 5px solid var(--black);
+  background: #fffdf9;
+  box-shadow: var(--shadow);
+}
+
+.meeting-embed-shell iframe {
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  min-height: 600px;
+  border: 0;
+}
+
+@media (min-width: 980px) {
+  .meeting-page__grid {
+    grid-template-columns: minmax(0, 1.16fr) minmax(320px, 0.84fr);
+    gap: var(--space-7);
+  }
+
+  .meeting-embed-shell {
+    order: 2;
+    position: sticky;
+    top: 96px;
+    align-self: start;
+  }
+
+  .meeting-copy {
+    order: 1;
+    padding-top: var(--space-2);
+  }
+}
+
+@media (max-width: 700px) {
+  .page-header {
+    padding: var(--space-7) 0 var(--space-6);
+  }
+
+  .page-header h1 {
+    font-size: clamp(2.7rem, 15vw, 4.4rem);
+  }
+
+  .meeting-page {
+    padding: var(--space-5) 0 var(--space-8);
+  }
+
+  .meeting-embed-shell {
+    margin-top: calc(var(--space-2) * -1);
+    padding: 6px;
+    box-shadow: 3px 3px 0 var(--black);
+  }
+
+  .meeting-embed-shell iframe {
+    min-height: 540px;
+  }
+
+  .meeting-copy h2 {
+    font-size: clamp(2rem, 12vw, 3rem);
+    max-width: none;
+  }
+
+  .meeting-notes {
+    gap: var(--space-3);
+  }
+
+  .meeting-notes p {
+    box-shadow: none;
+  }
+}

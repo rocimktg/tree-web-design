@@ -95,7 +95,7 @@ Same market. Same storm. Different infrastructure.
 
 A tree service website costs exactly what you're willing to tolerate in missed calls. Build it right once, keep it running, and let it work while you're in the bucket.
 
-[Schedule a free 15-minute call →](https://calendly.com/jj-rocinantemarketing/30min)
+[Schedule a free 15-minute call →](https://treewebdesign.com/book-meeting)
 
 ---
 
