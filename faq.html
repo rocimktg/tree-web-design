@@ -57,22 +57,31 @@
       <div class="container">
         <span class="eyebrow">Questions &amp; Answers</span>
         <h2 id="faq-heading">Straight Answers.</h2>
-        <p class="faq-intro">Everything tree service pros ask before signing on. Month-to-month after the initial term, clear ownership rules, and buyout available if you ever want the website files transferred.</p>
+        <p class="faq-intro">Everything tree service pros ask before signing on.</p>
+
+        <div class="faq-filters" role="group" aria-label="Filter questions">
+          <button class="faq-filter faq-filter--active" data-filter="all">All</button>
+          <button class="faq-filter" data-filter="pricing">Pricing</button>
+          <button class="faq-filter" data-filter="billing">Billing</button>
+          <button class="faq-filter" data-filter="onboarding">Onboarding</button>
+          <button class="faq-filter" data-filter="features">Features</button>
+          <button class="faq-filter" data-filter="seo">SEO</button>
+        </div>
 
         <div class="faq-list">
 
-          <details class="faq-item">
+          <details class="faq-item" data-category="pricing">
             <summary>What plans do you offer?</summary>
             <div class="faq-answer">
               <p>We offer three website plans with no setup fees.</p>
-              <p><strong>Lite ($149/mo, 3-month agreement):</strong> A custom single-page website with hosting, edits, and the core setup you need to start strong.</p>
+              <p><strong>Lite ($149/mo, month-to-month):</strong> A custom single-page website with hosting, edits, and the core setup you need to start strong.</p>
               <p><strong>Growth ($349/mo, 6-month agreement):</strong> Everything in Lite plus 5 core pages, 5 custom city pages, monthly Google Profile Management, and ongoing SEO expansion.</p>
               <p><strong>Pro ($549/mo, 12-month agreement):</strong> Everything in Growth plus 10 custom city pages, active weekly Google Profile Management, and Google Ads / LSA support. Ad spend is separate.</p>
               <p>All plans include hosting, SSL, unlimited website updates for text, photos, and content changes, and a $0 setup fee.</p>
             </div>
           </details>
 
-          <details class="faq-item">
+          <details class="faq-item" data-category="pricing">
             <summary>How many pages do I get?</summary>
             <div class="faq-answer">
               <p><strong>Lite</strong> includes a single-page site.</p>
@@ -82,57 +91,51 @@
             </div>
           </details>
 
-          <details class="faq-item">
+          <details class="faq-item" data-category="billing">
             <summary>How does billing work?</summary>
             <div class="faq-answer">
               <p>There are no setup fees on any plan.</p>
-              <p>Your first monthly payment is due at kickoff to start the build. <strong>Lite</strong> has a <strong>3-month agreement</strong>, <strong>Growth</strong> has a <strong>6-month agreement</strong>, and <strong>Pro</strong> has a <strong>12-month agreement</strong>.</p>
-              <p>After the initial term, your plan simply continues month-to-month unless you cancel, change plans, or choose a buyout option.</p>
+              <p>Your first monthly payment is due at kickoff to start the build. <strong>Lite</strong> is <strong>month-to-month</strong>, <strong>Growth</strong> has a <strong>6-month agreement</strong>, and <strong>Pro</strong> has a <strong>12-month agreement</strong>.</p>
+              <p>Growth and Pro continue month-to-month after the initial term unless you cancel, change plans, or choose a buyout option.</p>
               <p>Recurring payments are handled automatically through Stripe on the same billing date each month.</p>
             </div>
           </details>
 
-          <details class="faq-item">
-            <summary>Do I own my website?</summary>
+          <details class="faq-item" data-category="billing">
+            <summary>What do I own on my website plan?</summary>
             <div class="faq-answer">
               <p>Your domain, logo, photos, and written copy are yours.</p>
-              <p>The live website runs on Tree Web Design's managed hosting while your monthly plan is active.</p>
-              <p>If you stay on the plan after the initial term, nothing changes. Your website stays live, hosting continues, edits continue, support continues, and your included plan services continue.</p>
+              <p>The live website runs on Tree Web Design's managed hosting while your monthly plan is active. As long as you stay on the plan, your site stays live and everything continues as normal.</p>
             </div>
           </details>
 
-          <details class="faq-item">
+          <details class="faq-item" data-category="billing">
             <summary>Can I buy out my website?</summary>
             <div class="faq-answer">
-              <p>Yes. After your initial term, the normal option is to keep your monthly plan going. If you want to stop the monthly plan and take the site elsewhere, you can choose the buyout option.</p>
-              <p>For <strong>Lite</strong>, the buyout is <strong>$2,000</strong> after the <strong>3-month agreement</strong>.</p>
-              <p>For <strong>Growth</strong>, the buyout is <strong>$0</strong> after the <strong>6-month agreement</strong>.</p>
-              <p>For <strong>Pro</strong>, the buyout is <strong>$0</strong> after the <strong>12-month agreement</strong>.</p>
-              <p>For <strong>Growth</strong> and <strong>Pro</strong>, the buyout cost is <strong>$0</strong>, but you still need to choose the buyout option if you want the finished website files transferred to you.</p>
-              <p>The buyout transfers the finished website files to you. From there, you can host the site wherever you want, or keep it hosted with Tree Web Design for <strong>$25/month</strong>.</p>
+              <p>Yes, on <strong>Growth</strong> and <strong>Pro</strong>. After your initial term, the buyout is <strong>$0</strong> — you just need to choose the buyout option and the finished website files are transferred to you.</p>
+              <p>From there, you can host the site wherever you want, or keep it hosted with Tree Web Design for <strong>$25/month</strong>.</p>
             </div>
           </details>
 
-          <details class="faq-item">
+          <details class="faq-item" data-category="billing">
             <summary>What happens after my initial term?</summary>
             <div class="faq-answer">
-              <p>The normal option is to continue month-to-month.</p>
-              <p>If you stay on the plan, your website stays live, hosting continues, edits continue, support continues, and your included plan services continue.</p>
-              <p>If you want to stop the monthly plan, you can either choose the buyout option or let the managed site come offline.</p>
+              <p>The plan continues month-to-month. Nothing changes — your site stays live, edits continue, and all included services continue.</p>
+              <p>If you want to stop, you can choose the buyout option or let the managed site come offline.</p>
             </div>
           </details>
 
-          <details class="faq-item">
+          <details class="faq-item" data-category="billing">
             <summary>What happens if I cancel?</summary>
             <div class="faq-answer">
-              <p>After your initial term, you can cancel before your next billing date.</p>
+              <p>You can cancel before your next billing date.</p>
               <p>If you cancel and do not choose buyout, the managed website comes offline at the end of your billing period.</p>
-              <p>No website files are transferred without buyout.</p>
+              <p>No website files are transferred without buyout. Lite does not include a buyout option.</p>
               <p>Your domain, logo, photos, and written copy remain yours.</p>
             </div>
           </details>
 
-          <details class="faq-item">
+          <details class="faq-item" data-category="features">
             <summary>What is the Review Request Page?</summary>
             <div class="faq-answer">
               <p>Every plan includes a Review Request Page at your domain, such as yourbusiness.com/feedback.</p>
@@ -142,35 +145,43 @@
             </div>
           </details>
 
-          <details class="faq-item">
+          <details class="faq-item" data-category="onboarding">
             <summary>What do you need from me to get started?</summary>
             <div class="faq-answer">
               <p>Not much. Once you're ready to move forward, we'll need your logo, a few photos of your work, and basic business info — services, service area, contact details. If you don't have professional photos yet, we'll work with what you have. We handle everything else from there.</p>
             </div>
           </details>
 
-          <details class="faq-item">
+          <details class="faq-item" data-category="onboarding">
             <summary>Can you write the copy for my site?</summary>
             <div class="faq-answer">
               <p>Yes. You don't need to write a word. We'll pull what we need from our kickoff call — your services, your market, what makes you different — and write copy that sounds like a real tree service pro, not a template.</p>
             </div>
           </details>
 
-          <details class="faq-item">
+          <details class="faq-item" data-category="onboarding">
             <summary>How fast will my site launch?</summary>
             <div class="faq-answer">
               <p>Once we have your payment and materials — logo, business info, photos — we get to work. Most sites are live within 7–10 business days.</p>
             </div>
           </details>
 
-          <details class="faq-item">
+          <details class="faq-item" data-category="onboarding">
+            <summary>Do I have to commit before seeing the work?</summary>
+            <div class="faq-answer">
+              <p>No. Before you pay anything, you'll see a working homepage built around your business — your services, your market, your name on it. Not a mockup or a template with your logo swapped in. A real, hand-coded page.</p>
+              <p>If it doesn't look right or feel like a fit, you walk away with nothing owed. Most people are ready to move forward after seeing it.</p>
+            </div>
+          </details>
+
+          <details class="faq-item" data-category="onboarding">
             <summary>Why don't you use WordPress or page builders?</summary>
             <div class="faq-answer">
               <p>WordPress sites rely on plugins that break and create security risks. Page builders bloat your code and slow your site down. We hand-code everything from scratch. The result is a site that loads in under a second, never breaks on its own, and has nothing for hackers to exploit.</p>
             </div>
           </details>
 
-          <details class="faq-item">
+          <details class="faq-item" data-category="features">
             <summary>Do you manage Google Profiles?</summary>
             <div class="faq-answer">
               <p>Yes. Google Profile support is built into all three plans, and ads support is included with <strong>Pro</strong> only.</p>
@@ -180,7 +191,7 @@
             </div>
           </details>
 
-          <details class="faq-item">
+          <details class="faq-item" data-category="seo">
             <summary>Do tree service companies really need a website?</summary>
             <div class="faq-answer">
               <p>Yes — and a website built to generate calls matters more for tree service than most trades. Tree work is high-ticket and high-trust. Homeowners aren't just hiring the cheapest option; they're hiring whoever looks most credible when they search. A slow or outdated site — or no site at all — hands those jobs to whoever shows up next in Google.</p>
@@ -188,7 +199,7 @@
             </div>
           </details>
 
-          <details class="faq-item">
+          <details class="faq-item" data-category="seo">
             <summary>How do I rank my tree service on Google Maps?</summary>
             <div class="faq-answer">
               <p>Google Maps ranking comes down to three things: a complete and active Google Business Profile, a fast website, and consistent five-star reviews.</p>
@@ -204,6 +215,22 @@
   </main>
 
   <div data-include="footer"></div>
+  <script>
+    (function () {
+      var filters = document.querySelectorAll('.faq-filter');
+      var items   = document.querySelectorAll('.faq-item');
+      filters.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          filters.forEach(function (b) { b.classList.remove('faq-filter--active'); });
+          btn.classList.add('faq-filter--active');
+          var filter = btn.dataset.filter;
+          items.forEach(function (item) {
+            item.hidden = filter !== 'all' && item.dataset.category !== filter;
+          });
+        });
+      });
+    })();
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -214,7 +241,7 @@
       "name": "What plans do you offer?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "We offer three website plans with no setup fees. Lite ($149/mo, 3-month agreement): A custom single-page website with hosting, edits, and the core setup you need to start strong. Growth ($349/mo, 6-month agreement): Everything in Lite plus 5 core pages, 5 custom city pages, monthly Google Profile Management, and ongoing SEO expansion. Pro ($549/mo, 12-month agreement): Everything in Growth plus 10 custom city pages, active weekly Google Profile Management, and Google Ads / LSA support. Ad spend is separate. All plans include hosting, SSL, unlimited website updates for text, photos, and content changes, and a $0 setup fee."
+        "text": "We offer three website plans with no setup fees. Lite ($149/mo, month-to-month): A custom single-page website with hosting, edits, and the core setup you need to start strong. Growth ($349/mo, 6-month agreement): Everything in Lite plus 5 core pages, 5 custom city pages, monthly Google Profile Management, and ongoing SEO expansion. Pro ($549/mo, 12-month agreement): Everything in Growth plus 10 custom city pages, active weekly Google Profile Management, and Google Ads / LSA support. Ad spend is separate. All plans include hosting, SSL, unlimited website updates for text, photos, and content changes, and a $0 setup fee."
       }
     },
     {
@@ -230,15 +257,15 @@
       "name": "How does billing work?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "There are no setup fees on any plan. Your first monthly payment is due at kickoff to start the build. Lite has a 3-month agreement, Growth has a 6-month agreement, and Pro has a 12-month agreement. After the initial term, your plan simply continues month-to-month unless you cancel, change plans, or choose a buyout option. Recurring payments are handled automatically through Stripe on the same billing date each month."
+        "text": "There are no setup fees on any plan. Your first monthly payment is due at kickoff to start the build. Lite is month-to-month, Growth has a 6-month agreement, and Pro has a 12-month agreement. Growth and Pro continue month-to-month after the initial term unless you cancel, change plans, or choose a buyout option. Recurring payments are handled automatically through Stripe on the same billing date each month."
       }
     },
     {
       "@type": "Question",
-      "name": "Do I own my website?",
+      "name": "What do I own on my website plan?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Your domain, logo, photos, and written copy are yours. The live website runs on Tree Web Design's managed hosting while your monthly plan is active. If you stay on the plan after the initial term, nothing changes. Your website stays live, hosting continues, edits continue, support continues, and your included plan services continue."
+        "text": "Your domain, logo, photos, and written copy are yours. The live website runs on Tree Web Design's managed hosting while your monthly plan is active. As long as you stay on the plan, your site stays live and everything continues as normal."
       }
     },
     {
@@ -246,7 +273,7 @@
       "name": "Can I buy out my website?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. After your initial term, the normal option is to keep your monthly plan going. If you want to stop the monthly plan and take the site elsewhere, you can choose the buyout option. For Lite, the buyout is $2,000 after the 3-month agreement. For Growth, the buyout is $0 after the 6-month agreement. For Pro, the buyout is $0 after the 12-month agreement. For Growth and Pro, the buyout cost is $0, but you still need to choose the buyout option if you want the finished website files transferred to you. The buyout transfers the finished website files to you. From there, you can host the site wherever you want, or keep it hosted with Tree Web Design for $25/month."
+        "text": "Yes, on Growth and Pro. After your initial term, the buyout is $0 — you just need to choose the buyout option and the finished website files are transferred to you. From there, you can host the site wherever you want, or keep it hosted with Tree Web Design for $25/month."
       }
     },
     {
@@ -254,7 +281,7 @@
       "name": "What happens after my initial term?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The normal option is to continue month-to-month. If you stay on the plan, your website stays live, hosting continues, edits continue, support continues, and your included plan services continue. If you want to stop the monthly plan, you can either choose the buyout option or let the managed site come offline."
+        "text": "The plan continues month-to-month. Nothing changes — your site stays live, edits continue, and all included services continue. If you want to stop, you can choose the buyout option or let the managed site come offline."
       }
     },
     {
@@ -262,7 +289,7 @@
       "name": "What happens if I cancel?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "After your initial term, you can cancel before your next billing date. If you cancel and do not choose buyout, the managed website comes offline at the end of your billing period. No website files are transferred without buyout. Your domain, logo, photos, and written copy remain yours."
+        "text": "You can cancel before your next billing date. If you cancel and do not choose buyout, the managed website comes offline at the end of your billing period. No website files are transferred without buyout. Lite does not include a buyout option. Your domain, logo, photos, and written copy remain yours."
       }
     },
     {
@@ -299,6 +326,14 @@
     },
     {
       "@type": "Question",
+      "name": "Do I have to commit before seeing the work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Before you pay anything, you'll see a working homepage built around your business — your services, your market, your name on it. Not a mockup or a template with your logo swapped in. A real, hand-coded page. If it doesn't look right or feel like a fit, you walk away with nothing owed. Most people are ready to move forward after seeing it."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Why don't you use WordPress or page builders?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -328,7 +363,6 @@
         "@type": "Answer",
         "text": "Google Maps ranking comes down to three things: a complete and active Google Business Profile, a fast website, and consistent five-star reviews. Your Google Business Profile needs accurate service categories, real job photos, and regular updates. Your website needs to load fast, mention your city and services clearly, and link to your Google Business Profile. Reviews are the multiplier — the more recent and relevant, the higher you climb. Lite includes one-time profile setup. Growth includes monthly Google Profile Management. Pro includes active weekly Google Profile Management — we keep your profile current with photos and posts from jobs you send us."
       }
-    },
     }
   ]
 }
