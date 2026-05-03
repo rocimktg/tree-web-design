@@ -250,17 +250,17 @@ We offer three website plans with no setup fees.
 Lite ($149/mo, month-to-month):
 A custom single-page website with hosting, edits, and the core setup you need to start strong.
 Growth ($349/mo, 6-month agreement):
-Everything in Lite plus 5 core pages, 5 custom city pages, monthly Google Profile Management, and ongoing SEO expansion.
+Everything in Lite plus 5 core pages, 3 city pages included, monthly Google Profile Management, and +1 new or improved page per month.
 Pro ($549/mo, 12-month agreement):
-Everything in Growth plus 10 custom city pages, active weekly Google Profile Management, and Google Ads / LSA support. Ad spend is separate.
+Everything in Growth plus 10 custom city pages, active weekly Google Profile Management, Google Ads / LSA support, and +2 new or improved pages per month. Ad spend is separate.
 All plans include hosting, SSL, unlimited website updates for text, photos, and content changes, and a $0 setup fee.
 How many pages do I get?
 Lite
 includes a single-page site.
 Growth
-includes 5 core pages plus 5 custom city pages.
+includes 5 core pages plus 3 city pages included, then +1 new or improved page per month.
 Pro
-includes 5 core pages plus 10 custom city pages (15 total).
+includes 5 core pages plus 10 custom city pages, then +2 new or improved pages per month.
 Additional pages are
 $100 each
 , one-time.
@@ -363,7 +363,7 @@ Stump
 Emergency
 Pruning
 Schedule a Call
-See a Free Preview
+See How It Works
 Setup Fee
 $0
 Starting At
@@ -477,8 +477,8 @@ Growth
 $349
 /mo
 6-month agreement
-5 core + 5 city pages
-A strong local foundation with core service pages, local SEO structure, and 5 custom city pages.
+5 core pages + 3 city pages included
+A strong local foundation with core service pages, 3 city pages included, then +1 new or improved page per month.
 Pro
 $549
 /mo
@@ -974,8 +974,8 @@ Built Into the Website Plans
 SEO Is Part of the Structure
 Tree service SEO works best when it is not treated as an afterthought.
 Lite gives you a clean, fast single-page foundation.
-Growth adds core service pages and 5 custom city pages for a stronger local search structure.
-Pro adds 10 custom city pages, active weekly Google Profile Management, and Google Ads / LSA support.
+Growth adds core service pages, 3 city pages included, and +1 new or improved page per month for a stronger local search structure.
+Pro adds 10 custom city pages, active weekly Google Profile Management, Google Ads / LSA support, and +2 new or improved pages per month.
 The more competitive your market is, the more important the structure becomes.
 View Pricing
 Questions

@@ -67,8 +67,8 @@
   font-family: var(--font-mono);
   font-size: 0.8rem;
   letter-spacing: 0.06em;
-  color: var(--black);
-  background: var(--white);
+  color: var(--white);
+  background: rgba(255,255,255,0.06);
   border-left: 5px solid var(--acid);
   padding: 8px 16px;
 }

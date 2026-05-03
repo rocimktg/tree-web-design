@@ -24,7 +24,7 @@
 
   <style>
     :root {
-      --bg: #f2f2f7;
+      --bg: #dadada;
       --card: #ffffff;
       --border: #e5e5ea;
       --text-primary: #1c1c1e;
@@ -59,8 +59,8 @@
     .page-header {
       padding: 14px 20px;
       padding-top: calc(14px + env(safe-area-inset-top));
-      background: #111111;
-      border-bottom: 1px solid rgba(255,255,255,0.08);
+      background: #ffffff;
+      border-bottom: 1px solid rgba(0,0,0,0.08);
       text-align: center;
       position: sticky;
       top: 0;
@@ -79,7 +79,7 @@
       gap: 4px;
       font-size: 0.82rem;
       font-weight: 500;
-      color: rgba(255,255,255,0.55);
+      color: rgba(28,28,30,0.6);
       -webkit-tap-highlight-color: transparent;
     }
 
@@ -89,11 +89,11 @@
     }
 
     .back-link:active {
-      color: rgba(255,255,255,0.3);
+      color: rgba(28,28,30,0.35);
     }
 
     .business-logo {
-      height: 36px;
+      height: 90px;
       width: auto;
       display: block;
       margin: 0 auto 4px;
@@ -101,9 +101,9 @@
     }
 
     .business-location {
-      font-size: 0.7rem;
-      font-weight: 500;
-      color: rgba(255,255,255,0.45);
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: rgba(28,28,30,0.82);
       letter-spacing: 0.04em;
       text-transform: uppercase;
     }
@@ -361,10 +361,8 @@
     <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 3L5 8l5 5"/></svg>
     Site
   </a>
-  <picture>
-    <source type="image/avif" srcset="icons/logo.avif">
-    <img class="business-logo" src="icons/logo.png" alt="Tree Web Design" width="947" height="502">
-  </picture>
+  <img class="business-logo" src="../img/essencelogo.png" alt="Tree Web Design" width="947" height="502">
+  <p class="business-location">Essence AZ Tree Services</p>
 </header>
 
 <main>

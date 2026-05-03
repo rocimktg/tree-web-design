@@ -458,20 +458,52 @@
 }
 
 .pricing-notes-band {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: var(--space-5);
-  align-items: stretch;
-  margin-top: var(--space-4);
+  margin-top: var(--space-5);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
 }
 
-.pricing-notes-band .pricing-terms-note {
-  padding-right: var(--space-5);
+.pricing-plan-notes {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  border: 1px solid rgba(0,0,0,0.18);
+}
+
+.pricing-plan-note {
+  padding: var(--space-5) var(--space-6);
   border-right: 1px solid rgba(0,0,0,0.18);
 }
 
-.pricing-notes-band .pricing-table-note {
-  padding-left: var(--space-5);
+.pricing-plan-note:last-child {
+  border-right: none;
+}
+
+.pricing-plan-note__name {
+  font-family: var(--font-condensed);
+  font-weight: 900;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 0 0 var(--space-1) 0;
+  color: var(--black);
+}
+
+.pricing-plan-note__term {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: rgba(0,0,0,0.5);
+  letter-spacing: 0.02em;
+  margin: 0 0 var(--space-3) 0;
+}
+
+.pricing-plan-note__desc {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  line-height: 1.6;
+  color: rgba(0,0,0,0.74);
+  letter-spacing: 0.02em;
+  margin: 0;
 }
 
 .pricing-addons {
@@ -507,6 +539,9 @@
 }
 
 .addon-card__name {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
   font-family: var(--font-condensed);
   font-weight: 900;
   font-size: 1.4rem;
@@ -514,6 +549,14 @@
   letter-spacing: 0.03em;
   line-height: 1;
   color: var(--black);
+}
+
+.addon-card__name::before {
+  content: '';
+  width: 6px;
+  height: 1.15em;
+  background: var(--acid);
+  flex: 0 0 auto;
 }
 
 .addon-card__price {
@@ -705,17 +748,16 @@
     grid-template-columns: 1fr;
   }
 
-  .pricing-notes-band {
+  .pricing-plan-notes {
     grid-template-columns: 1fr;
-    gap: var(--space-3);
   }
 
-  .pricing-notes-band .pricing-terms-note {
-    padding-right: 0;
+  .pricing-plan-note {
     border-right: none;
+    border-bottom: 1px solid rgba(0,0,0,0.18);
   }
 
-  .pricing-notes-band .pricing-table-note {
-    padding-left: 0;
+  .pricing-plan-note:last-child {
+    border-bottom: none;
   }
 }

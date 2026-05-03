@@ -1927,6 +1927,7 @@ p.body,
   background: #f6f1eb;
   border-top: 1px solid rgba(0,0,0,0.14);
   border-bottom: 1px solid rgba(0,0,0,0.14);
+  padding: var(--space-7) 0;
 }
 
 .home-journal__inner {
@@ -1934,7 +1935,6 @@ p.body,
   grid-template-columns: 180px minmax(0, 1fr);
   gap: var(--space-5);
   align-items: center;
-  padding: 18px 0;
 }
 
 .home-journal__label {
@@ -1953,11 +1953,15 @@ p.body,
 
 .home-journal__item {
   min-width: 0;
+  border: 1px solid var(--black);
+  background: var(--white);
 }
 
 .home-journal__link {
   display: grid;
   gap: 6px;
+  min-height: 100%;
+  padding: var(--space-4);
 }
 
 .home-journal__date {
