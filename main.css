@@ -423,6 +423,7 @@ p.body,
 
 .footer-links h2,
 .footer-contact h2,
+.footer-actions h2,
 .footer-service-areas h2 {
   font-family: var(--font-condensed);
   font-weight: 900;
@@ -433,10 +434,45 @@ p.body,
   margin-bottom: var(--space-6);
 }
 
+.footer-service-band {
+  position: relative;
+  z-index: 1;
+  border-top: 1px solid rgba(255,255,255,0.08);
+  padding: var(--space-5) 0;
+}
+
+.footer-service-areas--band h2 {
+  margin-bottom: var(--space-4);
+  color: rgba(255,255,255,0.35);
+}
+
+.footer-service-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px var(--space-6);
+}
+
+.footer-service-grid a {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  color: rgba(255,255,255,0.42);
+}
+
+.footer-service-grid a:hover {
+  color: rgba(255,255,255,0.68);
+}
+
 .footer-links-grid {
   display: flex;
   flex-direction: column;
   gap: var(--space-4);
+}
+
+.footer-links-grid--two-col {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, max-content));
+  gap: var(--space-4) var(--space-7);
 }
 
 .footer-links-grid a {
@@ -470,6 +506,18 @@ p.body,
   color: var(--acid);
 }
 
+.footer-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-actions__stack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
 .footer-bottom {
   border-top: 1px solid rgba(255,255,255,0.12);
   padding: var(--space-6) 0;
@@ -496,12 +544,20 @@ p.body,
 
 @media (max-width: 860px) {
   .footer-shell {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: var(--space-9);
   }
 
   .footer-brand {
     grid-column: 1 / -1;
+  }
+
+  .footer-service-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .footer-links-grid--two-col {
+    grid-template-columns: repeat(2, minmax(0, max-content));
   }
 }
 
@@ -515,6 +571,14 @@ p.body,
     flex-direction: column;
     align-items: flex-start;
     gap: var(--space-2);
+  }
+
+  .footer-service-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer-links-grid--two-col {
+    grid-template-columns: 1fr;
   }
 }
 
