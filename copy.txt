@@ -179,13 +179,13 @@ Tree Service Website FAQ | Web Design Questions Answered | Tree Web Design
 FAQ
 Questions & Answers
 Straight Answers.
-Everything tree service pros ask before signing on.
+Everything tree service pros ask before signing on. Lite is month-to-month, Growth and Pro continue month-to-month after their initial term, and buyout is available on Growth and Pro if you ever want the website files transferred.
 What plans do you offer?
 We offer three website plans with no setup fees.
-Lite ($149/mo, 3-month minimum): A custom single-page website with hosting, edits, and the core setup you need to start strong.
+Lite ($149/mo, month-to-month): A custom single-page website with hosting, edits, and the core setup you need to start strong.
 Growth ($349/mo, 6-month agreement): Everything in Lite plus 5 core pages, 5 custom city pages, monthly Google Profile Management, and ongoing SEO expansion.
 Pro ($549/mo, 12-month agreement): Everything in Growth plus 10 custom city pages, active weekly Google Profile Management, and Google Ads / LSA support. Ad spend is separate.
-All plans include hosting, SSL, unlimited website updates, and a $0 setup fee.
+All plans include hosting, SSL, unlimited website updates for text, photos, and content changes, and a $0 setup fee.
 How many pages do I get?
 Lite includes a single-page site.
 Growth includes 5 core pages plus 5 custom city pages.
@@ -193,37 +193,39 @@ Pro includes 5 core pages plus 10 custom city pages (15 total).
 Additional pages are $100 each , one-time.
 How does billing work?
 There are no setup fees on any plan.
-Your first monthly payment is due at kickoff to start the build. Lite has a 3-month minimum , Growth has a 6-month agreement , and Pro has a 12-month agreement .
-After the initial term, your plan simply continues month-to-month unless you cancel, change plans, or choose a buyout option.
+Your first monthly payment is due at kickoff to start the build. Lite is month-to-month , Growth has a 6-month agreement , and Pro has a 12-month agreement .
+Growth and Pro continue month-to-month after the initial term unless you cancel, change plans, or choose a buyout option.
 Recurring payments are handled automatically through Stripe on the same billing date each month.
 Do I own my website?
 Your domain, logo, photos, and written copy are yours.
 The live website runs on Tree Web Design's managed hosting while your monthly plan is active.
 If you stay on the plan after the initial term, nothing changes. Your website stays live, hosting continues, edits continue, support continues, and your included plan services continue.
 Can I buy out my website?
-Yes. After your initial term, you can either keep your monthly plan going, move the site somewhere else, or stop the monthly plan.
-For Lite , the buyout is $2,000 after the 3-month minimum .
+Yes, on Growth and Pro . The normal option is to keep your monthly plan going. If you want to stop the monthly plan and take the site elsewhere, you can choose the buyout option.
 For Growth , the buyout is $0 after the 6-month agreement .
 For Pro , the buyout is $0 after the 12-month agreement .
-The buyout gives you the finished website files. From there, you can host the site wherever you want, or keep it hosted with Tree Web Design for $25/month .
+For Growth and Pro , the buyout cost is $0 , but you still need to choose the buyout option if you want the finished website files transferred to you.
+The buyout transfers the finished website files to you. From there, you can host the site wherever you want, or keep it hosted with Tree Web Design for $25/month .
 What happens after my initial term?
-After your initial term, you can continue month-to-month or stop the monthly plan.
-If you continue month-to-month, nothing changes. Your website stays live, hosting continues, edits continue, support continues, and included plan services continue.
-If you stop the monthly plan, you can buy out the finished website files and keep hosting with Tree Web Design for $25/mo , buy out the files and host them elsewhere, or decline the buyout and let the managed site come offline.
+The normal option is to continue month-to-month.
+If you stay on the plan, your website stays live, hosting continues, edits continue, support continues, and your included plan services continue.
+If you want to stop the monthly plan, you can either choose the buyout option or let the managed site come offline.
 What happens if I cancel?
-After your initial term, you can cancel before your next billing cycle.
-If you cancel and do not choose a buyout option, the managed website comes offline at the end of your billing period and no website files are transferred.
+You can cancel before your next billing date.
+If you cancel and do not choose buyout, the managed website comes offline at the end of your billing period.
+No website files are transferred without buyout. Lite does not include a buyout option.
 Your domain, logo, photos, and written copy remain yours.
 What is the Review Request Page?
-The Review Request Page is a simple feedback page built into every plan — accessible at your domain (e.g., yourbusiness.com/feedback). When a job is done, you send the customer a link or they scan a QR code from your business card or truck wrap. They land on a clean, mobile-friendly page where they can leave a review on Google, Yelp, Nextdoor, or other platforms. It also gives customers a private channel to reach you directly if something wasn't right — so you can fix it before it becomes a public one-star review. See Demo.
+Every plan includes a Review Request Page at your domain, such as yourbusiness.com/feedback.
+You send customers the link or a QR code after the job.
+Happy customers can leave a public review on Google, Yelp, Nextdoor, or other platforms.
+If something was off, they can contact you privately first. See Demo.
 What do you need from me to get started?
 Not much. Once you're ready to move forward, we'll need your logo, a few photos of your work, and basic business info — services, service area, contact details. If you don't have professional photos yet, we'll work with what you have. We handle everything else from there.
 Can you write the copy for my site?
 Yes. You don't need to write a word. We'll pull what we need from our kickoff call — your services, your market, what makes you different — and write copy that sounds like a real tree service pro, not a template.
 How fast will my site launch?
 Once we have your payment and materials — logo, business info, photos — we get to work. Most sites are live within 7–10 business days.
-Can I add more pages?
-Yes. Additional pages are $100 each , one-time, on any plan. No package upgrade required — just let us know what you need and we'll add it.
 Why don't you use WordPress or page builders?
 WordPress sites rely on plugins that break and create security risks. Page builders bloat your code and slow your site down. We hand-code everything from scratch. The result is a site that loads in under a second, never breaks on its own, and has nothing for hackers to exploit.
 Do you manage Google Profiles?
@@ -231,8 +233,6 @@ Yes. Google Profile support is built into all three plans, and ads support is in
 Lite includes one-time setup to make sure your profile is complete and aligned with your website.
 Growth includes monthly Google Profile Management.
 Pro includes active weekly Google Profile Management, plus Google Ads / LSA support with setup, tracking, and monthly review. Ad spend is separate.
-Do you work with businesses outside of tree service?
-Yes. While tree service is our specialty, we work with home service pros across the trades — roofing, landscaping, electrical, and more. The same approach applies: fast, hand-coded sites built to convert visitors into calls.
 Do tree service companies really need a website?
 Yes — and a website built to generate calls matters more for tree service than most trades. Tree work is high-ticket and high-trust. Homeowners aren't just hiring the cheapest option; they're hiring whoever looks most credible when they search. A slow or outdated site — or no site at all — hands those jobs to whoever shows up next in Google.
 Beyond credibility, a well-built site works for you 24/7. It captures leads after hours, during storms, and on weekends when your phone is off. The tree service pros getting the most calls aren't always the best in their market. They're just the most visible online.
@@ -240,9 +240,6 @@ How do I rank my tree service on Google Maps?
 Google Maps ranking comes down to three things: a complete and active Google Business Profile, a fast website, and consistent five-star reviews.
 Your Google Business Profile needs accurate service categories, real job photos, and regular updates. Your website needs to load fast, mention your city and services clearly, and link to your Google Business Profile. Reviews are the multiplier — the more recent and relevant, the higher you climb.
 Lite includes one-time profile setup. Growth includes monthly Google Profile Management. Pro includes active weekly Google Profile Management — we keep your profile current with photos and posts from jobs you send us.
-What features does every arborist website need?
-At minimum: a mobile-first design (most searches happen on phones), a click-to-call button on every page, a fast contact or estimate form, and real photos from your jobs. Those are table stakes.
-The features that actually move the needle for tree companies are a Review Request Page to collect Google reviews after every job, and city pages targeting the specific places you work in. Every plan we build includes the basics, and Growth and Pro expand the city-page footprint over time.
 
 ================================================================================
 
@@ -343,12 +340,12 @@ Web Design Pricing for Contractors | Tree Web Design
 Pricing
 Pricing
 Pricing Built Around Getting You More Calls
-Fast websites, local SEO structure, Google-ready pages, and ads-ready support built to turn local searches into phone calls.
-No setup fees. Hosting included. Built to perform from day one.
+Built to load fast, show up locally, and turn searches into calls.
+No setup fees. Hosting included.
 Feature
 Lite
 $149 /mo
-3-month agreement
+Month-to-month
 A high-speed single-page site with your branding, photos, and reviews built to get you online and capturing calls.
 Single page
 Most Popular
@@ -410,7 +407,7 @@ Ongoing SEO Expansion New pages and optimization over time Up to 4 pages/mo
 Get Started
 Get More Calls
 Grow My Market
-Lite requires a 3-month minimum. Growth requires a 6-month agreement. Pro requires a 12-month agreement. After the initial term, plans continue month-to-month.
+Lite is month-to-month. Growth requires a 6-month agreement. Pro requires a 12-month agreement. After the initial term, Growth and Pro continue month-to-month.
 Google Ads and Local Services Ads support is included with Pro. Ad spend is paid directly to Google and is not included in the monthly plan.
 Add-Ons
 Branding Accelerator
@@ -778,8 +775,8 @@ Built Into the Website Plans
 SEO Is Part of the Structure
 Tree service SEO works best when it is not treated as an afterthought.
 Lite gives you a clean, fast single-page foundation.
-Growth adds core service pages and service area pages for a stronger local search structure.
-Pro adds more service area coverage, stronger ongoing support, Google Business Profile management, and ad support.
+Growth adds core service pages and 5 custom city pages for a stronger local search structure.
+Pro adds 10 custom city pages, active weekly Google Profile Management, and Google Ads / LSA support.
 The more competitive your market is, the more important the structure becomes.
 View Pricing
 Questions
@@ -813,7 +810,7 @@ FILE: tree-service-web-design-arlington-tx.html
 ================================================================================
 
 Tree Service Web Design in Arlington, TX | Tree Web Design
-Tree service web design built for Arlington, TX companies. Hand-coded, fast-loading websites that turn visitors into calls. $0 setup fee. Starting at $149/mo.
+Tree service web design built for Arlington, TX companies. Hand-coded, fast-loading websites that turn visitors into calls.
 Tree Service Web Design in Arlington, TX | Tree Web Design
 Tree Service Web Design
 in Arlington, TX
@@ -869,20 +866,6 @@ If it loads slow, looks generic, or buries the phone number — they move on. Th
 04
 They Decide in Seconds
 A site that reinforces what they already heard closes the call. A site that doesn't — loses it.
-Pricing
-Simple monthly plans.
-No surprises.
-Plans start at $149/mo
-$0 setup fee
-Lite has a 3-month minimum
-Hosting included
-Growth and Pro include unlimited updates
-Growth and Pro include ongoing local SEO expansion
-View Current Plans & Pricing →
-Plans start at
-$149 /mo
-$0 setup fee
-3-month minimum on Lite. First payment due at kickoff.
 PRO PLAN
 Get Calls While Your SEO Builds
 SEO takes time to build momentum. Pro includes Google Ads and Local Services Ads support to help generate leads while your website and local SEO ramp up.
@@ -902,7 +885,7 @@ FILE: tree-service-web-design-dallas-tx.html
 ================================================================================
 
 Tree Service Web Design in Dallas, TX | Tree Web Design
-Tree service web design built for Dallas, TX companies. Hand-coded, fast-loading websites that turn visitors into calls. $0 setup fee. Starting at $149/mo.
+Tree service web design built for Dallas, TX companies. Hand-coded, fast-loading websites that turn visitors into calls.
 Tree Service Web Design in Dallas, TX | Tree Web Design
 Tree Service Web Design
 in Dallas, TX
@@ -958,20 +941,6 @@ If it loads slow, looks generic, or buries the phone number — they move on. Th
 04
 They Decide in Seconds
 A site that reinforces what they already heard closes the call. A site that doesn't — loses it.
-Pricing
-Simple monthly plans.
-No surprises.
-Plans start at $149/mo
-$0 setup fee
-Lite has a 3-month minimum
-Hosting included
-Growth and Pro include unlimited updates
-Growth and Pro include ongoing local SEO expansion
-View Current Plans & Pricing →
-Plans start at
-$149 /mo
-$0 setup fee
-3-month minimum on Lite. First payment due at kickoff.
 PRO PLAN
 Get Calls While Your SEO Builds
 SEO takes time to build momentum. Pro includes Google Ads and Local Services Ads support to help generate leads while your website and local SEO ramp up.
@@ -991,7 +960,7 @@ FILE: tree-service-web-design-denton-tx.html
 ================================================================================
 
 Tree Service Web Design in Denton, TX | Tree Web Design
-Tree service web design built for Denton, TX companies. Hand-coded, fast-loading websites that turn visitors into calls. $0 setup fee. Starting at $149/mo.
+Tree service web design built for Denton, TX companies. Hand-coded, fast-loading websites that turn visitors into calls.
 Tree Service Web Design in Denton, TX | Tree Web Design
 Tree Service Web Design
 in Denton, TX
@@ -1047,20 +1016,6 @@ If it loads slow, looks generic, or buries the phone number — they move on. Th
 04
 They Decide in Seconds
 A site that reinforces what they already heard closes the call. A site that doesn't — loses it.
-Pricing
-Simple monthly plans.
-No surprises.
-Plans start at $149/mo
-$0 setup fee
-Lite has a 3-month minimum
-Hosting included
-Growth and Pro include unlimited updates
-Growth and Pro include ongoing local SEO expansion
-View Current Plans & Pricing →
-Plans start at
-$149 /mo
-$0 setup fee
-3-month minimum on Lite. First payment due at kickoff.
 PRO PLAN
 Get Calls While Your SEO Builds
 SEO takes time to build momentum. Pro includes Google Ads and Local Services Ads support to help generate leads while your website and local SEO ramp up.
@@ -1080,7 +1035,7 @@ FILE: tree-service-web-design-fort-worth-tx.html
 ================================================================================
 
 Tree Service Web Design in Fort Worth, TX | Tree Web Design
-Tree service web design built for Fort Worth, TX companies. Hand-coded, fast-loading websites that turn visitors into calls. $0 setup fee. Starting at $149/mo.
+Tree service web design built for Fort Worth, TX companies. Hand-coded, fast-loading websites that turn visitors into calls.
 Tree Service Web Design in Fort Worth, TX | Tree Web Design
 Tree Service Web Design
 in Fort Worth, TX
@@ -1136,20 +1091,6 @@ If it loads slow, looks generic, or buries the phone number — they move on. Th
 04
 They Decide in Seconds
 A site that reinforces what they already heard closes the call. A site that doesn't — loses it.
-Pricing
-Simple monthly plans.
-No surprises.
-Plans start at $149/mo
-$0 setup fee
-Lite has a 3-month minimum
-Hosting included
-Growth and Pro include unlimited updates
-Growth and Pro include ongoing local SEO expansion
-View Current Plans & Pricing →
-Plans start at
-$149 /mo
-$0 setup fee
-3-month minimum on Lite. First payment due at kickoff.
 PRO PLAN
 Get Calls While Your SEO Builds
 SEO takes time to build momentum. Pro includes Google Ads and Local Services Ads support to help generate leads while your website and local SEO ramp up.
@@ -1169,7 +1110,7 @@ FILE: tree-service-web-design-frisco-tx.html
 ================================================================================
 
 Tree Service Web Design in Frisco, TX | Tree Web Design
-Tree service web design built for Frisco, TX companies. Hand-coded, fast-loading websites that turn visitors into calls. $0 setup fee. Starting at $149/mo.
+Tree service web design built for Frisco, TX companies. Hand-coded, fast-loading websites that turn visitors into calls.
 Tree Service Web Design in Frisco, TX | Tree Web Design
 Tree Service Web Design
 in Frisco, TX
@@ -1225,20 +1166,6 @@ If it loads slow, looks generic, or buries the phone number — they move on. Th
 04
 They Decide in Seconds
 A site that reinforces what they already heard closes the call. A site that doesn't — loses it.
-Pricing
-Simple monthly plans.
-No surprises.
-Plans start at $149/mo
-$0 setup fee
-Lite has a 3-month minimum
-Hosting included
-Growth and Pro include unlimited updates
-Growth and Pro include ongoing local SEO expansion
-View Current Plans & Pricing →
-Plans start at
-$149 /mo
-$0 setup fee
-3-month minimum on Lite. First payment due at kickoff.
 PRO PLAN
 Get Calls While Your SEO Builds
 SEO takes time to build momentum. Pro includes Google Ads and Local Services Ads support to help generate leads while your website and local SEO ramp up.
@@ -1258,7 +1185,7 @@ FILE: tree-service-web-design-garland-tx.html
 ================================================================================
 
 Tree Service Web Design in Garland, TX | Tree Web Design
-Tree service web design built for Garland, TX companies. Hand-coded, fast-loading websites that turn visitors into calls. $0 setup fee. Starting at $149/mo.
+Tree service web design built for Garland, TX companies. Hand-coded, fast-loading websites that turn visitors into calls.
 Tree Service Web Design in Garland, TX | Tree Web Design
 Tree Service Web Design
 in Garland, TX
@@ -1314,20 +1241,6 @@ If it loads slow, looks generic, or buries the phone number — they move on. Th
 04
 They Decide in Seconds
 A site that reinforces what they already heard closes the call. A site that doesn't — loses it.
-Pricing
-Simple monthly plans.
-No surprises.
-Plans start at $149/mo
-$0 setup fee
-Lite has a 3-month minimum
-Hosting included
-Growth and Pro include unlimited updates
-Growth and Pro include ongoing local SEO expansion
-View Current Plans & Pricing →
-Plans start at
-$149 /mo
-$0 setup fee
-3-month minimum on Lite. First payment due at kickoff.
 PRO PLAN
 Get Calls While Your SEO Builds
 SEO takes time to build momentum. Pro includes Google Ads and Local Services Ads support to help generate leads while your website and local SEO ramp up.
@@ -1347,7 +1260,7 @@ FILE: tree-service-web-design-grand-prairie-tx.html
 ================================================================================
 
 Tree Service Web Design in Grand Prairie, TX | Tree Web Design
-Tree service web design built for Grand Prairie, TX companies. Hand-coded, fast-loading websites that turn visitors into calls. $0 setup fee. Starting at $149/mo.
+Tree service web design built for Grand Prairie, TX companies. Hand-coded, fast-loading websites that turn visitors into calls.
 Tree Service Web Design in Grand Prairie, TX | Tree Web Design
 Tree Service Web Design
 in Grand Prairie, TX
@@ -1403,20 +1316,6 @@ If it loads slow, looks generic, or buries the phone number — they move on. Th
 04
 They Decide in Seconds
 A site that reinforces what they already heard closes the call. A site that doesn't — loses it.
-Pricing
-Simple monthly plans.
-No surprises.
-Plans start at $149/mo
-$0 setup fee
-Lite has a 3-month minimum
-Hosting included
-Growth and Pro include unlimited updates
-Growth and Pro include ongoing local SEO expansion
-View Current Plans & Pricing →
-Plans start at
-$149 /mo
-$0 setup fee
-3-month minimum on Lite. First payment due at kickoff.
 PRO PLAN
 Get Calls While Your SEO Builds
 SEO takes time to build momentum. Pro includes Google Ads and Local Services Ads support to help generate leads while your website and local SEO ramp up.
@@ -1436,7 +1335,7 @@ FILE: tree-service-web-design-irving-tx.html
 ================================================================================
 
 Tree Service Web Design in Irving, TX | Tree Web Design
-Tree service web design built for Irving, TX companies. Hand-coded, fast-loading websites that turn visitors into calls. $0 setup fee. Starting at $149/mo.
+Tree service web design built for Irving, TX companies. Hand-coded, fast-loading websites that turn visitors into calls.
 Tree Service Web Design in Irving, TX | Tree Web Design
 Tree Service Web Design
 in Irving, TX
@@ -1492,20 +1391,6 @@ If it loads slow, looks generic, or buries the phone number — they move on. Th
 04
 They Decide in Seconds
 A site that reinforces what they already heard closes the call. A site that doesn't — loses it.
-Pricing
-Simple monthly plans.
-No surprises.
-Plans start at $149/mo
-$0 setup fee
-Lite has a 3-month minimum
-Hosting included
-Growth and Pro include unlimited updates
-Growth and Pro include ongoing local SEO expansion
-View Current Plans & Pricing →
-Plans start at
-$149 /mo
-$0 setup fee
-3-month minimum on Lite. First payment due at kickoff.
 PRO PLAN
 Get Calls While Your SEO Builds
 SEO takes time to build momentum. Pro includes Google Ads and Local Services Ads support to help generate leads while your website and local SEO ramp up.
@@ -1525,7 +1410,7 @@ FILE: tree-service-web-design-mckinney-tx.html
 ================================================================================
 
 Tree Service Web Design in McKinney, TX | Tree Web Design
-Tree service web design built for McKinney, TX companies. Hand-coded, fast-loading websites that turn visitors into calls. $0 setup fee. Starting at $149/mo.
+Tree service web design built for McKinney, TX companies. Hand-coded, fast-loading websites that turn visitors into calls.
 Tree Service Web Design in McKinney, TX | Tree Web Design
 Tree Service Web Design
 in McKinney, TX
@@ -1581,20 +1466,6 @@ If it loads slow, looks generic, or buries the phone number — they move on. Th
 04
 They Decide in Seconds
 A site that reinforces what they already heard closes the call. A site that doesn't — loses it.
-Pricing
-Simple monthly plans.
-No surprises.
-Plans start at $149/mo
-$0 setup fee
-Lite has a 3-month minimum
-Hosting included
-Growth and Pro include unlimited updates
-Growth and Pro include ongoing local SEO expansion
-View Current Plans & Pricing →
-Plans start at
-$149 /mo
-$0 setup fee
-3-month minimum on Lite. First payment due at kickoff.
 PRO PLAN
 Get Calls While Your SEO Builds
 SEO takes time to build momentum. Pro includes Google Ads and Local Services Ads support to help generate leads while your website and local SEO ramp up.
@@ -1614,7 +1485,7 @@ FILE: tree-service-web-design-plano-tx.html
 ================================================================================
 
 Tree Service Web Design in Plano, TX | Tree Web Design
-Tree service web design built for Plano, TX companies. Hand-coded, fast-loading websites that turn visitors into calls. $0 setup fee. Starting at $149/mo.
+Tree service web design built for Plano, TX companies. Hand-coded, fast-loading websites that turn visitors into calls.
 Tree Service Web Design in Plano, TX | Tree Web Design
 Tree Service Web Design
 in Plano, TX
@@ -1670,20 +1541,6 @@ If it loads slow, looks generic, or buries the phone number — they move on. Th
 04
 They Decide in Seconds
 A site that reinforces what they already heard closes the call. A site that doesn't — loses it.
-Pricing
-Simple monthly plans.
-No surprises.
-Plans start at $149/mo
-$0 setup fee
-Lite has a 3-month minimum
-Hosting included
-Growth and Pro include unlimited updates
-Growth and Pro include ongoing local SEO expansion
-View Current Plans & Pricing →
-Plans start at
-$149 /mo
-$0 setup fee
-3-month minimum on Lite. First payment due at kickoff.
 PRO PLAN
 Get Calls While Your SEO Builds
 SEO takes time to build momentum. Pro includes Google Ads and Local Services Ads support to help generate leads while your website and local SEO ramp up.
@@ -2005,7 +1862,7 @@ Why doesn't my Google Business Profile rank for "tree service near me" without a
 Can I rank in the Google map pack without a website? For branded searches — someone typing your company name — yes. For discovery searches in a competitive market like DFW, it's nearly impossible to hold a top-three map pack position without a website. Google's local ranking algorithm includes a "Prominence" score heavily tied to your web presence. A standalone GBP with no website has a structural ceiling on how high that score can climb.
 What are Local Justifications and why do they matter? Local Justifications are the small snippets Google displays under map pack listings — things like "Their website mentions 'stump grinding.'" Google pulls these directly from your website to show customers why a particular business is being recommended. They appear at the moment a customer is deciding who to call. Without service pages on your website, you can't earn them — and your competitors with proper pages will have them while you don't.
 How does my website's page speed affect my Google Business Profile ranking? Indirectly but meaningfully. When users click from your GBP to your website and bounce immediately because it loads slowly, Google tracks that as a negative experience signal. A fast-loading, mobile-optimized site keeps users engaged, which feeds positive behavioral signals back into both your organic and local rankings over time.
-How many pages does my tree service website need for local SEO? At minimum — one page per core service and one page per city you actively serve. A five-service, eight-city operation should have at least 13 targeted pages beyond the homepage. Each page is an additional keyword signal that feeds your GBP's relevance for discovery searches in that location and for that service.
+How many pages does my tree service website need for local SEO? As a baseline, you want one page per core service and one page per city you actively serve. A five-service, eight-city operation should have at least 13 targeted pages beyond the homepage. Each page is an additional keyword signal that feeds your GBP's relevance for discovery searches in that location and for that service.
 Does NAP consistency still matter for local rankings? Yes, though Google has improved at matching minor variations. The bigger issue today is trust — a customer who finds three different phone numbers or addresses across your listings loses confidence before they ever call. Keep your NAP consistent across your website, GBP, and any directories — not just for Google, but because data friction costs you customers directly.
 
 ================================================================================
@@ -2134,7 +1991,7 @@ A hand-coded site built specifically for tree company conversion — no template
 Hosting and SSL handled, always on, never your problem
 Unlimited edits so your site stays current as your business grows
 A Review Request Page that routes happy customers to Google automatically
-Google Profile Management (Pro plan) so your Maps ranking keeps climbing
+Google Profile support built into the plans — one-time setup on Lite, monthly management on Growth, active weekly management on Pro
 The question isn't whether a monthly website plan is too much. The question is: what is one additional tree removal job per month worth to you?
 If you're charging $800–$1,500 for a removal, one extra job covers the plan with money left over. Our clients typically see that within the first 30 days.
 View current plans and pricing →

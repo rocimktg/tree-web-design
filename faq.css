@@ -44,6 +44,40 @@
   margin-bottom: var(--space-9);
 }
 
+/* ─── FILTER TAGS ────────────────────────────── */
+
+.faq-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: var(--space-6);
+}
+
+.faq-filter {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 8px 16px;
+  border: 2px solid var(--black);
+  background: var(--white);
+  color: var(--black);
+  cursor: pointer;
+  line-height: 1;
+  transition: none;
+}
+
+.faq-filter:hover,
+.faq-filter--active {
+  background: var(--black);
+  color: var(--white);
+}
+
+.faq-item[hidden] {
+  display: none;
+}
+
 /* ─── FAQ LIST ───────────────────────────────── */
 
 .faq-list {
