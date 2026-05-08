@@ -52,7 +52,7 @@
   color: rgba(0,0,0,0.6);
   letter-spacing: 0.04em;
   margin-bottom: var(--space-4);
-  white-space: nowrap;
+  max-width: 72ch;
 }
 
 /* ─── COMPARISON TABLE GRID ──────────────────── */
@@ -643,10 +643,6 @@
 /* ─── RESPONSIVE ─────────────────────────────── */
 
 @media (max-width: 700px) {
-
-  .pricing-plans__note {
-    white-space: normal;
-  }
 
   /* Switch to flex column, drop outer border */
   .pricing-table {
