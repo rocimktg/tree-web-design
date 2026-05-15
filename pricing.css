@@ -768,6 +768,11 @@
   .pricing-why__grid {
     grid-template-columns: 1fr;
   }
+
+  .feature-cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1px;
+  }
 }
 
 /* ─── PLAN GUIDANCE ──────────────────────────── */
@@ -808,6 +813,76 @@
   text-transform: uppercase;
   letter-spacing: 0.04em;
   margin-bottom: var(--space-2);
+}
+
+/* ─── FEATURE EXPLAINER ──────────────────────── */
+
+.pricing-feature-explainer {
+  background: var(--black);
+  padding: var(--space-11) 0;
+}
+
+.feature-explainer__eyebrow {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--acid);
+  margin-bottom: var(--space-4);
+}
+
+.pricing-feature-explainer h2 {
+  color: var(--white);
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  line-height: 0.95;
+  margin-bottom: var(--space-9);
+}
+
+.feature-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2px;
+  background: rgba(255,255,255,0.08);
+  counter-reset: feature;
+}
+
+.feature-card {
+  background: #1a1a1a;
+  padding: var(--space-8) var(--space-7);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+  border-top: 2px solid var(--acid);
+  counter-increment: feature;
+}
+
+.feature-card::before {
+  content: counter(feature, decimal-leading-zero);
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: var(--acid);
+}
+
+.feature-card__name {
+  font-family: var(--font-condensed);
+  font-weight: 900;
+  font-size: 1.45rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  line-height: 1;
+  margin-top: calc(var(--space-2) * -1);
+}
+
+.feature-card__body {
+  font-size: 0.88rem;
+  line-height: 1.65;
+  color: rgba(255,255,255,0.55);
+  margin: 0;
 }
 
 /* ─── WHY SECTION ────────────────────────────── */
