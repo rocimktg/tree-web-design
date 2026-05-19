@@ -560,3 +560,57 @@ p.body,
     grid-template-columns: 1fr;
   }
 }
+
+/* ─── UNIVERSAL PRE-FOOTER CTA ───────────────── */
+
+.site-cta {
+  background: var(--white);
+  padding: var(--space-11) 0;
+}
+
+.site-cta__inner {
+  display: flex;
+  align-items: center;
+  gap: var(--space-9);
+}
+
+.site-cta__img {
+  width: 300px;
+  flex: 0 0 auto;
+}
+
+.site-cta__copy {
+  flex: 1;
+  max-width: 620px;
+}
+
+.site-cta__copy h2 {
+  color: var(--black);
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  line-height: 0.95;
+  margin-bottom: var(--space-6);
+}
+
+.site-cta__copy p {
+  color: rgba(0,0,0,0.6);
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: var(--space-3);
+}
+
+.site-cta__buttons {
+  display: flex;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+  margin-top: var(--space-7);
+}
+
+@media (max-width: 700px) {
+  .site-cta__inner {
+    flex-direction: column;
+  }
+
+  .site-cta__img {
+    width: 200px;
+  }
+}
